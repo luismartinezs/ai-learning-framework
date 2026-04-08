@@ -8,8 +8,8 @@ import { runPipeline }  from "./pipeline.ts"
 import { evaluate }     from "./verifier.ts"
 import { PROBLEMS }     from "./problems.ts"
 import { MODEL }        from "./client.ts"
-import { buildEntry, appendToRegistry } from "./registry.ts"
-import type { ProblemKey, PipelineMode, RegistryEntry } from "./types.ts"
+import { buildEntry, appendToRegistry, readRegistry } from "./registry.ts"
+import type { ProblemKey, PipelineMode, KbMode, RegistryEntry } from "./types.ts"
 
 // ── Configuration ────────────────────────────────────────────────────────────
 
@@ -17,16 +17,29 @@ interface AblationConfig {
   label:     string
   mode:      PipelineMode
   includeKB: boolean
+  kbMode?:   KbMode
+}
+
+function resolveKbMode(config: { includeKB: boolean; kbMode?: KbMode }): KbMode {
+  return config.kbMode ?? (config.includeKB ? "full" : "none")
 }
 
 const CONFIGS: AblationConfig[] = [
-  { label: "full+KB", mode: "all", includeKB: true  },
-  { label: "full-KB", mode: "all", includeKB: false },
-  { label: "gen+KB",  mode: "gen", includeKB: true  },
-  { label: "gen-KB",  mode: "gen", includeKB: false },
+  { label: "full+KB",      mode: "all", includeKB: true  },
+  { label: "full-KB",      mode: "all", includeKB: false },
+  { label: "gen+KB",       mode: "gen", includeKB: true  },
+  { label: "gen-KB",       mode: "gen", includeKB: false },
+  { label: "gen-minimal",  mode: "gen", includeKB: true, kbMode: "minimal" },
 ]
 
-const PROBLEM_KEYS = Object.keys(PROBLEMS) as ProblemKey[]
+const ALL_activeProblemKeys = Object.keys(PROBLEMS) as ProblemKey[]
+const HARD_activeProblemKeys: ProblemKey[] = ["p002", "p006", "p007"]
+
+const FOCUSED_CONFIGS: AblationConfig[] = [
+  { label: "full+KB",      mode: "all", includeKB: true  },
+  { label: "gen-KB",       mode: "gen", includeKB: false },
+  { label: "gen-minimal",  mode: "gen", includeKB: true, kbMode: "minimal" },
+]
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -60,16 +73,18 @@ async function runOne(
   runIndex: number,
   totalRuns: number,
   currentRun: number,
+  testModel?: string,
 ): Promise<RegistryEntry> {
   console.log(
     `[${currentRun}/${totalRuns}] ${config.label} | ${problemKey} | repeat ${runIndex + 1}`,
   )
 
-  const trace = await runPipeline(problemKey, config.mode, false, config.includeKB)
+  const trace = await runPipeline(problemKey, config.mode, false, config.includeKB, testModel, config.kbMode)
 
   // Save trace
   const ts = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19)
-  const tracePath = `traces/${problemKey}_${config.mode}_kb${config.includeKB ? "1" : "0"}_${ts}.json`
+  const kbSuffix = resolveKbMode(config) === "minimal" ? "min" : config.includeKB ? "1" : "0"
+  const tracePath = `traces/${problemKey}_${config.mode}_kb${kbSuffix}_${ts}.json`
   await Bun.write(tracePath, JSON.stringify(trace, null, 2))
 
   // Evaluate
@@ -92,13 +107,13 @@ async function runOne(
 
 // ── Summary ──────────────────────────────────────────────────────────────────
 
-function printSummary(entries: RegistryEntry[]) {
+function printSummary(entries: RegistryEntry[], configs: AblationConfig[], problemKeys: ProblemKey[], modelName: string) {
   const line = "─".repeat(82)
 
   console.log(`\n${"═".repeat(82)}`)
   console.log("  ABLATION RESULTS")
   console.log(`${"═".repeat(82)}\n`)
-  console.log(`  Model: ${MODEL}`)
+  console.log(`  Model: ${modelName}`)
   console.log(`  Runs:  ${entries.length}\n`)
 
   // Per-problem breakdown
@@ -112,10 +127,10 @@ function printSummary(entries: RegistryEntry[]) {
   )
   console.log(line)
 
-  for (const config of CONFIGS) {
-    for (const pk of PROBLEM_KEYS) {
+  for (const config of configs) {
+    for (const pk of problemKeys) {
       const rows = entries.filter(
-        (e) => e.mode === config.mode && e.includeKB === config.includeKB && e.problem === pk,
+        (e) => e.mode === config.mode && resolveKbMode(e) === resolveKbMode(config) && e.problem === pk,
       )
       const corrs = rows.map((r) => r.correctness).filter((c): c is number => c !== null)
       const reasons = rows.map((r) => r.reasoning).filter((r): r is number => r !== null)
@@ -155,9 +170,9 @@ function printSummary(entries: RegistryEntry[]) {
   )
   console.log(line)
 
-  for (const config of CONFIGS) {
+  for (const config of configs) {
     const rows = entries.filter(
-      (e) => e.mode === config.mode && e.includeKB === config.includeKB,
+      (e) => e.mode === config.mode && resolveKbMode(e) === resolveKbMode(config),
     )
     const corrs = rows.map((r) => r.correctness).filter((c): c is number => c !== null)
     const reasons = rows.map((r) => r.reasoning).filter((r): r is number => r !== null)
@@ -190,22 +205,67 @@ if (!process.env.OPENROUTER_API_KEY) {
 const args = process.argv.slice(2)
 const repeatsIdx = args.indexOf("--repeats")
 const REPEATS = repeatsIdx >= 0 ? parseInt(args[repeatsIdx + 1], 10) : 5
+const modelIdx = args.indexOf("--model")
+const testModel = modelIdx >= 0 ? args[modelIdx + 1] : undefined
+const focused = args.includes("--focused")
+const displayModel = testModel ?? MODEL
 
-const totalRuns = CONFIGS.length * PROBLEM_KEYS.length * REPEATS
-console.log(`\nAblation matrix: ${CONFIGS.length} configs × ${PROBLEM_KEYS.length} problems × ${REPEATS} repeats = ${totalRuns} runs`)
-console.log(`Model: ${MODEL}\n`)
+const activeConfigs = focused ? FOCUSED_CONFIGS : CONFIGS
+const activeProblemKeys = focused ? HARD_activeProblemKeys : ALL_activeProblemKeys
 
-const collected: RegistryEntry[] = []
-let current = 0
+// Check existing registry for resume
+const existing = await readRegistry()
+function existingCount(config: AblationConfig, problem: string): number {
+  const targetKbMode = resolveKbMode(config)
+  return existing.filter(
+    e => e.model === displayModel &&
+         e.mode === config.mode &&
+         e.problem === problem &&
+         resolveKbMode(e) === targetKbMode,
+  ).length
+}
 
-for (const config of CONFIGS) {
-  for (const pk of PROBLEM_KEYS) {
-    for (let r = 0; r < REPEATS; r++) {
-      current++
-      const entry = await runOne(config, pk, r, totalRuns, current)
-      collected.push(entry)
+// Build run list, skipping what's already done
+const runs: { config: AblationConfig; pk: ProblemKey }[] = []
+let skipped = 0
+for (const config of activeConfigs) {
+  for (const pk of activeProblemKeys) {
+    const have = existingCount(config, pk)
+    const need = Math.max(0, REPEATS - have)
+    for (let r = 0; r < need; r++) {
+      runs.push({ config, pk })
     }
+    skipped += Math.min(have, REPEATS)
   }
 }
 
-printSummary(collected)
+const totalTarget = activeConfigs.length * activeProblemKeys.length * REPEATS
+console.log(`\nAblation matrix: ${activeConfigs.length} configs × ${activeProblemKeys.length} problems × ${REPEATS} repeats = ${totalTarget} target`)
+console.log(`Model: ${displayModel}`)
+if (skipped > 0) console.log(`Resuming: ${skipped} already in registry, ${runs.length} remaining`)
+console.log()
+
+if (runs.length === 0) {
+  console.log("All runs complete. Nothing to do.")
+  process.exit(0)
+}
+
+const collected: RegistryEntry[] = []
+let failures = 0
+
+for (let i = 0; i < runs.length; i++) {
+  const { config, pk } = runs[i]
+  try {
+    const entry = await runOne(config, pk, 0, runs.length, i + 1, testModel)
+    collected.push(entry)
+  } catch (err) {
+    failures++
+    console.error(`  ✗ FAILED: ${(err as Error).message}\n`)
+  }
+}
+
+if (failures > 0) {
+  console.log(`\n⚠ ${failures} runs failed (${collected.length} succeeded)`)
+}
+
+printSummary(collected, activeConfigs, activeProblemKeys, displayModel)

@@ -297,7 +297,7 @@ export async function judgeOutput(
   diagnosis:    string,
   groundTruth:  Record<string, string>,
 ): Promise<JudgeScore | null> {
-  const raw = await call(
+  const { content: raw } = await call(
     JUDGE_SYSTEM,
     `Problem:\n${problemText}\n\n` +
     `Ground truth:\n${JSON.stringify(groundTruth, null, 2)}\n\n` +

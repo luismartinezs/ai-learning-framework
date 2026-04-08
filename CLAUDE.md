@@ -16,6 +16,11 @@ bun src/run.ts p002         # specific problem
 bun src/run.ts p003 --gen   # generator only (ablation: skip critic/arbitrator)
 bun src/run.ts --all        # all problems sequentially
 
+bun src/ablation.ts                              # ablation: 4 configs x 8 problems x 5 repeats
+bun src/ablation.ts --repeats 3                  # fewer repeats
+bun src/ablation.ts --model qwen/qwen3-coder-next --repeats 3  # test a different model
+bun src/compare.ts                               # cross-model comparison from registry
+
 bun src/pipeline.ts p001 --save   # pipeline only, save trace
 bun src/verifier.ts traces/FILE.json            # verify a saved trace
 bun src/verifier.ts traces/FILE.json --agent gen  # verify generator output specifically

@@ -12,17 +12,27 @@ export type ProblemKey = "p001" | "p002" | "p003" | "p004" | "p005" | "p006" | "
 
 // ─── Pipeline ───────────────────────────────────────────────────────────────
 
-export type PipelineMode = "all" | "gen"
+export type PipelineMode = "all" | "gen" | "gated"
+export type KbMode = "full" | "none" | "minimal"
+
+export interface TokenUsage {
+  promptTokens:     number
+  completionTokens: number
+}
 
 export interface Trace {
   problemKey:         ProblemKey
   mode:               PipelineMode
   model:              string
   includeKB:          boolean
+  kbMode?:            KbMode
   timestamp:          string
   generatorOutput:    string
   criticOutput:       string | null
   arbitratorOutput:   string | null
+  confidenceScore?:   number
+  confidenceTriggered?: boolean
+  usage?:             TokenUsage
 }
 
 // ─── Evaluation ─────────────────────────────────────────────────────────────
@@ -62,6 +72,7 @@ export interface RegistryEntry {
   model:            string
   mode:             PipelineMode
   includeKB:        boolean
+  kbMode?:          KbMode
   agent:            string
   codePassed:       boolean | null
   correctness:      number | null
@@ -72,4 +83,9 @@ export interface RegistryEntry {
   expertMarkers:    number
   mediocreMarkers:  number
   traceFile:        string
+  confidenceScore?: number
+  triggered?:       boolean
+  threshold?:       number
+  promptTokens?:    number
+  completionTokens?: number
 }

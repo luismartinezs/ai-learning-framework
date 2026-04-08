@@ -202,13 +202,25 @@ Estimated cost for full cross-model ablation:
 - claude-sonnet-4: ~$40 at 3 repeats, or ~$13 at 1 repeat per config
 - Total budget: ~$25-50
 
+### Done
+
+- [x] Modify `src/client.ts` to accept per-call model override
+- [x] Extend ablation runner with `--model` and `--focused` flags, resume logic
+- [x] Build `src/compare.ts` for cross-model analysis
+- [x] Run: qwen3-coder-next (96 runs, full matrix), deepseek-r1 (18 focused), claude-sonnet-4 (18 focused)
+- [x] Produce comparison table and analysis
+
+### Findings
+
+- **Thesis: inconclusive.** gemini-flash+scaffold (9.8, 93%E) matches sonnet-4 bare (10.0, 100%E), but both are near ceiling. Can't distinguish "scaffold substitutes for quality" from "problems too easy for all models."
+- **KB hurts reasoning models.** deepseek-r1 scored 7.3 on p002 with full+KB (worst of any model+config). The imposed reasoning structure conflicts with r1's internal chain-of-thought.
+- **Code-specialist doesn't need scaffold.** qwen3-coder-next scores 9.9/100%E bare, better than with scaffold (9.2/92%E).
+- **Architecture value inversely proportional to model quality.** Helps gemini-flash significantly (+15% expert). Helps deepseek-r1 marginally. Hurts qwen3-coder-next.
+- **Discriminating problems still only challenge gemini-flash.** p006/p007 are trivially solved by all other models bare.
+
 ### Remaining
 
-- [ ] Modify `src/client.ts` to accept per-call model override
-- [ ] Extend ablation runner with multi-model support
-- [ ] Run cross-model ablation on full problem set
-- [ ] Produce comparison table and analysis
-- [ ] Answer: does scaffold + cheap model >= expensive model alone?
+None. Phase 3 complete. Need harder problems (beyond Phase 2 set) to definitively test thesis.
 
 ---
 
@@ -369,3 +381,9 @@ Phases 1-3 should be complete for code domain first, so we have a validated meth
   - gen+KB is worst config (78%). Bare model gen-KB (87%) outperforms.
   - Discriminating problems: p006 (55% expert), p002 (68%), p007 (85%). 5 of 8 still trivial.
   - Ready for Phase 3 (model comparison) or Phase 4 (meta-learning on failure data).
+- 2026-04-08: Phase 3 complete. 4 models tested (356 total runs). Thesis inconclusive: ceiling effect.
+  - gemini-flash+scaffold matches sonnet-4 bare (9.8 vs 10.0), but both near-perfect.
+  - KB hurts reasoning models (deepseek-r1 7.3 with KB vs 9.0 bare on p002).
+  - Code-specialist (qwen-coder) doesn't benefit from scaffold (9.9 bare > 9.2 scaffolded).
+  - Architecture value inversely proportional to model quality.
+  - Conclusion: need harder problems that make sonnet-4 bare score <8 to truly test thesis.
