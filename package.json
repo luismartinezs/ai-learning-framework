@@ -1,0 +1,18 @@
+{
+  "name": "worldclass-ai-pipeline",
+  "version": "0.1.0",
+  "description": "Multi-agent LLM pipeline for world-class code debugging and optimization",
+  "type": "module",
+  "scripts": {
+    "run":      "bun src/run.ts",
+    "pipeline": "bun src/pipeline.ts",
+    "verify":   "bun src/verifier.ts"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  }
+}
