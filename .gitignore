@@ -6,3 +6,9 @@ node_modules/
 dist/
 traces/*
 !traces/registry.jsonl
+domains/ui-design/outputs/*
+domains/ui-design/screenshots/*
+domains/ui-design/results/*
+!domains/ui-design/outputs/.gitkeep
+!domains/ui-design/screenshots/.gitkeep
+!domains/ui-design/results/.gitkeep

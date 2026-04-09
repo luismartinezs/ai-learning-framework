@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Revolut" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - generic "Revolut" [ref=e6]:
+            - img [ref=e7]
+        - button "Open menu" [ref=e10] [cursor=pointer]
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e19]:
+          - heading "Banking & Beyond" [level=1] [ref=e20]
+          - paragraph [ref=e23]: This is your bank, redefined. Get powerful daily banking and global freedom. Sign up for free in a tap.
+          - link "Download the app" [ref=e24] [cursor=pointer]:
+            - /url: https://get.revolut.com/E528/?af_channel=website_direct&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%228cc30a6a-655e-4af6-b16b-397926725195%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website
+            - generic [ref=e25]: Download the app
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Your salary, reimagined" [level=2] [ref=e32]
+            - paragraph [ref=e33]: Spend smartly, send quickly, sort your salary automatically, and watch your savings grow — all with a Revolut bank account.
+            - link "Move your salary" [ref=e34] [cursor=pointer]:
+              - /url: https://get.revolut.com/E528/?af_channel=website_direct&af_dp=revolut%3A%2F%2Fapp%2Fbank-account-switch%2Fgb&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%228cc30a6a-655e-4af6-b16b-397926725195%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp%2Fbank-account-switch%2Fgb&pid=website
+              - generic [ref=e35]: Move your salary
+          - tablist [ref=e54]:
+            - tab "Current page, Page 1" [ref=e55] [cursor=pointer]
+            - tab "Page 2" [ref=e56] [cursor=pointer]
+            - tab "Page 3" [ref=e57] [cursor=pointer]
+      - generic [ref=e59]:
+        - heading "Join 70+ million customers worldwide and 13 million in the UK" [level=2] [ref=e60]
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - figure "#3 most downloaded finance app" [ref=e63]:
+              - img "#3 most downloaded finance app" [ref=e66]
+              - generic [ref=e67]: "#3 most downloaded finance app"
+          - listitem [ref=e68]:
+            - figure "4.7 out of 5 on Trustpilot" [ref=e69]:
+              - img "4.7 out of 5 on Trustpilot" [ref=e72]
+              - generic [ref=e73]: 4.7 out of 5 on Trustpilot
+          - listitem [ref=e74]:
+            - figure "Best International Payments Provider 2025" [ref=e75]:
+              - img "Best International Payments Provider 2025" [ref=e78]
+              - generic [ref=e79]: Best International Payments Provider 2025
+          - listitem [ref=e80]:
+            - figure "Best Consumer Banking Mobile App 2025" [ref=e81]:
+              - img "Best Consumer Banking Mobile App 2025" [ref=e84]
+              - generic [ref=e85]: Best Consumer Banking Mobile App 2025
+      - list [ref=e88]:
+        - listitem [ref=e89]:
+          - figure "Customer Satisfaction — Gold" [ref=e90]:
+            - img "Customer Satisfaction — Gold" [ref=e93]
+            - generic [ref=e94]: Customer Satisfaction — Gold
+        - listitem [ref=e95]:
+          - figure "Consumer Guardian Badge 2025" [ref=e96]:
+            - img "Consumer Guardian Badge 2025" [ref=e99]
+            - generic [ref=e100]: Consumer Guardian Badge 2025
+      - generic [ref=e102]:
+        - generic [ref=e112]:
+          - generic [ref=e114]:
+            - heading "Elevate your spend" [level=2] [ref=e115]
+            - generic [ref=e116]:
+              - generic [ref=e117]: Earn points on your purchases with one of our debit cards. Then redeem them for Airline Miles and other rewards. RevPoints T&Cs apply.
+              - generic [ref=e118]: Some cards available on paid plans only. Fees may apply.
+            - link "Start earning" [ref=e120] [cursor=pointer]:
+              - /url: https://get.revolut.com/E528/?af_channel=website_direct&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%228cc30a6a-655e-4af6-b16b-397926725195%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website
+              - generic [ref=e121]: Start earning
+          - tablist [ref=e124]:
+            - tab "Physical cards" [selected] [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]: Physical cards
+            - tab "Virtual cards" [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: Virtual cards
+        - generic [ref=e142]:
+          - generic [ref=e144]:
+            - heading "Save with up to 4% AER (variable) interest" [level=2] [ref=e145]
+            - generic [ref=e146]:
+              - generic [ref=e147]: Life, meet savings. Grow your money with 4% AER (variable) interest on Instant Access Savings, paid every day.¹
+              - generic [ref=e148]: The rate shown above is for our Ultra plan. Different rates apply per plan. The Annual Equivalent Rate (AER) shows the interest you can earn over 1 year. AER is compounded, so you’ll earn interest on interest already earned. Interest is liable to applicable taxes. Paid plan fees and T&Cs apply.
+            - link "Explore Savings" [ref=e150] [cursor=pointer]:
+              - /url: /savings/
+              - generic [ref=e151]: Explore Savings
+          - generic [ref=e152]:
+            - tabpanel [ref=e153]:
+              - img "Save with up to 4% AER (variable) interest" [ref=e155]
+            - tabpanel [ref=e156]:
+              - img "Save with up to 4% AER (variable)" [ref=e158]
+            - tabpanel [ref=e159]:
+              - img "Save with up to 4% AER (variable)" [ref=e161]
+          - tablist [ref=e163]:
+            - tab "Adventure" [selected] [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Adventure
+            - tab "Wedding" [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: Wedding
+            - tab "Moving" [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]: Moving
+      - generic [ref=e172]:
+        - heading "Your money’s safe space" [level=2] [ref=e173]
+        - paragraph [ref=e176]: With Revolut Secure, you’re entering the new era of money security — where your bank account has 24/7 protection through proactive, purpose-built defences and a team of specialists.
+        - link "Learn more" [ref=e178] [cursor=pointer]:
+          - /url: /how-we-keep-your-money-safe/
+          - generic [ref=e179]: Learn more
+      - generic [ref=e189]:
+        - heading "Explore 5,000+ stocks and ETFs" [level=2] [ref=e190]
+        - generic [ref=e191]:
+          - paragraph [ref=e193]: From Apple to Zoom, invest in some of the biggest and most influential companies in the world, commission-free within your monthly allowance.²
+          - paragraph [ref=e195]: Other fees may apply. Capital at risk.
+        - link "Try it out" [ref=e197] [cursor=pointer]:
+          - /url: https://get.revolut.com/E528/?af_channel=website_direct&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%228cc30a6a-655e-4af6-b16b-397926725195%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website
+          - generic [ref=e198]: Try it out
+      - generic [ref=e206]:
+        - heading "Join the 70+ million using Revolut" [level=2] [ref=e207]
+        - link "Download the app" [ref=e209] [cursor=pointer]:
+          - /url: https://get.revolut.com/E528/?af_channel=website_direct&af_dp=revolut%3A%2F%2Fapp&af_sub1=%7B%22conversion_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22cookie_consent%22%3A%5B%5D%2C%22landing_page_url%22%3A%22https%3A%2F%2Fwww.revolut.com%2F%22%2C%22qr_code%22%3Afalse%2C%22website_client_id%22%3A%228cc30a6a-655e-4af6-b16b-397926725195%22%7D&deep_link_sub1=DEEPLINK&deep_link_value=revolut%3A%2F%2Fapp&pid=website
+          - generic [ref=e210]: Download the app
+      - generic [ref=e212]:
+        - paragraph [ref=e213]: ¹The Annual Equivalent Rate (AER) shows the interest you can earn over 1 year. AER is compounded, so you’ll earn interest on interest already earned. Rates depend on your plan type and savings' currency, from up to 3% on our Standard plan to up to 4% on our Ultra plan. Paid plan subscription fees and T&Cs apply. Interest offered is subject to change and any interest earned is liable to the applicable taxes. Instant Access Savings T&Cs apply.
+        - paragraph [ref=e214]: "²FOR STOCK TRADING: capital at risk."
+        - paragraph [ref=e215]: Revolut Trading Ltd provides a non-advised execution-only service in shares. Revolut Trading Ltd does not provide investment advice or personal recommendations. You, as an individual investor, must make your own decisions, seeking independent professional advice if you are unsure as to the suitability or appropriateness of any investment for your individual circumstances or needs.
+        - paragraph [ref=e216]:
+          - text: The value of investments can go up as well as down and you may receive less than your original investment or lose the value of your entire initial investment. Past performance and forecasts are not reliable indicators of future results. Currency rate fluctuations can adversely impact the overall returns on your original investment. Any trades outside of your monthly allowance are charged at 0.25% of the order amount if you are a Standard, Plus, Premium, or Metal customer, or at 0.12% of the order amount if you are an Ultra/Trading Pro customer.
+          - link "Read more on these fees" [ref=e217] [cursor=pointer]:
+            - /url: https://help.revolut.com/help/wealth/stocks/trading-stocks/trading-fees/what-fees-will-i-be-charged-for-my-trading/
+          - text: . Further information about the investment service provided by Revolut Trading Ltd can be found in the
+          - link "Terms of Business" [ref=e218] [cursor=pointer]:
+            - /url: https://www.revolut.com/legal/RTL-terms-of-business/
+          - text: ","
+          - link "Risk Disclosure" [ref=e219] [cursor=pointer]:
+            - /url: https://www.revolut.com/legal/RTL-risk-disclosure/
+          - text: ", and"
+          - link "Invest FAQs" [ref=e220] [cursor=pointer]:
+            - /url: https://help.revolut.com/help/wealth/
+          - text: .
+        - paragraph [ref=e221]: The registered address of Revolut Ltd, Revolut Travel Ltd, and Revolut Trading Ltd is at 30 South Colonnade, London, United Kingdom, E14 5HX. You can read more about our terms and policies here.
+    - contentinfo [ref=e222]:
+      - heading "Choose your plan" [level=2] [ref=e223]
+      - list [ref=e225]:
+        - listitem [ref=e226]:
+          - link "Standard Free For the financial basics — everything you need for better money management in one place. Sending money abroad or sticking to a budget has never been easier." [ref=e227] [cursor=pointer]:
+            - /url: /a-radically-better-account/
+            - generic [ref=e228]:
+              - heading "Standard" [level=2] [ref=e230]
+              - heading "Free" [level=3] [ref=e231]
+              - paragraph [ref=e232]: For the financial basics — everything you need for better money management in one place. Sending money abroad or sticking to a budget has never been easier.
+        - listitem [ref=e236]:
+          - link "Plus £3.99/month For the smart spender — access additional benefits like better limits for spending abroad and insurance for your purchases, on our affordable paid plan." [ref=e237] [cursor=pointer]:
+            - /url: /revolut-plus/
+            - generic [ref=e238]:
+              - heading "Plus" [level=2] [ref=e240]
+              - heading "£3.99/month" [level=3] [ref=e241]
+              - paragraph [ref=e242]: For the smart spender — access additional benefits like better limits for spending abroad and insurance for your purchases, on our affordable paid plan.
+        - listitem [ref=e246]:
+          - link "Premium £7.99/month For elevating every day — access exclusive subscriptions, better savings rates, and exchange unlimited amounts of money." [ref=e247] [cursor=pointer]:
+            - /url: /revolut-premium/
+            - generic [ref=e248]:
+              - heading "Premium" [level=2] [ref=e250]
+              - heading "£7.99/month" [level=3] [ref=e251]
+              - paragraph [ref=e252]: For elevating every day — access exclusive subscriptions, better savings rates, and exchange unlimited amounts of money.
+        - listitem [ref=e256]:
+          - link "Metal £14.99/month For the global travellers and traders — relax with travel insurance, enjoy enhanced limits, and subscriptions worth £2,200 annually." [ref=e257] [cursor=pointer]:
+            - /url: /metal/
+            - generic [ref=e258]:
+              - heading "Metal" [level=2] [ref=e260]
+              - heading "£14.99/month" [level=3] [ref=e261]
+              - paragraph [ref=e262]: For the global travellers and traders — relax with travel insurance, enjoy enhanced limits, and subscriptions worth £2,200 annually.
+        - listitem [ref=e266]:
+          - link "Ultra £55/month (introductory offer) For those seeking the best of Revolut — get exceptional benefits like unlimited airport lounge access, monthly global data, partner subscriptions, and cancellation cover." [ref=e267] [cursor=pointer]:
+            - /url: /ultra-plan/
+            - generic [ref=e268]:
+              - heading "Ultra" [level=2] [ref=e270]
+              - heading "£55/month (introductory offer)" [level=3] [ref=e271]
+              - paragraph [ref=e272]: For those seeking the best of Revolut — get exceptional benefits like unlimited airport lounge access, monthly global data, partner subscriptions, and cancellation cover.
+      - generic [ref=e277]:
+        - paragraph [ref=e278]: © Revolut Bank UK Ltd 2026
+        - paragraph [ref=e279]:
+          - text: To find out more about which Revolut entity you receive services from, please check our corresponding
+          - link "FAQ page" [ref=e280] [cursor=pointer]:
+            - /url: https://help.revolut.com/help/more/legal-topics/which-revolut-companies-provide-me-with-services/
+          - text: . If you have any other questions, please reach out to us via the in-app chat in the Revolut app.
+        - paragraph [ref=e281]: "Revolut Bank UK Ltd (is registered in England and Wales (Registered No. 12871051). Registered address: 30 South Colonnade, London, E14 5HX. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and Prudential Regulation Authority (Financial Services Register No. 981170)."
+        - paragraph [ref=e282]: "Revolut Ltd is registered in England and Wales (No. 08804411), is authorised by the Financial Conduct Authority to offer e-money and payment services under the Electronic Money Regulations 2011 (FRN: 900562), and is registered with the Financial Conduct Authority to offer cryptocurrency services under the Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017. Commodities services are provided by Revolut Ltd and are not regulated by the Financial Conduct Authority."
+        - paragraph [ref=e283]: "Revolut Travel Ltd (No. 10618740) is authorised by the Financial Conduct Authority to undertake insurance distribution activities (FRN: 780586). Our insurance products are arranged by Revolut Travel Ltd and Revolut Ltd, an appointed representative of Revolut Travel Ltd."
+        - paragraph [ref=e284]: "Investment services are provided by Revolut Trading Ltd (No. 11567840), which is authorised and regulated by the Financial Conduct Authority (FRN: 933846)."
+        - paragraph [ref=e285]:
+          - text: The registered address of Revolut Ltd, Revolut Travel Ltd, and Revolut Trading Ltd is at 30 South Colonnade, London, United Kingdom, E14 5HX. You can read more about our
+          - link "terms and policies here" [ref=e286] [cursor=pointer]:
+            - /url: https://www.revolut.com/legal/
+          - text: .
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - link "International Money Transfers" [ref=e290] [cursor=pointer]:
+            - /url: https://www.revolut.com/money-transfer/
+          - text: ":"
+        - link "Send Money to India" [ref=e291] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-india/
+        - text: "|"
+        - link "Send Money to Nigeria" [ref=e292] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-nigeria/
+        - text: "|"
+        - link "Send Money to Poland" [ref=e293] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-poland/
+        - text: "|"
+        - link "Send Money to Ghana" [ref=e294] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-ghana/
+        - text: "|"
+        - link "Send Money to Dubai" [ref=e295] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-dubai/
+        - text: "|"
+        - link "Send Money to the UK from India" [ref=e296] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-the-uk-from-india/
+        - text: "|"
+        - link "Send Money to Saudi Arabia" [ref=e297] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-saudi-arabia/
+        - text: "|"
+        - link "Send Money to North Macedonia" [ref=e298] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-north-macedonia/
+        - text: "|"
+        - link "Send Money to Kazakhstan" [ref=e299] [cursor=pointer]:
+          - /url: https://www.revolut.com/money-transfer/send-money-to-kazakhstan/
+        - generic [ref=e300]:
+          - link "Currency Converter" [ref=e301] [cursor=pointer]:
+            - /url: https://www.revolut.com/currency-converter/
+          - text: ":"
+        - link "Convert GBP to INR" [ref=e302] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-inr-exchange-rate/
+        - text: "|"
+        - link "Convert USD to GBP" [ref=e303] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-usd-to-gbp-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to EUR" [ref=e304] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-eur-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to USD" [ref=e305] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-usd-exchange-rate/
+        - text: "|"
+        - link "Convert EUR to GBP" [ref=e306] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-eur-to-gbp-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to PKR" [ref=e307] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-pkr-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to TRY" [ref=e308] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-try-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to HKD" [ref=e309] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-hkd-exchange-rate/
+        - text: "|"
+        - link "Convert KRW to GBP" [ref=e310] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-krw-to-gbp-exchange-rate/
+        - text: "|"
+        - link "Convert AED to GBP" [ref=e311] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-aed-to-gbp-exchange-rate/
+        - text: "|"
+        - link "Convert INR to GBP" [ref=e312] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-inr-to-gbp-exchange-rate/
+        - text: "|"
+        - link "Convert GBP to CAD" [ref=e313] [cursor=pointer]:
+          - /url: https://www.revolut.com/currency-converter/convert-gbp-to-cad-exchange-rate/
+        - text: "|"
+        - link "Compare Exchange Rates" [ref=e314] [cursor=pointer]:
+          - /url: https://www.revolut.com/compare/
+        - link "Revolut USA" [ref=e315] [cursor=pointer]:
+          - /url: https://www.revolut.com/en-US/money-transfer/
+        - text: "|"
+        - link "Revolut Spain" [ref=e316] [cursor=pointer]:
+          - /url: https://www.revolut.com/es-ES/money-transfer/
+        - text: "|"
+        - link "Revolut Australia" [ref=e317] [cursor=pointer]:
+          - /url: https://www.revolut.com/en-AU/money-transfer/
+        - text: "|"
+        - link "Revolut Singapore" [ref=e318] [cursor=pointer]:
+          - /url: https://www.revolut.com/en-SG/money-transfer/
+        - text: "|"
+        - link "Revolut Estonia" [ref=e319] [cursor=pointer]:
+          - /url: https://www.revolut.com/ru-EE/money-transfer/
+      - generic [ref=e320]:
+        - generic [ref=e321]:
+          - button "Security & Protection Security & Protection" [ref=e323] [cursor=pointer]:
+            - generic [ref=e324]:
+              - heading "Security & Protection" [level=2] [ref=e325]
+              - generic "Security & Protection" [ref=e326]
+          - button "Help Help" [ref=e328] [cursor=pointer]:
+            - generic [ref=e329]:
+              - heading "Help" [level=2] [ref=e330]
+              - generic "Help" [ref=e331]
+        - generic [ref=e332]:
+          - button "Plans Plans" [ref=e334] [cursor=pointer]:
+            - generic [ref=e335]:
+              - heading "Plans" [level=2] [ref=e336]
+              - generic "Plans" [ref=e337]
+          - button "Investments Investments" [ref=e339] [cursor=pointer]:
+            - generic [ref=e340]:
+              - heading "Investments" [level=2] [ref=e341]
+              - generic "Investments" [ref=e342]
+          - button "Company Company" [ref=e344] [cursor=pointer]:
+            - generic [ref=e345]:
+              - heading "Company" [level=2] [ref=e346]
+              - generic "Company" [ref=e347]
+        - generic [ref=e348]:
+          - button "Accounts Accounts" [ref=e350] [cursor=pointer]:
+            - generic [ref=e351]:
+              - heading "Accounts" [level=2] [ref=e352]
+              - generic "Accounts" [ref=e353]
+          - button "Global Finances Global Finances" [ref=e355] [cursor=pointer]:
+            - generic [ref=e356]:
+              - heading "Global Finances" [level=2] [ref=e357]
+              - generic "Global Finances" [ref=e358]
+          - button "Revolut AI Revolut AI" [ref=e360] [cursor=pointer]:
+            - generic [ref=e361]:
+              - heading "Revolut AI" [level=2] [ref=e362]
+              - generic "Revolut AI" [ref=e363]
+        - generic [ref=e364]:
+          - button "Smart Spending Smart Spending" [ref=e366] [cursor=pointer]:
+            - generic [ref=e367]:
+              - heading "Smart Spending" [level=2] [ref=e368]
+              - generic "Smart Spending" [ref=e369]
+          - button "Crypto Crypto" [ref=e371] [cursor=pointer]:
+            - generic [ref=e372]:
+              - heading "Crypto" [level=2] [ref=e373]
+              - generic "Crypto" [ref=e374]
+          - button "Mobile & Connectivity Mobile & Connectivity" [ref=e376] [cursor=pointer]:
+            - generic [ref=e377]:
+              - heading "Mobile & Connectivity" [level=2] [ref=e378]
+              - generic "Mobile & Connectivity" [ref=e379]
+      - list [ref=e380]:
+        - listitem [ref=e381]:
+          - link "Revolut" [ref=e382] [cursor=pointer]:
+            - /url: /
+            - generic "Revolut" [ref=e383]:
+              - img "Revolut" [ref=e384]
+        - listitem [ref=e386]:
+          - link "Facebook" [ref=e387] [cursor=pointer]:
+            - /url: https://www.facebook.com/revolut
+        - listitem [ref=e389]:
+          - link "Instagram" [ref=e390] [cursor=pointer]:
+            - /url: https://www.instagram.com/revolut/
+        - listitem [ref=e392]:
+          - link "Twitter" [ref=e393] [cursor=pointer]:
+            - /url: https://x.com/Revolut
+        - listitem [ref=e395]:
+          - link "LinkedIn" [ref=e396] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/revolut
+        - listitem [ref=e398]:
+          - link "TikTok" [ref=e399] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@revolut
+      - generic [ref=e401]:
+        - button "GB United Kingdom" [ref=e402] [cursor=pointer]:
+          - img "GB" [ref=e404]
+          - generic [ref=e405]: United Kingdom
+        - list [ref=e406]:
+          - listitem [ref=e407]:
+            - link "Website Terms" [ref=e408] [cursor=pointer]:
+              - /url: /legal/website-terms-and-conditions/
+          - listitem [ref=e409]:
+            - link "Legal Agreements" [ref=e410] [cursor=pointer]:
+              - /url: /legal/
+          - listitem [ref=e411]:
+            - link "Complaints" [ref=e412] [cursor=pointer]:
+              - /url: /legal/complaints-policy/
+          - listitem [ref=e413]:
+            - link "Privacy" [ref=e414] [cursor=pointer]:
+              - /url: /privacy-policy/
+          - listitem [ref=e415]:
+            - link "UK Modern Slavery Policy" [ref=e416] [cursor=pointer]:
+              - /url: /legal/modern-slavery-statement/
+          - listitem [ref=e417]:
+            - link "Customer Vulnerability" [ref=e418] [cursor=pointer]:
+              - /url: /customer-vulnerability/
+          - listitem [ref=e419]:
+            - link "Data Privacy Statement for Candidates" [ref=e420] [cursor=pointer]:
+              - /url: /legal/data-privacy-for-candidates/
+  - alert [ref=e421]
+  - dialog "Choose your cookies" [ref=e423]:
+    - generic:
+      - heading "Choose your cookies" [level=2]
+      - paragraph:
+        - text: Cookies help us to enhance your experience, tailor ads to your interests, and improve our website.
+        - button "Learn more and manage": Learn more and manage
+      - button "Accept all":
+        - generic: Accept all
+      - button "Reject non-essential cookies":
+        - generic: Reject non-essential cookies

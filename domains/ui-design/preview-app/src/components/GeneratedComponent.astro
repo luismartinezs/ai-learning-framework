@@ -1,0 +1,65 @@
+---
+const menuItems = [
+  { name: 'Pad Thai Noodles', safety: 'warning', safetyText: 'WARNING', bgColor: 'bg-amber-500' },
+  { name: 'Green Papaya Salad', safety: 'safe', safetyText: 'SAFE', bgColor: 'bg-green-500' },
+  { name: 'Tom Yum Soup', safety: 'unsafe', safetyText: 'UNSAFE', bgColor: 'bg-red-500' },
+  { name: 'Massaman Curry', safety: 'safe', safetyText: 'SAFE', bgColor: 'bg-green-500' },
+];
+---
+
+<div class="min-h-screen bg-black text-white flex flex-col">
+  <!-- Camera View Area -->
+  <div class="flex-1 relative flex flex-col items-center justify-center">
+    <!-- Corner Brackets -->
+    <div class="absolute top-4 left-4 w-8 h-8 border-l-2 border-t-2 border-gray-500"></div>
+    <div class="absolute top-4 right-4 w-8 h-8 border-r-2 border-t-2 border-gray-500"></div>
+    <div class="absolute bottom-32 left-4 w-8 h-8 border-l-2 border-b-2 border-gray-500"></div>
+    <div class="absolute bottom-32 right-4 w-8 h-8 border-r-2 border-b-2 border-gray-500"></div>
+    
+    <!-- Instructions -->
+    <p class="text-gray-400 text-sm mb-8">Point at menu</p>
+    
+    <!-- Scan Button -->
+    <button class="bg-white text-black font-bold px-8 py-3 rounded-lg text-sm">
+      SCAN MENU
+    </button>
+  </div>
+
+  <!-- Results List -->
+  <div class="bg-gray-900 rounded-t-3xl px-4 pt-4 pb-20">
+    <div class="space-y-3">
+      {menuItems.map((item) => (
+        <div class="relative bg-gray-800 rounded-lg h-14 overflow-hidden">
+          <div class="absolute left-0 top-0 h-full flex items-center pl-4 pr-24">
+            <span class="font-medium text-white text-sm">{item.name}</span>
+          </div>
+          <div class={`absolute right-0 top-0 h-full w-24 ${item.bgColor} flex items-center justify-center`}>
+            <span class="text-white font-bold text-xs">{item.safetyText}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="fixed bottom-0 left-0 right-0 bg-gray-900 border-t border-gray-800">
+    <div class="flex justify-around items-center h-16">
+      <button class="flex flex-col items-center justify-center text-gray-400">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+        </svg>
+      </button>
+      <button class="flex flex-col items-center justify-center text-gray-400">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </button>
+      <button class="flex flex-col items-center justify-center text-gray-400">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>

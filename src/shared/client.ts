@@ -1,4 +1,5 @@
 import { OpenRouter } from "@openrouter/sdk"
+import type { ChatContentItems } from "@openrouter/sdk/models/chatcontentitems.js"
 
 const apiKey = process.env.OPENROUTER_API_KEY
 if (!apiKey) throw new Error("OPENROUTER_API_KEY not set. Copy .env.example → .env and add your key.")
@@ -15,9 +16,11 @@ export interface CallResult {
 const MAX_RETRIES = 3
 const RETRY_BASE_MS = 2000
 
+export type UserContent = string | Array<ChatContentItems>
+
 export async function call(
   system:    string,
-  user:      string,
+  user:      UserContent,
   maxTokens: number = 2000,
   model?:    string,
 ): Promise<CallResult> {

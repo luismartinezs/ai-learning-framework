@@ -262,4 +262,114 @@ value on niche or complex products where the model has weaker priors.
 
 ---
 
-*Last updated: added Domain 2 (Landing Pages) experiment runner and documentation.*
+## Domain 3: UI Design
+
+### Status
+Experiments complete. Pipeline partially built. Design system layer
+identified as missing prerequisite for world-class output.
+
+### Research Question
+Can context engineering produce world-class UI design output from
+a product brief? If yes, which intervention closes the gap between
+default AI output and professionally designed UI?
+
+### What Was Tested (Test 1: Cause C Check)
+
+Four prompt conditions on a fixed functional spec (Menu Decoder
+scan screen, mobile 375x812px, Astro + Tailwind):
+
+| Condition | Approach | Key finding |
+|-----------|----------|-------------|
+| bare | No design direction | Generic Tailwind template, blue FAB, pill badges |
+| product_context | Describe user emotional state | No visual change from bare. Product description alone does not activate design capability |
+| reference_style | Specify aesthetic target (Linear/dark) | Broke default pattern. Dark bg, no shadows, no blue. Aesthetic instruction is the activating variable |
+| full_brief | Product context + style direction + anti-patterns | Best single-pass output. Dark theme with solid full-height safety badges dominating each row |
+
+Cause C confirmed as dominant: visual style direction is the
+activating variable. Product description alone does nothing.
+
+### What Was Tested (Test 2: Capability and Feedback Loop)
+
+| Condition | Score | Finding |
+|-----------|-------|---------|
+| autonomous | 5.4 GENERIC | Model articulated thoughtful design brief but executed generically. Articulated intent does not equal executed output |
+| few_shot_visual | 5.4 GENERIC | Showing world-class marketing page screenshots did not transfer. Wrong reference type (marketing vs functional utility) |
+| iterative revision loop (2 passes) | 6.4 COMPETENT | +0.8 improvement. Individual elements improved (FAB placement, badge sizing) but design system coherence degraded |
+
+### Key Findings
+
+1. The activating variable is visual style direction, not product
+   description. Describing the user's emotional state produces no
+   visual change. Specifying dark background, no shadows, no blue
+   produces significant visual change.
+
+2. Permission to deviate does not cause deviation. Explicitly telling
+   the model it has design authority and can modify the spec did not
+   produce non-default output. Examples beat instructions, but only
+   when examples are the right type.
+
+3. Marketing page references are the wrong calibration for functional
+   utility screens. Linear, Arc, Revolut are world-class at brand
+   storytelling. A scanner app used by anxious travelers has
+   different success criteria: glanceability, safety signal
+   dominance, stress-context readability. Recalibrated judge to
+   evaluate against functional utility criteria.
+
+4. Element-level revision without a design system produces
+   incoherence. The iterative feedback loop correctly improved
+   individual elements (FAB placement, badge dominance) but degraded
+   overall visual coherence because there was no design system to
+   anchor decisions. Locally correct choices became globally
+   incoherent.
+
+5. The pipeline pattern for COMPETENT output exists:
+   full_brief prompt + 1 targeted revision pass = 6.4 COMPETENT.
+
+6. The pipeline pattern for WORLD_CLASS output requires a missing
+   layer: design system definition before component generation.
+
+### The Missing Layer: Design System
+
+Every world-class product UI is built on a design system. Color
+tokens, typographic scale, spacing system, component language.
+Defined once per brand and applied to every screen.
+
+The model is currently making all design system decisions implicitly
+while simultaneously building a screen, under cognitive load,
+defaulting to its training distribution.
+
+The correct pipeline architecture is:
+
+  Phase 1: Design system definition (once per brand).
+  Given a product brief, output a structured design spec:
+  color tokens (5-7, named by function), typography (2 fonts max,
+  3 sizes max), spacing unit, corner radius rule, component language.
+
+  Phase 2: Component generation (per screen).
+  Given the design system spec + functional spec, build the screen.
+  Every visual decision references the spec. No improvisation.
+
+  Phase 3: One targeted revision pass.
+  Screenshot, judge, single revision instruction, revise once.
+
+This architecture has not been tested. It is the recommended next
+experiment when there is a real UI deliverable to drive it.
+
+### Key Files
+- domains/ui-design/prompts/          all tested prompt conditions
+- domains/ui-design/examples/         reference screenshots
+- domains/ui-design/judge_references/ functional utility UI refs
+- domains/ui-design/screenshots/      all generated screenshots
+- domains/ui-design/results/          evaluation JSONs and summary
+- src/ui-design/run.ts                pipeline runner with --revise flag
+- src/ui-design/judge.ts              multimodal judge (6 dimensions)
+
+### Hypothesis for Next Experiment
+Design system definition as Phase 1 will produce meaningfully higher
+intentionality and distinctiveness scores (currently stuck at 5-6)
+because the model will be applying a coherent system rather than
+assembling from defaults under pressure.
+
+---
+
+*Last updated: added Domain 3 (UI Design) experiment findings and design system hypothesis.*

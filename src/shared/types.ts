@@ -99,6 +99,28 @@ export interface LandingEvalResult {
   judge_parse_error?: string
 }
 
+// ─── UI Design Judge ───────────────────────────────────────────────────────
+
+export interface UIJudgeDimension {
+  score:     number   // 0-10
+  reasoning: string   // one sentence
+}
+
+export interface UIJudgeScore {
+  safety_dominance:  UIJudgeDimension
+  layout_quality:    UIJudgeDimension
+  intentionality:    UIJudgeDimension
+  product_fit:       UIJudgeDimension
+  distinctiveness:   UIJudgeDimension
+  consistency:       UIJudgeDimension
+  overall_score:     number
+  verdict:           "WORLD_CLASS" | "COMPETENT" | "GENERIC"
+  key_weakness:          string
+  key_strength:          string
+  design_identity:       string
+  revision_instruction:  string
+}
+
 // ─── Registry ──────────────────────────────────────────────────────────────
 
 export interface RegistryEntry {

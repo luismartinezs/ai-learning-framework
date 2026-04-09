@@ -3,7 +3,13 @@
     "allow": [
       "mcp__wellread__search",
       "mcp__firecrawl__firecrawl_scrape",
-      "mcp__crawl4ai__md"
+      "mcp__crawl4ai__md",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_run_code"
     ]
   },
   "enabledMcpjsonServers": [
