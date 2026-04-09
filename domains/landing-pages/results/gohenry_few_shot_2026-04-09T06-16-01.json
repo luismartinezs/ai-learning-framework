@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-16-01",
+  "generated_copy": "## Headline\nRaise Money-Smart Kids\n\n## Subheadline\nThe Debit Card with Built-in Financial Education. Give your child the freedom to learn & the tools to succeed with money.\n\n## Hero Body\nGoHenry isn't just a debit card. It's a hands-on financial education for your kids, ages 8-18. Set spending limits, automate allowances, and track their progress – all in one powerful app. Give them the real-world experience they need to build lifelong money skills, safely and responsibly.\n\n## Primary CTA\nStart Your Free Trial\n\n## Key Benefits\n*   **Learn by Doing:** Real-world spending with a Visa debit card, managed by you.\n*   **Total Parental Control:** Set limits, get real-time notifications, and lock the card instantly.\n*   **Teaches Money Management:** Automate allowance, set savings goals, and assign chores for rewards.\n\n## Social Proof Hook\n\"GoHenry has transformed how my kids understand money. It's the best financial decision I've made for them!\" – *Sarah J., GoHenry Parent*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 6,
+      "reasoning": "It touches on the desire to raise 'money-smart' kids, but doesn't strongly address the underlying anxieties about financial security or the specific frustrations of current methods."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like setting spending limits and automating allowances, which are somewhat unique to GoHenry, although basic."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "It explains that the product combines a debit card with parental controls and that the child learns by spending with limits set by parent."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is appropriate for cold traffic as it reduces risk and encourages exploration."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "While it mentions specific features, the language could be adapted for similar products for kids relatively easily."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy lacks a strong emotional hook, failing to deeply address the parental anxieties and frustrations that drive the need for such a product.",
+    "key_strength": "The CTA is well-matched to the awareness level, offering a free trial to ease the commitment."
+  }
+}

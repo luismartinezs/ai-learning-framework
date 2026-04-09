@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-16-09",
+  "generated_copy": "## Headline\n**Unlock Unbeatable Holiday Deals. Seriously.**\n\n## Subheadline\nPackage Holidays Without the Hidden Fees, Guaranteed. Your Dream Getaway Starts Here.\n\n## Hero Body\nTired of holiday prices that magically double at checkout? At Sunshine.co.uk, the price you see is *exactly* the price you pay. We cut out call centers and expensive retail offices, passing 100% of the savings directly to you. That means truly unbelievable deals on your next package holiday, fully protected by ABTA bonding, and backed by our price-match promise.  Don't just dream it, book it cheaper.\n\n## Primary CTA\nSee Today's Lowest Prices\n\n## Key Benefits\n\n*   **Lowest Price, Guaranteed:** We're so confident, if you find it cheaper elsewhere, we'll match it.\n*   **No Hidden Fees, Ever:**  What you see is what you pay.  No sneaky surprises at checkout.\n*   **ABTA Protected:**  Your holiday and your money are 100% safe with us.\n*   **Totally Online:** No call waiting, just fast, efficient holiday planning.\n\n## Social Proof Hook\n\"I saved £300 compared to other sites! I was worried the price was too good to be true, but everything went perfectly!\" - *Sarah J., Verified Sunshine.co.uk Customer*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "Accurately names price anxiety and hidden fee frustration, the core emotions users arrive with."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentions ABTA and online-only operations, which are specific to the product, but could be more detailed about how these are benefits."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "Explains the link between no call centers and lower prices, making the mechanism relatively clear."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "\"See Today's Lowest Prices\" is a great CTA if the visitor is price-sensitive and ready to book."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "Features like ABTA protection add specificity, but other points like \"no hidden fees\" are widely used across the industry."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and lacks convincing detail; it's a generic testimonial.",
+    "key_strength": "Strong focus on price transparency and addressing hidden fee concerns."
+  }
+}

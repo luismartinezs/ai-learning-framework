@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-48-52",
+  "generated_copy": "The conversion-critical constraint is the DIRECT COMPETITION AGAINST GOOGLE ANALYTICS (free) in prospect perception, though the actual functionality is different.\n\nHere's why: Prospects already use Google Analytics. Convincing them to *pay* for a tool that they may *perceive* as doing the same thing (but with fewer features, according to another constraint) is the biggest hurdle. We must immediately differentiate Crazy Egg and demonstrate its unique value beyond what they already get for free. The structural spine of this copy emphasizes the \"why\" *behind* the \"what\" of website visitor behavior, a layer of insight Google Analytics doesn't provide.\n\n## Headline\nStop Guessing, Start Seeing Why Visitors Aren't Converting\n\n## Subheadline\nFinally understand what's *actually* happening on your website with visual behavior analytics that go beyond basic traffic numbers.\n\n## Hero Body\nYou know *how much* traffic you're getting with Google Analytics. But do you know *why* visitors are bouncing, missing key content, or abandoning their carts? Crazy Egg reveals the \"why\" behind the numbers with heatmaps, session recordings, and more – making it easy to pinpoint and fix your biggest conversion roadblocks. No more relying on hunches – see exactly what's stopping your visitors from becoming customers.\n\n## Primary CTA\nStart Your Free 30-Day Trial\n\n## Key Benefits\n*   **Uncover Hidden Problems:** See exactly where visitors get stuck, confused, or distracted on your website pages.\n*   **Optimize for Conversions:** Make data-driven design and content changes that directly lead to higher sales and leads.\n*   **Save Time & Money:** Get actionable insights in minutes, without the expensive consultants or complicated A/B testing.\n*   **Effortless Setup:** Install a single line of code and start seeing visual insights instantly.\n*   **Unlimited Potential:** Track unlimited domains and collaborate with your entire team.\n\n## Social Proof Hook\n\"Crazy Egg paid for itself within the first week by highlighting a single design flaw that was costing us thousands.\" - John S., Marketing Director\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "It directly addresses the 'guessing' frustration of marketers who know they have traffic problems but can't diagnose the cause."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy references Google Analytics specifically, which is good, and mentions concrete features like heatmaps and session recordings, but some benefit statements are somewhat general."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "The copy mentions heatmaps and session recordings, hinting at the mechanism, but it lacks specifics on how these visualizations are generated or what visitor behaviors they track."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is appropriate for the level of commitment asked, and the 'Start Your Free 30-Day Trial' CTA is clear."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The direct comparison to Google Analytics and the mention of heatmaps makes this reasonably specific, although some sections could apply to similar tools with minor tweaks."
+    },
+    "overall_score": 7,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity; while it mentions features, it doesn't explicitly explain *how* those features uncover insights.",
+    "key_strength": "Directly addresses the frustration of marketers using Google Analytics and not understanding *why* visitors aren't converting."
+  }
+}

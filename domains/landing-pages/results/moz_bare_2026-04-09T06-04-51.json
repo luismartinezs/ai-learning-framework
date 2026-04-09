@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-04-51",
+  "generated_copy": "## Headline\n**Stop Guessing, Start Ranking. Get Expert SEO Insights with Moz.**\n\n## Subheadline\nThe only platform that combines powerful SEO tools with on-demand expert advice.\n\n## Hero Body\nYou know SEO is vital, but are you wasting precious time cobbling together data from free tools and hoping for the best? Moz gives you *everything* you need in one place: comprehensive keyword research, in-depth site audits, competitor analysis, and personalized guidance from SEO experts ready to answer *your* specific questions. Spend less time gathering data and more time driving real results.\n\n## Primary CTA\n**Unlock Your SEO Advantage - Start a Free Trial**\n\n## Key Benefits\n*   **Dominate Search Results:** Access the data and insights you need to outrank your competition.\n*   **Optimize Your Site, Inside and Out:** Identify and fix critical SEO issues with comprehensive site crawls.\n*   **Get Personalized SEO Advice:** Submit your toughest SEO questions and get answers from our in-house experts.\n*   **Stop Wasting Time:** All the tools and expertise you need, in one convenient platform.\n\n## Social Proof Hook\n\"Moz's Q&A service is a game-changer. I got actionable advice for MY SITE that I couldn't find anywhere else!\" - *[hypothetical customer name], SEO Consultant*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy directly addresses the frustration of wasting time on SEO data gathering, which is a core problem for the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific SEO tools (keyword research, site audits, competitor analysis) and highlights the unique Q&A expert access, making it less generic."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly explains the mechanism: Moz combines multiple tools into one platform and adds personalized expert consultation, offering a clear solution to the problem."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Given the warm audience (existing free users or referrals), offering a free trial is a well-aligned CTA that doesn't ask for too much commitment up front."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some elements are common to SEO tools, the emphasis on personalized expert guidance makes it less interchangeable."
+    },
+    "overall_score": 7.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof element is generic and hypothetical, lacking the impact of real client testimonials or logos.",
+    "key_strength": "Clearly articulates the convenience and time-saving benefits of having all SEO tools and expert advice within a single platform, which directly addresses the audience's frustration."
+  }
+}

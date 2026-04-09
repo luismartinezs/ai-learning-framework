@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-14-16",
+  "generated_copy": "## Headline\n**Stop Guessing, Start Ranking: The SEO Platform with Experts On-Demand.**\n\n## Subheadline\nGet the data and personalized guidance you need to dominate search, all in one place.\n\n## Hero Body\nYou already know SEO is vital. But are you tired of juggling a dozen free tools, sifting through forum noise, and *still* not seeing the results you deserve? Moz Pro combines powerful SEO tools with on-demand expert guidance, so you can stop wasting time gathering data and start making smart, strategic decisions that drive real growth.\n\n## Primary CTA\n**Start Your Free 30-Day Moz Pro Trial**\n\n## Key Benefits\n*   **Uncover Profitable Keywords:** Find the *exact* keywords your audience is searching for, with data on search volume, difficulty, and opportunity.\n*   **Optimize Your Site for Peak Performance:** Crawl your site for critical errors, identify optimization opportunities, and fix problems before they hurt your rankings.\n*   **Build a Powerful Backlink Profile:** Analyze your competitor's backlinks, uncover link building opportunities, and monitor your own link profile for toxic links.\n*   **Get Your Specific SEO Questions Answered:** Submit your unique site challenges to our in-house experts and get personalized, actionable advice.\n\n## Social Proof Hook\n\"Moz Pro's Q&A is a game-changer. It's like having a dedicated SEO consultant on call, without the consultant price tag.\"\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the frustration of juggling multiple tools and not seeing results, which is a core pain point for the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentioning 'profitable keywords,' 'toxic links,' and 'site challenges' adds specificity beyond generic SEO promises."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains that Moz Pro combines tools with expert guidance, and spells out the benefits of each feature in moderate detail."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The CTA offers a free 30-day trial, which is a low-commitment ask for someone already aware of SEO and the problems Moz solves."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some elements are generic, the mention of the Q&A feature and 'toxic links' adds a degree of unique value that's not trivially reusable."
+    },
+    "overall_score": 7.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof, while present, feels tacked on and lacks the punch of strong brand names or peer endorsements.",
+    "key_strength": "Directly addresses the pain point of fragmented SEO tools and the value of expert advice."
+  }
+}

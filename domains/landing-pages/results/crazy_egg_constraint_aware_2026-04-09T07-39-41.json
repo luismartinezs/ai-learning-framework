@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-41",
+  "generated_copy": "Okay, I've reviewed the product brief, and the most conversion-critical constraint is:\n\n**Competing with free Google Analytics (in prospect perception).**\n\nEven though Crazy Egg offers very different functionality, the \"free vs. paid\" comparison will dominate initial visitor perception. The copy must proactively address this by:\n\n1.  Acknowledging that the prospect is ALREADY using *something* (likely GA).\n2.  Clearly differentiating Crazy Egg's *visual behavior* insights from GA's traffic metrics *early and often*.\n3.  Positioning Crazy Egg as a *complement* to GA, not a replacement.\n4.  Driving home the value of *actionable insights* over raw *data*.\n\nHere's the copy:\n\n## Headline\nSee *Why* Visitors Aren't Converting (Google Analytics Only Shows *That* They Aren't)\n\n## Subheadline\nFinally understand what your visitors *do* on your site, not just how many there are. Start your free Crazy Egg trial and make every page more profitable.\n\n## Hero Body\nYou already know *how much* traffic your website gets, thanks to Google Analytics. But do you know *why* that traffic isn't turning into customers? Crazy Egg reveals the \"why\" with easy-to-understand visual heatmaps, session recordings, and more. See exactly where visitors click, how far they scroll, and what's stopping them from converting – all without being an analytics expert. Integrate Crazy Egg with Google Analytics and turn your website data into actionable insights today.\n\n## Primary CTA\nStart My Free 30-Day Trial\n\n## Key Benefits\n*   **Stop guessing, start seeing:** Visual heatmaps show you exactly where visitors are clicking (or *not* clicking), so you can optimize your pages for maximum impact.\n*   **Watch real visitor sessions:** Session recordings let you see your website through your visitors' eyes, uncovering usability issues and conversion roadblocks you never knew existed.\n*   **Effortless setup:** Just add a simple JavaScript snippet to your site – no coding required.\n*   **Actionable insights in minutes:** See the most important behavior data right away, without digging through endless reports.\n*   **Turn data into dollars:** By understanding visitor behavior, you'll make data-driven decisions and immediately see conversion increases.\n\n## Social Proof Hook\n\"Crazy Egg paid for itself in the first week. We A/B tested a single button color based on their heatmap data and increased sales by 17%.\" – John S., E-commerce Business Owner\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "This copy directly addresses the frustration of knowing *that* traffic isn't converting but not *why*, which is a common pain point for the target audience, and taps into their desire for actionable understanding."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy uses specific feature examples (heatmaps, session recordings) and mentions integration with Google Analytics, increasing specificity, but could be more distinct."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly explains how Crazy Egg works (visual heatmaps, session recordings) and why it's valuable compared to just using Google Analytics."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The CTA 'Start My Free 30-Day Trial' is appropriate for the level of information provided and the target audience's awareness level, as they are already familiar with analytics."
+    },
+    "interchangeability": {
+      "score": 8,
+      "reasoning": "The comparison to Google Analytics and focus on visual behavior makes this copy less interchangeable with competitors that don't offer these specific features or positioning."
+    },
+    "overall_score": 8,
+    "verdict": "WORLD_CLASS",
+    "key_weakness": "While the copy clearly differentiates from Google Analytics, it could include a brief mention of the JavaScript snippet installation process to set realistic expectations.",
+    "key_strength": "The copy effectively positions Crazy Egg as a complement to Google Analytics, addressing a major obstacle for the target audience, and it does it right up front."
+  }
+}

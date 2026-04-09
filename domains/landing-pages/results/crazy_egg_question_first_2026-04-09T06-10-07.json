@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-10-07",
+  "generated_copy": "## Headline\nStop Guessing. Start Seeing.\n\n## Subheadline\nFinally understand why your website visitors aren't converting. See exactly where they click, scroll, and get stuck — in minutes.\n\n## Hero Body\nYou're getting traffic, but is it actually *doing* anything? Is your precious marketing spend turning into leads and sales, or vanishing into thin air? Stop relying on hunches and endless A/B tests. Crazy Egg reveals hidden opportunities to improve your website's performance with visual behavior insights, instantly.\n\n## Primary CTA\nStart Your Free 30-Day Trial\n\n## Key Benefits\n*   **Uncover Hidden Roadblocks:** Identify confusing elements and broken links that drive visitors away.\n*   **Optimize Key Pages:** Discover exactly where to focus your optimization efforts for maximum impact.\n*   **Make Data-Driven Decisions:** Base your website changes on real user behavior, not gut feelings.\n*   **Boost Conversions:** Turn more visitors into customers with a website that's designed for their needs.\n*   **Save Time and Money:** Get actionable insights in minutes, without expensive consultants or complex analytics.\n\n## Social Proof Hook\n\"Crazy Egg paid for itself in the first week. We immediately saw where people were dropping off and fixed it.\" - *John S., Marketing Director*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy accurately taps into the frustration of having website traffic that doesn't convert and the desire to understand visitor behavior."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions clicks, scrolls, and roadblocks, which are specific to website behavior analysis and slightly less generic."
+    },
+    "mechanism_clarity": {
+      "score": 5,
+      "reasoning": "While it mentions 'visual behavior insights,' the copy doesn't fully explain the underlying mechanism of heatmaps, session recordings, or how the data is collected and presented to the user."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Given the 'warm' audience that already understands the problem, asking for a free trial is a reasonable commitment level."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The copy is somewhat specific to website behavior analysis tools but could be adapted for similar analytics platforms with some rewriting."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by briefly hinting at how the visual behavior insights are generated.",
+    "key_strength": "The copy does a good job of addressing the target audience's frustration with low conversion rates."
+  }
+}

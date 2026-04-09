@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-13-57",
+  "generated_copy": "## Headline\nAce Your Exams with Course Hero\n\n## Subheadline\nGet the Course-Specific Study Resources You Need, When You Need Them.\n\n## Hero Body\nStressed about that upcoming exam? Drowning in homework? Course Hero gives you instant access to over 100 million course-specific study materials—notes, flashcards, practice problems, and more—contributed by students just like you. Stop struggling and start acing your classes.\n\n## Primary CTA\nUnlock Your Study Advantage\n\n## Key Benefits\n*   **Find Your Course, Find Your Answers:** Stop wasting time with generic study guides. Get course-specific resources tailored to your exact classes.\n*   **24/7 Homework Help:** Stuck on a problem? Get expert tutor help anytime, day or night.\n*   **Learn From the Best:** Access top-quality study documents created by high-achieving students at your school.\n*   **Ace Your Exams:** Confidently walk into every exam knowing you're fully prepared.\n\n## Social Proof Hook\n\"Course Hero helped me understand complex concepts and pass my exams. I couldn't have done it without it!\" - Sarah M., College Student\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy touches on student stress and feeling overwhelmed, which are accurate emotions, but misses the time pressure and budget sensitivity aspects."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mention of 'course-specific study materials' grounds it somewhat, but the claims are still fairly generic and don't deeply leverage the crowdsourced angle."
+    },
+    "mechanism_clarity": {
+      "score": 5,
+      "reasoning": "It mentions 'contributed by students like you' but doesn't fully explain the crowdsourcing mechanism as the core driver of value and uniqueness."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "'Unlock Your Study Advantage' is motivational, but doesn't quite reflect the 'freemium' nature of the offer, which is a key benefit (free account creation)."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "Parts of the copy could be used for other study platforms offering tutor help/study guides, but the mention of 100 million documents does give it slightly more grounding."
+    },
+    "overall_score": 6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lacks emphasis on the freemium model and free account creation, and doesn't clearly articulate how crowdsourcing creates value.",
+    "key_strength": "Addresses the core problem of needing course-specific study materials"
+  }
+}

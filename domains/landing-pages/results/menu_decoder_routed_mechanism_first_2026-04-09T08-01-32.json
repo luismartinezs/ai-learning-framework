@@ -1,0 +1,33 @@
+{
+  "product_name": "Menu Decoder",
+  "config": "routed_mechanism_first",
+  "model": "anthropic/claude-sonnet-4-5",
+  "timestamp": "2026-04-09T08-01-32",
+  "generated_copy": "## Headline\nAI that reads what's *not* on the menu\n\n## Subheadline\nSnap a photo of any foreign-language menu and get instant safety alerts—even for hidden ingredients never listed on the page.\n\n## Hero Body\nYou're in a restaurant abroad. The menu is in Thai, Arabic, or Japanese. You have a peanut allergy, or you're vegan, or you keep kosher. Google Translate gives you literal words, but it can't tell you if that curry paste has shrimp stock, or if the \"vegetable\" dumpling is fried in lard.\n\nMenu Decoder scans the menu, translates every dish to English, and flags each one red, yellow, or green based on *your* restrictions—cross-referencing traditional recipes and hidden ingredients that restaurants never write down. You see exactly what's safe to order in under 10 seconds.\n\nPlus: get a Staff Card in the local language that lists all your restrictions, so you can show servers exactly what you can't eat—no pantomiming required.\n\n## Primary CTA\nGet Your 14-Day Trip Pass — $4.99\n\n## Key Benefits\n- **Catches hidden ingredients** that don't appear on the menu—like fish sauce in pad thai or anchovies in Caesar dressing—by analyzing traditional recipes for that cuisine\n- **Works in any language or script**, from Mandarin to Arabic to Cyrillic, no typing or copying text required\n- **Red/yellow/green system** shows you at a glance what's safe, what's risky, and what's off-limits before you order\n- **Staff Card generator** creates a translated message in the restaurant's language listing every restriction you have—just show your phone to the waiter\n- **Results in under 10 seconds**—fast enough to use while the server is standing at your table\n\n## Social Proof Hook\n\"Used it 47 times in two weeks across Thailand and Vietnam. Didn't get sick once. Worth every penny for the peace of mind alone.\" — Rachel M., celiac traveler",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 9,
+      "reasoning": "The headline 'AI that reads what's *not* on the menu' directly names the exact fear—hidden ingredients that could harm you—and the hero body viscerally recreates the moment of sitting in a foreign restaurant staring at an unreadable menu with a life-threatening restriction."
+    },
+    "specificity": {
+      "score": 9,
+      "reasoning": "Nearly every sentence contains concrete detail unique to this product: 'shrimp stock in curry paste', 'vegetable dumpling fried in lard', 'fish sauce in pad thai', 'anchovies in Caesar dressing', 'Staff Card in local language'—claims a generic translation app could not make."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy explicitly explains the differentiator ('cross-referencing traditional recipes and hidden ingredients that restaurants never write down') and gives concrete examples of what this catches, making the promise credible without over-explaining the AI."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "The CTA asks for immediate purchase from a cold visitor with no product awareness, which is high-commitment, but the copy does build urgency around an active travel need and the price is low enough that friction is partially mitigated—still a slight mismatch for truly cold traffic."
+    },
+    "interchangeability": {
+      "score": 9,
+      "reasoning": "The 'reads what's not on the menu' positioning and repeated examples of hidden ingredients that translation tools miss captures something distinctively true about this product that Google Translate or a competitor focused only on OCR/translation could not claim."
+    },
+    "overall_score": 8.4,
+    "verdict": "WORLD_CLASS",
+    "key_weakness": "CTA asks for immediate purchase from cold traffic without offering a lower-commitment first step (free scan, demo, email capture) that would better match awareness level",
+    "key_strength": "Headline instantly communicates the core differentiation in a way that makes every competitor (including free tools) feel inadequate for the job"
+  }
+}

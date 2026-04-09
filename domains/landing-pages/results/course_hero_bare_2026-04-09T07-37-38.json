@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-37-38",
+  "generated_copy": "## Headline\nAce Your Courses with the Study Resources You Actually Need.\n\n## Subheadline\nUnlock your course's best study materials, crafted by students just like you. Get on-demand help from expert tutors when you need it.\n\n## Hero Body\nStop struggling with generic textbooks and unhelpful study groups. Course Hero gives you instant access to a massive library of course-specific resources – notes, flashcards, practice problems, and more – all shared by students who've taken your classes. Get the grade you want, faster and easier.\n\n## Primary CTA\nGet Instant Access\n\n## Key Benefits\n*   **Find Exactly What You Need:** Access course-specific study materials from students in your class.\n*   **Learn More Efficiently:** Ditch the endless searching and focus on the resources that matter.\n*   **Get Unstuck, Fast:** Connect with expert tutors for on-demand help when you're struggling.\n*   **Ace Your Exams:** Prepare with practice problems and real exam questions.\n*   **Boost Your GPA:** Succeed in your courses with the right support.\n\n## Social Proof Hook\n\"I went from a C to an A in organic chemistry thanks to Course Hero!\" - *[Student Name & University, if possible]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy touches on the frustration of generic textbooks and unhelpful study groups, and the desire for course-specific materials, which aligns with the target visitor's needs, but doesn't hit a deep emotional nerve."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions course-specific resources, flashcards, practice problems, and expert tutors, which are more specific than generic study aids, but some phrases like 'learn more efficiently' and 'boost your GPA' could apply to any study tool."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains that the resources are 'shared by students who've taken your classes,' which hints at the crowdsourced mechanism, but could be clearer on how the library is built and maintained."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "The CTA 'Get Instant Access' is acceptable, but it hints a signup may or may not be paid and doesn't leverage the 'free to create an account' angle, which would better match the warm awareness level."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the focus on course-specific materials and crowdsourcing makes it somewhat unique, a competitor could still use some of the benefit claims like 'ace your exams' and 'boost your GPA.'"
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy misses the opportunity to emphasize the freemium aspect ('free to create an account') to reduce cost concerns, and clarity is lacking for the crowdsourcing mechanism.",
+    "key_strength": "The copy effectively highlights the availability of course-specific resources, addressing a key pain point for college students."
+  }
+}

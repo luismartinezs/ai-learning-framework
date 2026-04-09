@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-27",
+  "generated_copy": "## Headline\nStop Guessing. See Exactly What Your Website Visitors Do.\n\n## Subheadline\nCrazy Egg shows you where visitors click, scroll, and get stuck – so you can fix what's broken and boost conversions without the expensive guesswork.\n\n## Hero Body\nYou see the traffic numbers in Google Analytics, but what does it all *mean*? Where are people actually looking? Why aren't they clicking that button? Why are they abandoning the page? Crazy Egg turns those questions into answers. See visual heatmaps, session recordings, and more. Finally know *why* your website isn't converting.\n\n## Primary CTA\nStart Your 30-Day Trial Now (Credit Card Required)\n\n## Key Benefits\n*   **Uncover Hidden Conversion Killers:** Watch real visitor recordings to see exactly where people struggle and abandon your key pages.\n*   **Optimize in Minutes, Not Months:** Visual heatmaps make it obvious what needs fixing – no more endless A/B tests based on hunches.\n*   **Get Eye-Tracking Insights Without the Eye-Tracking Price Tag:** See where visitors are *really* looking, using mouse movement as a proven proxy for visual attention.\n*   **Double Down on What Works:** Instantly identify your most engaging content and highest-converting elements, so you can replicate your successes.\n\n## Social Proof Hook\n\"We increased our conversion rate by 22% within the first month of using Crazy Egg.\" - John S., E-commerce Store Owner\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy accurately targets the frustration of not understanding visitor behavior despite having traffic data, which is a common pain point for the target audience."
+    },
+    "specificity": {
+      "score": 8,
+      "reasoning": "The copy mentions specific features like heatmaps and session recordings, which are unique to Crazy Egg and helps differentiate it from generic analytics tools."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy explains that mouse movement is a proxy for eye-tracking, offering a basic understanding of how the tool provides value, making the claims believable without over-explaining the technology."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "The CTA clearly states the trial duration and the credit card requirement, which manages expectations appropriately though it may still be a barrier for some."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some phrases like 'boost conversions' are generic, the overall emphasis on visual behavior and specific features like heatmaps gives this copy a decent level of differentiation."
+    },
+    "overall_score": 7.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof hook is a bit generic; a more specific and impactful case study would strengthen the copy.",
+    "key_strength": "The copy effectively addresses the target audience's frustration with traditional analytics and highlights Crazy Egg's unique value proposition of visual behavior data."
+  }
+}

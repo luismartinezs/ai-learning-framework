@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T05-56-00",
+  "generated_copy": "Okay, I understand the product and target audience. Before writing the landing page copy, here's my analysis of the visitor's mindset:\n\n**1. What is the single most acute fear or frustration this visitor has in the specific moment they would need this product?**\n\n*   **Frustration:** \"I'm throwing money at traffic, but my website is leaking leads/sales, and I have *no idea why*.\" They're pouring resources into getting people to their site, only to see them bounce or fail to convert, and they're grasping for answers.\n*   **Fear:** \"My competitors know something I don't. Am I missing obvious flaws on my site that are costing me customers *right now*?\" The anxiety of being left behind and losing ground to competitors is a strong motivator.\n\n**2. What does the visitor need to believe is true about this product before they would take action?**\n\n*   They need to believe that **Crazy Egg will finally show them *exactly* what's broken on their website.** They've likely tried other tools and tactics, so they need to be convinced this will deliver tangible insights they can act on.\n*   They need to believe that **it's easy to set up and use,** even if they're not analytics experts. Simplicity and immediate understanding are critical.\n*   They need to believe that **the insights are trustworthy and valid.** This counters the intuitive \"why would mouse tracking data be useful\" objection.\n\n**3. What would make this visitor distrust this product or dismiss it?**\n\n*   If it seems **too complicated or technical to use.** They're likely already overwhelmed with data and complexity.\n*   If it sounds **like \"just another analytics tool\" that gives them more data without actual answers.** Differentiation from Google Analytics is crucial.\n*   If they feel **tricked by the free trial into a costly subscription they can't get value from.** Transparency about the pricing and commitment is key.\n\nNow, with those answers in mind, here's the landing page copy:\n\n## Headline\nStop Guessing. Start Seeing.\n\n## Subheadline\nFinally understand exactly why your website isn't converting—with visual visitor behavior insights.\n\n## Hero Body\nYou're driving traffic, but are visitors actually *seeing* what you want them to? Are they getting stuck? Giving up? Crazy Egg reveals exactly what's happening on your website with heatmaps, session recordings, and more. See where people click, how far they scroll, and why they aren't converting. Stop losing customers and start optimizing for success.\n\n## Primary CTA\nStart Your Free 30-Day Trial\n\n## Key Benefits\n*   **See What's Broken, Instantly:** Visual reports show you exactly where visitors get stuck so you can fix it fast.\n*   **Unlock Hidden Revenue:** Identify opportunities to improve conversions you're currently missing.\n*   **No Analytics Expertise Needed:** Get actionable insights without the data overload or complexity.\n*   **Improve Any Site:** Works on any website, with unlimited domains and team members.\n*   **Optimize Every Page:** A/B test headlines, calls to action, images and more - right inside Crazy Egg.\n\n## Social Proof Hook\n\"We increased our conversion rate by 30% within the first month thanks to Crazy Egg's heatmaps!\" - [Name], [Company]\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Effectively taps into the frustration of wasted ad spend and the desire for clear, actionable insights regarding website conversions."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentions specific visual reports (heatmaps, session recordings), which is more specific than generic analytics claims."
+    },
+    "mechanism_clarity": {
+      "score": 5,
+      "reasoning": "States that the the product leverages heatmaps/session recordings, implying a visual method, but doesn't deeply explain the mouse-tracking correlation or the visual attention proxy."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a well-matched CTA for the described problem and audience awareness level."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While the 'heatmaps and recordings' language is somewhat unique, the problem statement and benefit claims could likely be used by a competitor without wholesale changes."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by briefly explaining how Crazy Egg turns visitor behavior into actionable insights.",
+    "key_strength": "Effectively identifies the core visitor frustration of wasting traffic and resources on a poorly converting website."
+  }
+}

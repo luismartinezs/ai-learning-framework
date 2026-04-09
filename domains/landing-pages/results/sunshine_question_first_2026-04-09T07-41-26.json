@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-26",
+  "generated_copy": "## Headline\nSeriously Cheap Package Holidays\n\n## Subheadline\nThe UK's Lowest Prices Guaranteed. All Fees Included.\n\n## Hero Body\nFind your perfect holiday without breaking the bank. Sunshine.co.uk cuts out the call centers and retail overhead, passing 100% of the savings directly to you. See a price? That's the *final* price, guaranteed. Plus, your holiday is fully protected by ABTA.\n\n## Primary CTA\nFind My Holiday Deal\n\n## Key Benefits\n*   **Unbeatable Prices:** We're confident we offer the lowest prices on package holidays.\n*   **No Hidden Fees:** The price you see is the price you pay. Taxes, charges, and baggage costs are all included.\n*   **ABTA Protected:** Your holiday is fully protected, giving you complete peace of mind.\n*   **Price Match Guarantee:** Find it cheaper elsewhere? We'll match it.\n\n## Social Proof Hook\n\"Booked with Sunshine.co.uk and saved over £200 compared to the other travel sites I checked. Will definitely use them again!\" - Sarah M, Trustpilot\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the anxieties of budget travelers around hidden fees and financial security, hitting on their desire for a cheap but trustworthy holiday."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions ABTA protection which is specific to the UK travel industry, but some claims like 'unbeatable prices' are generic."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains the price savings come from cutting call centers and overhead, which makes the cheap prices slightly more believable, though it could be stronger."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The CTA 'Find My Holiday Deal' is well-aligned with the hot awareness level of the target audience, who are actively looking to book."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the bit about ABTA helps, much of the copy could be used by any online travel agency that claims to be low-cost; the social proof is also generic and unconvincing."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and unconvincing, and there aren't many unique claims that set Sunshine.co.uk apart from competitors other than ABTA bonding.",
+    "key_strength": "The copy effectively addresses the target audience's concerns about hidden fees and financial security."
+  }
+}

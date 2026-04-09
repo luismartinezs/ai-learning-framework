@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T05-50-46",
+  "generated_copy": "## Headline\n**Stop Guessing, Start Seeing: Understand Why Your Website Isn't Converting**\n\n## Subheadline\nUnlock the secrets to boosting sales with powerful visual analytics and see exactly what your visitors are doing – in minutes.\n\n## Hero Body\nYou're driving traffic to your website, but it's not turning into sales. You see the numbers in Google Analytics, but not the *reasons* behind them. Are visitors missing critical buttons? Getting distracted? Ignoring your best offers? Crazy Egg shows you exactly what your visitors see, click, and scroll, so you can optimize your site for maximum conversion. Get eye-tracking level insights without the six-figure price tag.\n\n## Primary CTA\n**Start Your 30-Day Free Trial** (Credit Card Required)\n\n## Key Benefits\n\n*   **See What They *Really* Do:** Uncover hidden bottlenecks and wasted clicks with visual heatmaps, scrollmaps, and user session recordings.\n*   **Optimize with Confidence:** Make data-driven decisions about your website's design, content, and layout.\n*   **Stop Wasting Traffic:** Turn more visitors into customers by understanding their behavior.\n*   **Easy to Use, Powerful Results:** No coding skills required. Get actionable insights without drowning in data.\n\n## Social Proof Hook\n\"Crazy Egg helped us increase our conversion rate by 40% in just one month.\"\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the frustration of having traffic that doesn't convert, which is a core concern for the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like heatmaps, scrollmaps, and user session recordings, making it more specific than a generic analytics tool."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "It mentions that the tool shows what visitors see, click, and scroll, which gives some insight into how it works, but could be more detailed."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA of a 30-day free trial (with credit card) is appropriate given the detailed explanation of the value proposition on the page."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While some aspects like the benefit statements are quite generic, the named features like heatmaps provide some level of differentiation."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "Could benefit from more clarity on how the tool provides insights (e.g., mouse tracking data as an eye-tracking proxy).",
+    "key_strength": "Directly addresses the core frustration of traffic not converting and provides visual examples of how Crazy Egg helps solve this issue."
+  }
+}

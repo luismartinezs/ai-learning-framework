@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-03",
+  "generated_copy": "## Headline\n**Finally: Expert Digital Marketing Strategy You Can Actually Implement**\n\n## Subheadline\nStop piecing together advice from random blogs. Get a proven, structured framework to drive results, created by one of the world's top 50 marketing visionaries.\n\n## Hero Body\nSmart Insights gives you a clear, step-by-step path to digital marketing mastery. Dr. Dave Chaffey and our team of experts have distilled decades of experience into practical guides, templates, and training modules you can apply *today* to improve your campaigns. We don’t just tell you *what* to do, we show you *how* – with actionable insights organized across SEO, paid media, email, social, analytics, and more. Think of Smart Insights as having a world-class digital marketing consultant on call, without the hefty consulting fees.\n\n## Primary CTA\nUnlock Your 7-Day Free Trial\n\n## Key Benefits\n*   **Stay ahead of the curve:** Get instant access to the latest strategies and tactics in digital marketing.\n*   **Save time and money:** Stop wasting time on unproven methods. Our templates and guides are proven to work.\n*   **Boost your career (or your team's skills):** Become the go-to expert in your organization with our comprehensive training.\n*   **Confidently make better decisions:** Data-driven insights give you the clarity to optimize your marketing and maximize ROI.\n*   **Get unstuck:** Expert guides offer clear options for any digital marketing problem.\n\n## Social Proof Hook\n\"Smart Insights' content is consistently high-quality and actionable. It's an essential resource for any serious digital marketer.\" - *GQ*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy touches on the frustration of fragmented advice and not knowing what to do, which is a real pain point for digital marketers."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "It mentions Dr. Chaffey and specific types of content (guides, templates), making it somewhat tailored to this product."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions 'practical guides, templates, and training modules,' which gives some understanding of how the product works, but could be more specific."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a 7-day free trial aligns well with introducing newcomers to the platform without asking for too much commitment upfront."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some elements could be used for other marketing platforms, the emphasis on practical application and mention of Dr. Chaffey give it some distinctiveness."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The benefits section uses somewhat generic claims that could apply to many marketing resources; it lacks the specific detail that would make them more impactful.",
+    "key_strength": "The headline and subheadline directly address a common frustration of digital marketers, making the offer immediately relevant."
+  }
+}

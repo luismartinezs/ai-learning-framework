@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-33",
+  "generated_copy": "## Headline\nStop Guessing, Start *Knowing*: Master Digital Marketing with Expert-Led Training.\n\n## Subheadline\nTrusted by thousands of marketers worldwide, Smart Insights delivers practical, actionable guidance for driving real results – backed by decades of experience and insights featured in *GQ, WIRED,* and more.\n\n## Hero Body\nDigital marketing never stands still. But your knowledge can. Smart Insights gives you a proven, structured framework for tackling the ever-changing landscape. Dr. Dave Chaffey, recognized by the Chartered Institute of Marketing as one of the 50 individuals who have shaped the future of marketing, has distilled decades of experience into a comprehensive resource library available at your fingertips.\n\nForget the endless Google searches and conflicting advice. Get instant access to best-practice guides, downloadable templates, and expert-led training modules that cut through the noise and deliver the strategies that *actually* work. So you can confidently grow your skills, your campaigns, and your career.\n\n## Primary CTA\nStart Your Free Trial Today\n\n## Key Benefits\n*   **Comprehensive Coverage:** Access expert guides, templates, and training across SEO, Paid Media, Email Marketing, Social Media, Analytics, and more – all in one place.\n*   **Actionable Insights:** Transform theory into practice with real-world examples, step-by-step frameworks, and downloadable resources you can implement immediately.\n*   **Expert Guidance:** Learn from Dr. Dave Chaffey and a team of industry-leading experts who are actively shaping the future of digital marketing.\n*   **Stay Ahead of the Curve:** Keep your skills sharp with regularly updated content and insights that reflect the latest trends and best practices.\n\n## Social Proof Hook\n“Smart Insights has been a game changer for our agency. The templates alone have saved us countless hours and the expert guidance has helped us deliver exceptional results for our clients.” - *[Example Fictional Customer Quote, Include Title/Company]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The headline and body copy address the frustration of guesswork and the desire for structured knowledge, which accurately reflects the needs of the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentions of Dr. Dave Chaffey, specific publications (GQ, WIRED), and different marketing channels make the copy relatively specific to Smart Insights."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "The copy explains that the platform provides a structured framework and access to a comprehensive resource library, but it could be more explicit about how the subscription model enables this."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good fit for a 'warm' audience who may be hesitant to subscribe immediately."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The mention of Dr. Chaffey and specific publications makes the copy less interchangeable, although the core benefit statements could potentially be used by competitors."
+    },
+    "overall_score": 7,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by better explaining how the subscription model allows them to provide expert-level consulting depth at a low price point.",
+    "key_strength": "The copy accurately addresses the frustration of fragmented digital marketing knowledge and the desire for a structured, expert-led solution."
+  }
+}

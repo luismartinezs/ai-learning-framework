@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-16-14",
+  "generated_copy": "## Headline\nSeriously Cheap Package Holidays\n\n## Subheadline\nUnbeatable prices. All fees included. ABTA protected.\n\n## Hero Body\nBook your next getaway with confidence. We cut out the call centers and retail overhead to give you the *lowest possible prices* on package holidays. What you see is what you pay, guaranteed. No hidden fees, no surprises at checkout. Just sunshine and savings.\n\n## Primary CTA\nFind Your Holiday\n\n## Key Benefits\n*   **Lowest Price Guarantee:** We beat any competitor's price or your holiday is free.\n*   **ABTA Protected:** Your money is safe, even if your airline isn't.\n*   **Zero Hidden Fees:** The price you see is the price you pay, taxes included.\n*   **Hand-Picked Hotels:** Quality accommodation at unbelievable prices, selected by our team.\n*  **Stress-Free Booking:** Easy search, secure payment, and instant confirmation.\n\n## Social Proof Hook\n\"I saved over £200 compared to other sites – and it was exactly the same holiday!\" - Sarah J, satisfied Sunshine customer\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the core anxieties around price and hidden fees, but doesn't explicitly name the feeling (e.g., anxiety) itself."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "Mention of ABTA, call centers, and retail overhead adds some specificity. 'Package Holidays' is somewhat specific, but other aspects are generic."
+    },
+    "mechanism_clarity": {
+      "score": 5,
+      "reasoning": "Mentions cutting overhead but doesn't fully convey how this translates to lower prices, relying on a general association."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "\"Find Your Holiday\" is a good mid-funnel CTA for a visitor likely comparing prices."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "ABTA and 'no call centers' increases uniqueness slightly but overall, the copy could be used for a different budget travel site."
+    },
+    "overall_score": 6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity. It needs to clearly explain HOW the lack of call centers translates to lower prices or better value.",
+    "key_strength": "Solid effort to acknowledge and mitigate the fear of hidden fees and lack of trust surrounding cheap travel."
+  }
+}

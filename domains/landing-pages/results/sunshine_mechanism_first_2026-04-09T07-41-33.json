@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-33",
+  "generated_copy": "## Headline\nReal Holidays. Unreal Prices.\n\n## Subheadline\nWe cut out call centers and high street shops so you can save up to 50% on your dream getaway.\n\n## Hero Body\nSunshine.co.uk is built differently. We don't have expensive call centers or high street shops. That means we have lower overheads and those savings are passed directly to you. We’re talking genuinely cheaper package holidays - flights and hotels included - with absolutely no hidden fees. What you see really is what you pay. Plus, every holiday is fully ABTA bonded, giving you complete peace of mind.\n\n## Primary CTA\nFind My Sunshine Holiday\n\n## Key Benefits\n*   **Unbeatable Prices:** Save big on flights and hand-picked hotels.\n*   **No Hidden Fees:** The price you see is the price you pay, guaranteed.\n*   **ABTA Protected:** Book with confidence knowing your holiday is safe.\n*   **Hand-Picked Hotels:** Quality accommodation at exceptional value.\n\n## Social Proof Hook\n\"We saved over £400 compared to other sites. Brilliant!\" - Sarah J., Verified Customer\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "It addresses the desire for cheap holidays and the fear of hidden fees pretty well, although it doesn't name the anxiety as precisely as the reference."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The mention of 'call centers and high street shops' is specific to Sunshine's cost-saving mechanism, but the 'save up to 50%' is fairly generic."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "Explaining that the savings come from cutting out call centers and shops helps the 'unreal prices' claim land believably."
+    },
+    "cta_awareness_match": {
+      "score": 10,
+      "reasoning": "'Find My Sunshine Holiday' is a perfect CTA given the stage of awareness and the desires expressed."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "A competitor could claim 'unbeatable prices' and 'no hidden fees,' but the emphasis on ABTA protection and cutting out call centres does limit interchangeability somewhat."
+    },
+    "overall_score": 7.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Could benefit from more emotionally resonant language to address the underlying anxieties of budget travellers.",
+    "key_strength": "Clearly articulates the cost-saving mechanism (no call centers/shops) and the 'no hidden fees' promise."
+  }
+}

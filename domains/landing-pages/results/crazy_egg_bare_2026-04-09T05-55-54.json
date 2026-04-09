@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T05-55-54",
+  "generated_copy": "## Headline\n**Stop Guessing, Start Seeing: Understand Your Website Visitors**\n\n## Subheadline\nUnlock the secrets of user behavior with visual analytics. See exactly where your visitors click, scroll, and get stuck, and finally turn that traffic into conversions.\n\n## Hero Body\nYou know *what* is happening on your website with Google Analytics – traffic numbers, bounce rates. But *why* is it happening? Why aren't visitors clicking that button? Why are they abandoning your forms? Crazy Egg shows you the *why* with heatmaps, session recordings, and more. Get eye-tracking insights without the six-figure price tag. Start your free trial today and see the difference.\n\n## Primary CTA\n**Start Your 30-Day Free Trial Now**\n\n## Key Benefits\n*   **See What Matters:** Instantly visualize where your visitors click, scroll, and spend their time.\n*   **Boost Conversions:** Optimize your pages based on real user behavior, not guesswork.\n*   **Easy to Understand:** No analytics degree required. Our visual reports make insights clear and actionable.\n*   **Unlimited Potential:** Track unlimited domains and collaborate with your entire team.\n*   **Go Beyond the Numbers:** Session recordings show you exactly how real visitors experience your site.\n\n## Social Proof Hook\n\"We saw a 20% increase in conversions after implementing changes based on Crazy Egg's heatmaps.\" - John S., Marketing Director\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy addresses the frustration of not knowing why website visitors aren't converting, which is a core pain point."
+    },
+    "specificity": {
+      "score": 8,
+      "reasoning": "The copy mentions specific features like heatmaps and session recordings, making it relatively unique to Crazy Egg."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains how Crazy Egg visualizes visitor behavior, providing some understanding of the mechanism."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good match for warm leads who are aware of the general problem and looking for a solution."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While the benefits could be used for similar products, the mention of specific features and visual analytics limits interchangeability."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and generic; a more specific and impactful testimonial would greatly improve the copy's persuasiveness.",
+    "key_strength": "The copy effectively highlights the frustration of not understanding website visitor behavior and positions Crazy Egg as the solution."
+  }
+}

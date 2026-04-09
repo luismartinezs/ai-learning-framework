@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-13-51",
+  "generated_copy": "## Headline\nAce Your Exams with Course Hero\n\n## Subheadline\nGet Course-Specific Study Materials, Expert Tutors, and Homework Help – All in One Place.\n\n## Hero Body\nStruggling with a tough class? Course Hero puts millions of study resources at your fingertips. Find notes, practice problems, and step-by-step solutions specific to your courses. Plus, connect with expert tutors 24/7 to get unstuck and master the material.\n\n## Primary CTA\nUnlock Your Study Advantage\n\n## Key Benefits\n*   **Find Course-Specific Resources:** Stop wasting time searching for irrelevant info. Discover materials from students who took your exact course.\n*   **Get Expert Help on Demand:** Connect with tutors anytime, day or night, for personalized assistance.\n*   **Master the Material Faster:** Access practice problems, study guides, and video explanations to deepen your understanding.\n*   **Save Time and Stress:** Get the help you need, when you need it, so you can focus on what matters most.\n\n## Social Proof Hook\n\"Course Hero helped me understand concepts I was struggling with and pass my exams!\" - *Sarah M., University of Texas*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "It addresses the pain points of struggling students looking for help but could be more specific about the anxiety and time pressure they face."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The copy mentions course-specific resources and expert tutors, which are relevant to the product, but could be more unique by highlighting the crowdsourced nature of the content."
+    },
+    "mechanism_clarity": {
+      "score": 5,
+      "reasoning": "It alludes to 'millions of study resources', but doesn't explicitly state that these are user-generated or explain HOW the platform gathers this content."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "\"Unlock Your Study Advantage\" is generic but not unreasonable. A softer CTA like 'Explore Resources' might be better for warm traffic unsure about features."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While some aspects are specific (course-specific resources), components of could apply to other online learning platforms that connect students with tutors and study materials."
+    },
+    "overall_score": 6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lack of mechanism clarity. Needs to explain the crowdsourced model that makes Course Hero unique.",
+    "key_strength": "Addresses student pain points related to finding course-specific study resources."
+  }
+}

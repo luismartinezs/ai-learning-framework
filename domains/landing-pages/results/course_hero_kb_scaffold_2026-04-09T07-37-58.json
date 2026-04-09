@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-37-58",
+  "generated_copy": "## Headline\nAce Your Next Exam. Guaranteed.\n\n## Subheadline\nGet instant access to millions of course-specific study documents contributed by students just like you. Plus, on-demand help from expert tutors.\n\n## Hero Body\nStuck on a tricky problem? Can't find the right notes? Stop wasting time searching the web. Course Hero has the study resources you need, right from your exact course. Notes, flashcards, practice tests, and step-by-step solutions – all in one place.\n\n## Primary CTA\nUnlock Your Study Resources\n\n## Key Benefits\n- Get course-specific notes from students in your class.\n- Master tough concepts with step-by-step homework solutions.\n- Prepare for exams with thousands of practice questions.\n- Connect with expert tutors, 24/7, for personalized help.\n- Stop stressing and start earning better grades.\n\n## Social Proof Hook\n\"I raised my grade from a C to an A in just two weeks!\" - Sarah, University of Texas\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy correctly identifies student anxieties and desires (acing exams, getting unstuck, earning better grades) and speaks to them directly."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "While some phrases are generic (e.g., 'better grades'), the copy leans into course-specific materials, which is a key differentiator."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions crowdsourcing ('contributed by students just like you') and expert tutors, giving a basic understanding of how the platform works."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "The CTA 'Unlock Your Study Resources' aligns with the promise of access, but it doesn't include 'free account' messaging (a missed opportunity)."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The focus on course-specific materials makes the copy harder to adapt to generic study help sites, but the tutor aspect is less unique."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The lack of emphasis on 'free account creation' is a significant missed opportunity based on the reference example, and makes it harder to address visitor cost hesitations.",
+    "key_strength": "The copy effectively hones in on the need for course-specific study materials, which is the core value proposition."
+  }
+}

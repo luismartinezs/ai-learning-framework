@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-20",
+  "generated_copy": "## Stop Guessing. See Exactly What Your Visitors Do.\n\n## Finally understand why they don't convert. (It's not them. It's your website.)\n\n## Crazy Egg uses \"digital eye-tracking\" to show you where your visitors look, click, and get stuck. After installing one line of code, you'll see the exact pages that are costing you sales. See what they see, fix what isn't working, and watch your conversion rates soar.\n\n## Start My Free Trial\n\n## Key Benefits\n\n*   **See exactly where visitors click:** Uncover hidden hotspots and wasted space.\n*   **Know how far they scroll:** Stop hiding key content below the fold.\n*   **Record individual sessions:** Watch real visitor behavior to identify friction points.\n*   **Test without the guesswork:** Know immediately which changes boost conversions.\n\n## \"I haven't made a change to my website in years without checking Crazy Egg first.\" - Neil Patel\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the frustration of not knowing why visitors don't convert, which aligns with target audience's pain point."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Copy uses specific features like heatmaps, scroll maps, and session recordings, making it relatively unique to Crazy Egg."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "Copy mentions \"digital eye-tracking\" and \"one line of code\" which gives some understanding of how the tool works, but could elaborate more for better clarity."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "CTA of \"Start My Free Trial\" is appropriate given the context provided about understanding visitor behavior and improving conversions."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some of the benefit statements could apply to other analytics platforms, the 'digital eye-tracking' positioning makes the copy relatively distinct."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by elaborating on how 'digital eye-tracking' works.",
+    "key_strength": "Successfully identifies the core frustration of website owners struggling with conversion and offers specific solutions."
+  }
+}

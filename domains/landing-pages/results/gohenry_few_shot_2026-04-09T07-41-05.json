@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-05",
+  "generated_copy": "## Headline\nRaise Money-Smart Kids, Without the Money Stress.\n\n## Subheadline\nGoHenry gives your kids the freedom to learn about money, with the safety and control you need to relax. Get a Visa debit card for your child, managed by you.\n\n## Hero Body\nWant to give your kids a head start on financial responsibility? GoHenry combines the power of real-world spending with built-in parental controls, so your kids learn by doing – *safely*. Set spending limits, automate allowance, track purchases in real-time, and even set savings goals. Forget the awkward cash handouts and endless lectures. GoHenry makes money management fun and engaging, setting your kids up for a lifetime of financial success.\n\n## Primary CTA\nTry GoHenry Free for 30 Days\n\n## Key Benefits\n*   **Real-World Learning:** Kids gain hands-on experience managing their own money with a real Visa debit card.\n*   **Complete Parental Control:** You set the limits, track spending, and block retailers - your peace of mind is our priority.\n*   **Financial Education Made Easy:** Fun in-app tools and tasks teach kids valuable money skills, from budgeting to saving.\n*   **Allowance Automation:** Set it and forget it. No more scrambling for cash or forgetting to pay allowance!\n*   **Build Good Habits:** Encourage saving and responsible spending with customized goals and rewards.\n\n## Social Proof Hook\n\"GoHenry has been a game-changer for our family. My daughter is learning so much about budgeting and saving, and I have complete peace of mind knowing I can monitor her spending.\" - *[hypothetical parent]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "It addresses the parental desire for financially responsible children and the parental stress around teaching money management, but it could be more specific about the anxieties relating to kids and money/security."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions Visa and specific features like allowance automation and spending limits making it more specific to the product and less generic."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy explains the central mechanism of pairing a Visa debit card with parental controls, and making it clear how that works."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a free trial is a good fit for a cold audience that is likely skeptical about a financial product for children."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "Some elements are too generic, like 'financial education made easy' and 'build good habits', but it would require significant rewriting to make it work for a different, specific product."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The trust barrier for parents using a financial product for children is not explicitly addressed. Also, not emphasizing the Visa partnership is a slight miss.",
+    "key_strength": "The copy clearly articulates the unique combination of real-world spending and parental controls."
+  }
+}

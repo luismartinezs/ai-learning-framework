@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-29",
+  "generated_copy": "Here's the copy, addressing the most critical constraint:\n\n## Headline\nStop Guessing, Start Growing: Expert Digital Marketing, All in One Place\n\n## Subheadline\nGet Proven Strategies & Actionable Tactics to Drive Results, Backed by a Name You Can Trust\n\n## Hero Body\nDigital marketing moves fast. You need more than just blog posts and podcasts. You need a structured, proven system to master the latest strategies and tactics across SEO, paid media, content, email, and more.\n\nSmart Insights gives you exactly that. Created by Dr. Dave Chaffey, a recognized digital marketing authority, our platform delivers expert-curated guides, templates, and training modules you can immediately apply to your campaigns.\n\n**Not familiar with Dr. Chaffey?** He's been helping marketers like you succeed for over 20 years, and his insights have been featured in publications like GQ, The New Yorker, WIRED, and Glamour.\n\nGet the structured knowledge you need to make confident decisions and achieve real growth, all at a fraction of the cost of hiring a consultant.\n\n## Primary CTA\nUnlock Your Free Trial\n\n## Key Benefits\n*   **Confidently Implement Proven Strategies:** Access step-by-step guides and templates created by industry experts.\n*   **Save Time & Money:** Get comprehensive knowledge without the high cost of consultants.\n*   **Stay Ahead of the Curve:** Keep up with the latest trends and techniques in digital marketing.\n*   **Drive Measurable Results:** Apply actionable tactics to improve your campaigns and achieve your business goals.\n\n## Social Proof Hook\n\"Smart Insights has become an essential part of our marketing strategy. The resources are practical and easy to implement, and the results speak for themselves.\" - [Name, Company]\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy acknowledges the frustration of keeping up with the fast-changing digital marketing landscape, which resonates with the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific digital marketing channels (SEO, paid media, email) and the types of resources offered (guides, templates), making it relatively specific to the product."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains that the platform delivers expert-curated resources, which provides some clarity on how the product works, although more detail could be added."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good way to let newcomers experience the platform's value, which aligns with their level of awareness."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "Although the mention of Dr. Chaffey adds some uniqueness, the other claims about proven strategies and saving time could be used by competitors without significant changes."
+    },
+    "overall_score": 7,
+    "verdict": "COMPETENT",
+    "key_weakness": "While the copy mentions the core frustration, it skims the surface and doesn't fully resonate with the overwhelming challenge digital marketers face in keeping up.",
+    "key_strength": "The inclusion of Dr. Dave Chaffey's name, his credentials, and the publications he's been featured in add credibility and help differentiate the platform."
+  }
+}

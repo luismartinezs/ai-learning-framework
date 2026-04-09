@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-44-33",
+  "generated_copy": "## Headline\nSee exactly what your visitors do. Then make your website better.\n\n## Subheadline\nCrazy Egg reveals hidden opportunities to improve engagement and conversions with visual behavior analytics. Start your free trial today.\n\n## Hero Body\nImagine watching a video of every visitor on your website. Knowing exactly where they hesitate, what they ignore, and what grabs their attention. Crazy Egg doesn't just give you traffic numbers—it shows you the \"why\" behind the data. We translate your visitors' clicks and scrolls into easy-to-understand heatmaps and recordings, so you can clearly see what's working, what's broken, and where to optimize for maximum impact.\n\n## Primary CTA\nStart My Free Trial\n\n## Key Benefits\n*   **Stop guessing, start seeing:** Uncover hidden problem areas on your website with visual heatmaps and session recordings.\n*   **Effortless insights:** No more drowning in dashboards. Crazy Egg turns complex data into actionable visualizations any team can understand.\n*   **Increase conversions:** Optimize your website based on real user behavior. See where visitors click, how far they scroll, and what they ignore, so you can make data-driven decisions that boost results.\n*   **Unlimited everything:** Track unlimited domains and invite unlimited team members on every plan.\n*   **A/B Test Included:** Run A/B tests directly inside Crazy Egg and see how each variation performs with visual heatmaps.\n\n## Social Proof Hook\n\"We increased conversions by 30% in the first month. I only wish we had found Crazy Egg sooner.\" - John S., Marketing Director\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy acknowledges the common frustration of not understanding why website visitors aren't converting, which is aligned with the target audience's pain point."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions heatmaps and session recordings, which are specific to Crazy Egg's visual analytics approach, making it less interchangeable with generic analytics tools."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy states that Crazy Egg translates clicks and scrolls into heatmaps and recordings providing clarity on the data representation but not the specific tech."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Given that the target audience is \"warm,\" the 'Start My Free Trial' CTA is appropriate, offering a low-risk way to experience the product firsthand."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "Visual behavior analytics is core to CrazyEgg, even with some other overlap with basic analytics, this copy is reasonably specific."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy could benefit from including numbers, a more compelling offer or unique mechanism of action.",
+    "key_strength": "The copy does a good job articulating that CrazyEgg answers the 'why' behind the website analytics data."
+  }
+}

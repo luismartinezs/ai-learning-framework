@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T05-56-09",
+  "generated_copy": "## Headline\nStop Guessing. See Exactly What Your Website Visitors Do.\n\n## Subheadline\nTraditional analytics shows you *what* happens. Crazy Egg shows you *why*.\n\n## Hero Body\nYou know how many people visit your site. But do you know *why* they leave without buying? Or which parts of your page grab their attention? Or where they get confused and give up? Crazy Egg replaces guesswork with crystal-clear visual data. See heatmaps, session recordings, and more, revealing exactly how visitors behave on your site so you can make smart, data-driven improvements.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n*   **See Where They Click:** Heatmaps instantly show you the hottest (and coldest) spots on every page.\n*   **Watch Real Visitor Sessions:** See exactly how individual visitors navigate and interact with your site.\n*   **Find Out How Far They Scroll:** Discover if visitors are missing critical content below the fold.\n*   **A/B Test with Confidence:** Know which variations get the most attention and engagement *before* you roll them out to everyone.\n\n## Social Proof Hook\n\"With Crazy Egg, we uncovered a design flaw that was costing us $50,000 a month.\" - Mark Thompson, Growth Marketer\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy accurately targets the frustration of not knowing why website visitors aren't converting."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy uses specific terms like 'heatmaps' and 'session recordings,' but could be slightly more concrete in describing the challenges faced."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy implies a visual data representation but stops short of fully explaining the role of mouse tracking and click behavior as a proxy for attention."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is appropriate, given the need to demonstrate the visual output."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the copy is tailored to website analytics and behavior tracking, some phrases like 'data-driven improvements' could be used for other products less focused around visuals."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The mechanism clarity could be improved by explaining how the visual data is created from visitor behavior.",
+    "key_strength": "Accurately identifies the core frustration of website owners who lack insight into visitor behavior beyond basic analytics."
+  }
+}

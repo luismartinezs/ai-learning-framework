@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-12",
+  "generated_copy": "## Headline\nGive Your Kids Real-World Money Skills, Without the Real-World Risks\n\n## Subheadline\nGoHenry: The safe, simple way to teach your kids smart money habits, backed by Visa.\n\n## Hero Body\nWorried about your kids and money? You're not alone. Giving them cash is untrackable. Adding them to your bank account? Risky. GoHenry gives you the control and peace of mind you need, with the independence and learning they crave. Get a GoHenry Visa debit card for your child, with custom spending limits, real-time tracking, and parent-approved purchases. It’s the hands-on financial education they need, with the safety net you demand.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n*   **Set custom spending limits:** You decide how much they can spend, and where.\n*   **Real-time tracking & alerts:** See exactly where their money goes, instantly.\n*   **Automated allowance payments:** No more nagging - set it and forget it.\n*   **Chore-based earning:** Teach them the value of money by assigning tasks.\n*   **Visa-backed Security:** Shop online, in stores, or withdraw cash with the security of Visa.\n\n## Social Proof Hook\n\"I feel so much better knowing I can give my daughter some financial freedom, while still keeping her safe.” - GoHenry Parent\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly mentions parental worries about kids and money, addressing a core anxiety. 'Real-world risks' taps into parental protective instincts."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like 'chore-based earning' and 'Visa-backed Security,' which are directly tied to the product. However, 'real-time tracking' could be more specific and isn't unique."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The hero body explains that GoHenry is a Visa debit card paired with parental controls, providing a clear sense of how it works. The jump from problem to solution (trackable cash) is clear enough."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a 30-day free trial is a good match for cold traffic who are concerned about security and the product's value for their child. It minimizes risk and allows them to experience the product firsthand."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some elements are generic (e.g., 'peace of mind'), the combination of a Visa debit card with chore-based earning is fairly unique to GoHenry."
+    },
+    "overall_score": 7.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Could lean harder into the Visa partnership as the trust anchor and the learning/education aspect of the product.",
+    "key_strength": "Directly addresses parental anxieties about kids and money with specific features tailored to solve those concerns."
+  }
+}

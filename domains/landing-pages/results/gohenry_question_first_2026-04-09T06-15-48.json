@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-48",
+  "generated_copy": "## Headline\nGive Your Child Real-World Money Skills, Without Real-World Risks.\n\n## Subheadline\nGoHenry: The debit card and app that puts parents in control and kids on the path to financial success. Start your 30-day free trial today.\n\n## Hero Body\nWorried about teaching your kids good money habits in a world of online spending? GoHenry gives them the freedom to learn with their own Visa debit card, while you set the limits and see every transaction. No hidden fees, cancel anytime.\n\n## Primary CTA\nTry GoHenry Free for 30 Days\n\n## Key Benefits\n*   **Set spending limits:** Decide exactly how much they can spend, online or in stores.\n*   **Automate allowance:** No more nagging. Set it and forget it.\n*   **Real-time tracking:** See where their money goes, instantly, on your phone.\n*   **Unlock financial education:** Learn valuable skills through fun, in-app money lessons.\n*   **FDIC insured:** Rest easy knowing your money is protected\n\n## Social Proof Hook\n\"GoHenry has transformed how we teach our kids about money. It's safe, educational, and surprisingly fun!\" - The Smith Family\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The headline hints at parents' worry about online spending risks but could be more precise about the specific fears like overspending or scams."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like spending limits and real-time tracking, making it more tailored to the product than a generic financial app."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly explains the debit card and app combination for parental control and child learning, clarifying how it works."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a 30-day free trial aligns well with the cold audience and the need to overcome trust barriers, making the commitment appropriate."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While some benefits like spending limits are common, the combination of debit card for kids with parent control is reasonably unique."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "Visitor emotional accuracy could be higher by addressing more specific parental fears and desires around financial education.",
+    "key_strength": "The copy effectively communicates the core mechanism of parent-controlled debit card for kids."
+  }
+}

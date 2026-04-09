@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-27",
+  "generated_copy": "## Headline\nStop Guessing. Start Knowing. Master Digital Marketing with Expert-Curated Resources.\n\n## Subheadline\nConfidently navigate SEO, Paid Media, Email, Social, and more with proven strategies, templates, and how-to guides – all in one place.\n\n## Hero Body\nDigital marketing is a moving target. Stay ahead of the curve and drive real results with Smart Insights. Get instant access to a comprehensive library of practical guides, templates, and training modules, created and curated by recognized industry experts. Stop wasting time piecing together fragmented advice from blogs and start implementing strategies that actually work.\n\n## Primary CTA\nSee the Full Library of Resources\n\n## Key Benefits\n- **Implement Proven Strategies:** Access practical guides and templates you can use immediately to improve your campaigns.\n- **Stay Ahead of the Curve:** Keep up with the latest trends and best practices across all digital marketing channels.\n- **Learn From Recognized Experts:** Benefit from the insights of Dr. Dave Chaffey and other leading digital marketing authorities.\n- **Get Unstuck Faster:** Find the answers you need, when you need them, without wasting time searching endless blogs.\n- **Go From Overwhelmed to Confident:** Develop a structured, comprehensive understanding of digital marketing.\n\n## Social Proof Hook\n\"Smart Insights has been invaluable in shaping our digital strategy. The practical guides and templates have helped us consistently improve our results.\" - [Company Name], Digital Marketing Manager\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy acknowledges the frustration of 'guessing' in digital marketing and the feeling of being 'overwhelmed', but doesn't dig particularly deep into specific anxieties related to job security or campaign performance anxiety."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "Mentions specific digital marketing channels (SEO, Paid Media, etc.), but could be more specific about what 'expert-curated resources' actually means."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "Explains that members get access to a library of resources, but doesn't fully convey the 'expert consulting depth at subscription pricing' value proposition."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "'See the Full Library of Resources' is a reasonable mid-funnel CTA, appropriate for the level of commitment asked."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "Mentions Dr. Dave Chaffey, which is a specificity point, but much of the rest of the copy (e.g. 'stop guessing') could be applied to similar educational products."
+    },
+    "overall_score": 6.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lacks the depth of articulation around unique value proposition and mechanism that a world-class resource library play needs.",
+    "key_strength": "Addresses a key need for digital marketers: the feeling of being overwhelmed."
+  }
+}

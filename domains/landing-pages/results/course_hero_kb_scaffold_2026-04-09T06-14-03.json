@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-14-03",
+  "generated_copy": "## Headline\nAce Your Toughest Courses\n\n## Subheadline\nGet the exact study materials you need, for the courses you're actually taking. Notes, practice problems, and expert Q&A, all in one place.\n\n## Hero Body\nStruggling to keep up? Textbooks and generic search results only get you so far. Course Hero gives you access to over 60 million course-specific study resources – notes, flashcards, past exams, and more – shared by students just like you. Finally, get the help you need to master even the most challenging material.\n\n## Primary CTA\nUnlock Your Study Success\n\n## Key Benefits\n*   **Stop guessing.** Access notes and study guides from your specific courses.\n*   **Learn faster.** Get instant explanations from our expert tutors, 24/7.\n*   **Conquer any course.** Find the exact practice problems and textbook solutions you need.\n*   **Ditch the all-nighters.** Finally get the grades you deserve, without the stress.\n*   **Save Money:** Way cheaper than private tutoring.\n\n## Social Proof Hook\n\"I went from a C to an A in organic chemistry thanks to Course Hero!\" - *Sarah J., University of Michigan*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the struggles of college students (keeping up, stress, all-nighters) and their desire for better grades, showing a strong understanding of their needs."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy is targeted to college students seeking course-specific study materials, and mentions specific resource types (notes, flashcards, exams), making it relatively specific to the product."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "It mentions the crowdsourced library ('shared by students just like you') and expert tutors, but doesn't fully explain how the platform connects students with the right resources."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "'Unlock Your Study Success' is a benefit-oriented CTA that aligns reasonably well with the value proposition, but a more specific call to action like 'Browse Course Materials' would better match initial visitor intent."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "While somewhat specific, some of the copy elements (like 'Ace Your Toughest Courses' or 'Learn Faster') could be adapted for other study aid products with minimal changes."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity: While it mentions the resources and tutors, it doesn't clearly articulate the crowdsourced nature in a way that instills confidence.",
+    "key_strength": "Emotional accuracy: The copy connects with the specific anxieties and desires of college students under pressure."
+  }
+}

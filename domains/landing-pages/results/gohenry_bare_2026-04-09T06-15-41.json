@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-41",
+  "generated_copy": "## Headline\n**Raise Money-Smart Kids. Start Today.**\n\n## Subheadline\nGoHenry: The debit card and app that teaches kids and teens how to earn, save, and spend responsibly.\n\n## Hero Body\nWant to give your kids a head start with money? GoHenry combines a real Visa debit card with a powerful app, giving them hands-on experience with earning, budgeting, and saving – all under your watchful eye. Set spending limits, automate allowance, track progress, and build lifelong financial skills. Join over 2 million families who trust GoHenry to help their kids thrive.\n\n## Primary CTA\nGet Started Free for 30 Days\n\n## Key Benefits\n*   **Build Good Habits:** Teach budgeting, saving, and responsible spending with real-world experience.\n*   **Parental Peace of Mind:** Set spending limits, block retailers, and get instant notifications.\n*   **Earn and Learn:** Automate allowance, set spending rules, and create savings goals.\n*   **Financial Independence:** Give your kids the tools they need to manage their money and prepare for the future.\n\n## Social Proof Hook\n\"GoHenry has been a game-changer for our family. My kids are learning invaluable money skills!\" - *Sarah J., GoHenry Parent*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 5,
+      "reasoning": "It touches on the desire to give kids a head start but doesn't really address the specific anxieties parents have around finances & children or the frustration of current solutions."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "It mentions Visa and specific features like spending limits and allowance automation, which gives it some product-specific detail, but it's still reasonably generic."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "It explains that GoHenry links a Visa card with an app, and that parents can set limits and track spending, giving a decent sense of how it works."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "A 30-day free trial is a reasonable ask given the level of information provided. It balances risk and reward well for cold traffic."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "Features such as 'Parental Peace of Mind' could be leveraged on competitor's sites, but GoHenry has unique features due to the visa partnership."
+    },
+    "overall_score": 6.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy needs to address parental anxieties and pain points connected to money/kids more directly and conversationally, less generically. Fear/Frustration/Desire is only addressed at a surface level.",
+    "key_strength": "The CTA of 'Get Started Free for 30 Days' is a good offer for the target audience."
+  }
+}

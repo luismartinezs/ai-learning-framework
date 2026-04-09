@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-38-04",
+  "generated_copy": "## Headline\nDitch the Textbook, Ace the Test\n\n## Subheadline\nUnlock Course-Specific Study Materials, Get Expert Help, and Finally Conquer Your Toughest Classes - All in One Place.\n\n## Hero Body\nStruggling to keep up? Textbooks leaving you lost? You're not alone. Course Hero gives you instant access to over a million course-specific study resources - notes, practice problems, flashcards, and more - shared by students just like you. Stop wasting time searching for answers and start learning smarter. Get the grades you deserve, without the all-nighters.\n\n## Primary CTA\nUnlock Your Course Hero Advantage\n\n## Key Benefits\n*   **Ace Every Exam:** Get instant access to practice tests, study guides, and past exams uploaded by top students in your exact course.\n*   **Conquer Homework Hassles:** Find step-by-step solutions to even the toughest homework problems.\n*   **Unlock 24/7 Expert Help:** Get personalized answers from top tutors whenever you need them – day or night.\n*   **Stop Feeling Lost:** Get course specific materials including notes from your very class or similar classes.\n*   **Save Time & Improve Your Grades:** Spend less time searching for answers and more time mastering the material.\n\n## Social Proof Hook\n\"I went from a C to an A after using Course Hero for just one semester!\" - *[Student Name], University of [University Name]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy directly addresses student frustrations (struggling to keep up, textbooks leaving you lost) and desires (better grades, less all-nighters), though it could be even more specific about the pain of inefficient studying."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The mentions of 'course-specific study resources,' 'practice problems,' and 'step-by-step solutions' are relevant, though the overall message isn't uniquely tied to Course Hero (could be used for any crowdsourced study platform)."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions that the materials are 'shared by students just like you,' hinting at the crowdsourcing mechanism, and expert tutors, which makes the promise of help believable; however, the explanation could be expanded for better clarity."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "The call to action, 'Unlock Your Course Hero Advantage,' is action-oriented and benefit-driven, but requests commitment to a paid service too soon."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The language around 'course-specific' information and tutor help is somewhat specific, since not all platforms offer both, but the core value propositions are generally applicable to study aid services."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy fails to emphasize that creating an account could be free, and that there is already a very extensive library. It asks for an 'unlock' before earning that commitment through education or demonstration.",
+    "key_strength": "The copy uses relatable language about typical student struggles, such as 'textbooks leaving you lost' and 'all-nighters', and connects those struggles to specific features of the service."
+  }
+}

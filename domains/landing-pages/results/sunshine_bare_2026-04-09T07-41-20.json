@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-20",
+  "generated_copy": "## Headline\n**Sunshine.co.uk: Your Dream Holiday, Dramatically Cheaper.**\n\n## Subheadline\nFinally, genuinely low prices on package holidays. No hidden fees, no call centers, just sunshine and savings.\n\n## Hero Body\nStop wasting hours comparing holiday websites. At Sunshine.co.uk, we cut out the expensive overhead of call centers and high-street shops. The savings? We pass them directly to you. That means unbelievably low prices on package holidays to your favorite destinations. And with our ABTA bonding and price match guarantee, you can book with confidence. All prices shown *include* taxes and fees – the price you see is the price you pay. Ready for a real holiday bargain?\n\n## Primary CTA\nSearch Holidays & Save\n\n## Key Benefits\n*   **Save Big:** Unbeatable prices on package holidays by cutting out unnecessary expenses.\n*   **Price Transparency:** No hidden fees, taxes, or surcharges – the price you see is the price you pay.\n*   **ABTA Protected:** Your holiday is financially protected, giving you peace of mind.\n*   **Price Match Guarantee:** Found a cheaper price elsewhere? We'll match it!\n*   **Easy Online Booking:** Quickly find and book your perfect holiday from the comfort of your home.\n\n## Social Proof Hook\n\"I couldn't believe the price! Got the same holiday £200 cheaper than anywhere else I looked. Would definitely use Sunshine again!\" - Sarah J., Verified Customer\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy directly acknowledges the desire for cheap holidays and the anxiety around hidden fees by highlighting price transparency and guarantees."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mention of ABTA bonding and no call centers makes it specific to the UK market and Sunshine.co.uk's business model."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly explains how Sunshine.co.uk achieves lower prices by cutting out call centers and physical shops, which supports the promise of cheaper holidays."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The 'Search Holidays & Save' CTA aligns well with the promise of finding great deals and the visitor's intention to book a holiday."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The copy is less interchangeable because of the explicit mentions of 'no call centers', 'ABTA protection,' and the price that 'the price you see is the price you pay,' although 'save big' and 'easy online booking' are generic."
+    },
+    "overall_score": 7.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and generic, needing more specifics or stronger claims to be truly impactful.",
+    "key_strength": "Clearly communicates the cost-saving mechanisms (no call centers) and trust-building features (ABTA bonding, price match guarantee)."
+  }
+}

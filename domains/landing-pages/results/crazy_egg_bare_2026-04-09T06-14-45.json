@@ -1,0 +1,35 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-14-45",
+  "generated_copy": "## Headline\n**Stop Guessing, Start Seeing: Understand Why Your Website Isn't Converting**\n\n## Subheadline\nFinally, visual website analytics that reveal exactly what your visitors are doing, so you can turn clicks into customers.\n\n## Hero Body\nYou're getting traffic, but your conversion rates are stuck. You've got Google Analytics spitting out numbers, but no idea *why* visitors are bouncing. What if you could see *exactly* what they see, where they click, and how far they scroll? Crazy Egg replaces guesswork with visual insight. Discover hidden opportunities to boost conversions and finally unlock your website's potential.\n\n## Primary CTA\n**Start Your 30-Day Free Trial**\n\n## Key Benefits\n*   **Effortless Insights:** See exactly where visitors click with heatmaps, no analytics degree required.\n*   **Fix What's Broken:** Identify and eliminate roadblocks preventing conversions for a smoother user experience.\n*   **A/B Testing Made Easy:** Optimize your site with confidence using built-in A/B testing tools.\n*   **Unlimited Potential:** Analyze unlimited domains with unlimited team members, all under one subscription.\n*   **Instant ROI:** Quickly identify high-impact changes that lead to more leads, sales, and loyal customers.\n\n## Social Proof Hook\n\"Crazy Egg helped us increase conversions by 30% without touching our ad spend.\" - *[Company Name], SaaS Provider*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the frustration of having traffic but not conversions, using the language of 'stuck' conversion rates and not knowing 'why' visitors are bouncing."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mention of heatmaps and A/B testing provide some specificity, but could still be applicable in a broad set of analytics related products."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "The copy hints at visual insights but doesn't explicitly explain the mouse tracking/click behavior mechanism behind the heatmaps and session recordings.",
+      "score_b": 6,
+      "reasoning_b": "The copy hints at the mechanism by saying you can 'see exactly where they click and how far they scroll' which implies visitor tracking, but it doesn't directly explain how this is achieved."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Given the warm audience and the promise of solving a specific frustration, asking for a free trial is a reasonable commitment level."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the focus on heatmaps improves it, the copy is somewhat generic and could be adapted to several alternatives with minimal rewording."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lacks a clear explanation of the underlying mechanism (mouse tracking) that generates the visual insights.",
+    "key_strength": "Accurately identifies and addresses the target audience's frustration with low conversion rates despite high traffic."
+  }
+}

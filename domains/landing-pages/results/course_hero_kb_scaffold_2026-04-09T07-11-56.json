@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-11-56",
+  "generated_copy": "## Headline\nAce Your Exams with Notes From Your Class\n\n## Subheadline\nUnlock a library of course-specific study resources shared by students just like you.\n\n## Hero Body\nStuck on a problem? Don't have notes from last week's lecture? Course Hero gives you instant access to over 30 million course-specific documents—so you can get unstuck, learn faster, and get better grades. Finally get the help you need, precisely when you need it.\n\n## Primary CTA\nFind Your Course & Get Instant Access\n\n## Key Benefits\n*   **Stop relying on generic textbooks.** Get notes, flashcards, and practice problems tailored to *your exact* course.\n*   **Learn from top students.** See how your classmates are tackling the toughest assignments.\n*   **Get unstuck in minutes, not hours.** Find the specific help you need, exactly when you need it.\n*   **Prepare for exams with confidence.** Access practice tests and study guides to master the material.\n\n## Social Proof Hook\n\"Course Hero helped me pass Organic Chemistry—the tutor videos are lifesavers!\" - Maria P., University of Texas\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy accurately addresses the frustration of being stuck on problems and the desire for targeted, course-specific study resources, speaking directly to the student's immediate needs and pain points."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy includes some specific details like \"30 million course-specific documents\" and mentions notes, flashcards, and practice problems, but could be even more concrete in describing the unique value proposition."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions a library of course-specific documents shared by students, giving some insight into the crowdsourced mechanism, but could further emphasize the benefits of this approach, such as access to materials that a publisher couldn't create."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA \"Find Your Course & Get Instant Access\" is aligned with the promise of immediate access to study resources, making it a relevant and appealing next step for the visitor."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While the copy includes category-standard language, it does focus on course-specific content, which differentiates Course Hero from more general study platforms or tutoring services, giving it reasonable defensibility."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "While it mentions the crowdsourced library, the copy could more explicitly emphasize the network effect and unique availability of course-specific resources that no competitor can offer.",
+    "key_strength": "The copy speaks directly to the emotional needs of students who are struggling with their coursework, promising timely and targeted assistance."
+  }
+}

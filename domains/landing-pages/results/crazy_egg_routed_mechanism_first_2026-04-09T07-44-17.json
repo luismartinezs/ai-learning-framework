@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "routed_mechanism_first",
+  "model": "anthropic/claude-sonnet-4-5",
+  "timestamp": "2026-04-09T07-44-17",
+  "generated_copy": "## Headline\nSee Where Your Visitors Look, Click, and Lose Interest—Without Eye-Tracking Cameras\n\n## Subheadline\nCrazy Egg turns mouse movements into visual heatmaps that show you exactly what captures attention on your site and what gets ignored.\n\n## Hero Body\nYou know people are visiting your site. You can see it in Google Analytics. But you have no idea what they're actually looking at, where they get confused, or why they leave without converting.\n\nTraditional eye-tracking studies that answer these questions cost $100,000+ and take months. Crazy Egg gives you the same insights in minutes—by tracking mouse movements (which mirror eye movements 88% of the time) and turning that data into color-coded heatmaps you can understand at a glance.\n\nNo more guessing why visitors ignore your call-to-action button or abandon your checkout page. You'll see the cold spots where engagement dies and the hot spots that pull attention. Then you can fix what's broken.\n\n## Primary CTA\nStart Your 30-Day Trial\n\n## Key Benefits\n- **Heatmaps that show attention patterns** – See which headlines, images, and buttons get noticed and which get scrolled past\n- **Scroll maps that reveal the dropout point** – Know exactly where visitors stop reading so you can move important content higher\n- **Session recordings of real visitor journeys** – Watch how actual people navigate your site, where they hesitate, and where they give up\n- **A/B testing built in** – Test your fixes and see which version performs better with real behavior data, not just conversion rates\n- **Set up in 60 seconds** – Add one snippet of code and start collecting data immediately across unlimited sites\n\n## Social Proof Hook\n\"We increased conversions 24% in the first week just by moving elements people were actually clicking on.\" — Over 300,000 websites use Crazy Egg",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "Directly addresses the core frustration of seeing traffic numbers but not understanding visitor behavior—this is the precise emotional gap warm prospects experience when they arrive knowing they have a conversion problem."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Strong product-specific details (mouse-to-eye movement correlation, heatmap rendering, code snippet setup) but some benefits blur into category-standard language ('see which headlines get noticed' could describe any heatmap tool)."
+    },
+    "mechanism_clarity": {
+      "score": 9,
+      "reasoning": "Exceptionally clear—explains mouse movement tracking as eye-tracking proxy with the 88% correlation stat, then shows how this becomes actionable heatmaps, making the promise fully credible without requiring prospect faith."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "Asks for 30-day trial commitment but doesn't address the credit-card-for-free-trial friction that the reference copy shows was a major conversion barrier—warm prospects need this objection handled before they'll click."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The eye-tracking cost comparison and mouse-movement mechanism are distinctively Crazy Egg's positioning, but phrases like 'fix what's broken' and 'test your fixes' are generic optimization language any competitor could claim."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "CTA doesn't address the credit card objection that research shows stops warm prospects at conversion—needs explanation of why card is required and that no charges occur during trial",
+    "key_strength": "Mechanism explanation is exceptionally strong—the eye-tracking cost comparison plus 88% correlation stat makes the value proposition instantly credible and the price point feel like a steal"
+  }
+}

@@ -25,10 +25,17 @@ interchangeable?
 0 = copy could be pasted onto a competitor's page unchanged
 
 3. mechanism_clarity (0-10)
-Does the visitor understand HOW the product solves the problem, not just
-that it does?
-10 = the specific mechanism is clear from the copy alone
-0 = the copy makes a promise but gives no indication of how it's kept
+Does the copy give the visitor enough understanding of HOW the product
+works to make the promise believable? Note: deliberately withholding
+mechanism to create curiosity is a valid conversion technique — do not
+penalize copy for omitting mechanism when the headline/structure is
+clearly using a curiosity-gap approach. Penalize only when the copy
+makes a promise that feels unsubstantiated and the visitor would be
+left skeptical.
+10 = mechanism is clear enough that the promise is fully believable,
+     OR copy deliberately uses curiosity-gap and the promise lands
+     without needing mechanism detail
+0 = promise is made but nothing supports it, visitor would be skeptical
 
 4. cta_awareness_match (0-10)
 Does the call to action ask for a commitment level that matches what the
@@ -37,11 +44,18 @@ page has earned from the visitor?
 0 = CTA asks for more commitment than the page has justified
 
 5. interchangeability (0-10, INVERTED — higher is better)
-Could this copy be lifted and used for a competitor's product with minimal
-changes? This score is inverted: 10 means NOT interchangeable (good),
-0 means fully interchangeable (bad).
-10 = deeply specific to this product, impossible to reuse
-0 = entirely generic, usable for any competitor
+Could this copy be lifted and used for a direct competitor with minimal
+changes? Evaluate whether the copy captures what is genuinely distinctive
+about this specific product — not whether it avoids category-standard
+language. Note: using familiar category language (e.g. "heatmaps",
+"conversion rate", "free trial") is not a mark against specificity when
+that language correctly describes the product. Penalize copy that makes
+generic benefit claims (e.g. "grow your business", "save time") that
+could apply to any product in any category.
+10 = copy captures something distinctively true about this product that
+     a competitor could not honestly claim
+0 = every claim is generic enough to appear on a competitor's page
+    unchanged
 
 Respond ONLY in valid JSON with no markdown fences:
 {

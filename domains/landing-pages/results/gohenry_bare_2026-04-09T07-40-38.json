@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-38",
+  "generated_copy": "Okay, here's landing page copy designed to convert cold social media traffic into GoHenry subscribers:\n\n## Headline\n**Raise Money-Smart Kids**\n\n## Subheadline\nFinally, a debit card *and* app that teaches real-world financial skills, safely.\n\n## Hero Body\nGoHenry gives your child the independence to learn about money management with the security of parental controls. Set spending limits, automate allowances, and monitor transactions from your phone. It’s the perfect way to prepare them for a financially responsible future.\n\n## Primary CTA\n**Start Your Free Trial**\n\n## Key Benefits\n\n*   **Teach Real-World Skills:** Your child learns about budgeting, saving, and spending with real money.\n*   **Stay in Control:** Set limits, track spending, and get real-time notifications directly to your phone.\n*   **Build Good Habits Early:** Help your child develop healthy financial habits that will last a lifetime.\n*   **Safe & Secure:** Backed by Visa and protected with advanced security features.\n\n## Social Proof Hook\n\"GoHenry helped my daughter understand the value of money. Now she's saving for college!\" - *Happy GoHenry Parent*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 6,
+      "reasoning": "The copy speaks to the desire for children to be financially responsible but doesn't hit on the specific fears or frustrations that parents have (e.g., fear of losing control, skepticism about financial products for kids). It's emotionally relevant but not deeply accurate."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The copy mentions specific features like setting limits and tracking spending, making it somewhat tailored to GoHenry, but the benefits are still generic enough to apply to competitor apps."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "It's clear that parents control the account using an app while the child spends using a card, but the copy could benefit from describing the *how* of learning/teaching (e.g., goal-setting, allowance automation)."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good way to lower the barrier to entry and overcome skepticism, so the CTA feels reasonable given the information provided."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the features are specific to GoHenry, the benefits (e.g., 'teach real-world skills', 'stay in control', 'safe & secure') are easily transferable to a competing product."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lacks a strong, clear focus on addressing parental trust and security concerns, particularly considering the target audience arrives from social media and is often using mobile.",
+    "key_strength": "Offers a Free Trial."
+  }
+}

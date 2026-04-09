@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-38",
+  "generated_copy": "## Headline\nBook Your Holiday For Less\n\n## Subheadline\nSunshine.co.uk cuts out the call centers and hidden fees, so you can get your dream holiday for less. Guaranteed.\n\n## Hero Body\nYou're ready for a holiday, and ready to find the best deal. At Sunshine.co.uk, we believe the cheapest price shouldn't come with sacrifices. We've stripped away the costs of physical travel agencies and phone support so you can keep more of your hard-earned cash. All our holidays are fully ABTA bonded and include a rock-solid price-match guarantee, so there are no surprises. Get the sunshine you deserve, without the hidden costs or the worry.\n\n## Primary CTA\nFind My Holiday\n\n## Key Benefits\n- **Truly All-Inclusive Pricing:** What you see is what you pay. No hidden fees ruin your holiday budget.\n- **Unbeatable Prices:** We eliminate overhead and pass 100% of the savings directly to you.\n- **Complete Peace of Mind:** Every package is ABTA bonded and comes with our price-match guarantee.\n- **Handpicked Hotels & Flights:** We only offer packages with trusted airlines and highly-rated accommodation.\n\n## Social Proof Hook\n\"I couldn't believe the price - it was hundreds less than anywhere else. And everything went perfectly. Will definitely book with Sunshine again!\" - Sarah, Trustpilot Review\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy acknowledges the desire for a 'dream holiday' and the frustration of hidden fees affecting the budget, addressing the target audience's core concerns."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentioning ABTA bonding and the elimination of call centers makes the copy specific to a UK travel agency with a low-cost model."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains how prices are kept low by cutting overhead, backed up with a price-match guarantee and ABTA bonding to build trust."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The 'Find My Holiday' CTA is appropriate for a user who is ready to book, matching the likely intent of visitors to the page."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some claims like 'unbeatable prices' and 'peace of mind' could be used by competitors, the ABTA bonding reference and no-call-center model add unique elements."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The language could be more emotionally resonant, using stronger, more descriptive words to stir excitement about holidays and alleviate fears around budget and reliability.",
+    "key_strength": "The copy clearly mentions ABTA bonding and explains the no-call-center model to justify lower prices and build trust."
+  }
+}

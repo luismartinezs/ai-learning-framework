@@ -203,4 +203,63 @@ All have code execution verifiers confirming correct behavior.
 
 ---
 
-*Last updated: structural refactor to domain-based folder layout.*
+---
+
+## Domain 2: Landing Pages
+
+### Status
+
+Examples collected (6 real-world landing pages with documented A/B test results from
+Conversion Rate Experts). Briefs extracted into structured markdown. Knowledge base
+built (01_principles.md covering Schwartz awareness spectrum, JTBD framing, specificity,
+mechanism, CTA commitment ladder). Pipeline built with four generation configs. Judge
+built with five scoring dimensions. Experiment runner built.
+
+### Research Question
+
+Can context engineering reliably produce world-class landing copy from a raw product
+brief? If yes, which intervention produces the most consistent improvement over the
+bare model?
+
+### Experiment Design
+
+Four generation configs, each representing a different context engineering intervention:
+
+1. **bare** -- minimal system prompt ("You are a copywriter"), brief only
+2. **question_first** -- forces empathy reasoning before writing (visitor fears,
+   beliefs, objections)
+3. **kb_scaffold** -- injects 01_principles.md as system-level knowledge scaffold
+4. **few_shot** -- provides 2 randomly selected real-world examples (excluding the
+   target product) as in-context demonstrations
+
+Judge evaluates on five dimensions (0-10 each):
+- visitor_emotional_accuracy, specificity, mechanism_clarity, cta_awareness_match,
+  interchangeability (inverted)
+
+Verdict thresholds: WORLD_CLASS >= 8.0, COMPETENT >= 6.0, GENERIC < 6.0
+
+Reference calibration: the judge receives the real-world example copy for the same
+product as calibration context (not as a similarity target).
+
+### Key Files
+
+- `domains/landing-pages/examples/`   world-class reference pages (6 products)
+- `domains/landing-pages/problems/`   raw product briefs (6 products)
+- `domains/landing-pages/kb/`         copy principles (for kb_scaffold config)
+- `domains/landing-pages/results/`    experiment outputs + summary
+- `src/landing-pages/pipeline.ts`     generation pipeline (4 configs)
+- `src/landing-pages/judge.ts`        5-dimension scoring
+- `src/landing-pages/run.ts`          experiment runner
+
+### Hypothesis
+
+Based on code-debugging findings: few_shot config will outperform kb_scaffold. The
+model already knows copywriting principles (kb_scaffold tells it what it knows);
+few_shot shows it what good looks like (harder to derive from training). question_first
+will outperform bare by forcing visitor-centric reasoning before generation. The model's
+native capability is likely sufficient for common product types. Interventions will add
+value on niche or complex products where the model has weaker priors.
+
+---
+
+*Last updated: added Domain 2 (Landing Pages) experiment runner and documentation.*

@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-04",
+  "generated_copy": "## Headline\n**Stop Guessing. Start *Seeing* What Your Visitors Do.**\n\n## Subheadline\nFinally understand why your website isn't converting with visual behavior analytics.\n\n## Hero Body\nYou've got traffic, but why aren't visitors clicking that button? Why are they bouncing from key pages? Traditional analytics tells you the *what*, but leaves you guessing at the *why*. Crazy Egg shows you exactly how visitors behave on your site with heatmaps, session recordings, and more. See where they click, how far they scroll, and identify the hidden roadblocks killing your conversion rates. Get a crystal-clear view of your visitors' journey and stop wasting precious traffic.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n\n*   **Uncover Hidden Conversion Killers:** See exactly where visitors are getting stuck and losing interest.\n*   **Optimize Your Design with Confidence:** Make data-backed decisions on button placement, content layout, and more.\n*   **Get Actionable Insights Instantly:** No need to be an analytics expert - visual reports make understanding visitor behavior a breeze.\n*   **Stop Wasting Traffic & Start Converting:** Turn more visitors into customers with a website optimized for their behavior.\n\n## Social Proof Hook\n\"Crazy Egg helped us increase our conversion rate by 40% in just one month!\" - *[Customer Name], [Company Name]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "Addresses the frustration of having traffic but not conversions, and the desire to understand visitor behavior, getting close to the emotional heart of the problem."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Uses specific features like heatmaps and session recordings and references 'roadblocks' to conversions, making it reasonably specific to the product."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "Mentions heatmaps and session recordings as ways to 'see' visitor behavior, providing a basic understanding of the mechanism, so the claims are reasonably believable."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offers a free trial, which is a good match for visitors who are curious about the product but not yet ready to commit."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While some elements are category-specific, some claims like 'stop wasting traffic' could be used by a variety of analytics tools, so loses points."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof could be stronger and more specific, it's a weak statement.",
+    "key_strength": "Successfully identifies the pain point of having traffic without conversions and the need to understand visitor behavior."
+  }
+}

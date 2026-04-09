@@ -1,0 +1,34 @@
+{
+  "product_name": "GoHenry",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-59",
+  "generated_copy": "## Headline\nRaise Money-Smart Kids. Without Handing Over Your Credit Card.\n\n## Subheadline\nGoHenry gives your child a real Visa debit card with built-in parental controls. Teach them to budget, save, and earn – safely.\n\n## Hero Body\nYou want your kids to learn about money, but giving them cash feels like throwing it into a black hole. Adding them to your bank account is a recipe for overspending. GoHenry gives you the best of both worlds: A real Visa debit card for your child linked to your account, with spending limits, instant notifications, and savings goals you control from your phone. Finally, a safe and easy way to help your kids build healthy money habits.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n*   Set custom spending limits to avoid surprises and overspending.\n*   Get real-time notifications every time your child spends, so you know where their money is going.\n*   Automate allowance payments, so they learn the value of consistent income.\n*   Teach them to save with in-app goals and track their progress.\n*   Lock and unlock the card instantly from your phone if it's lost or stolen.\n\n## Social Proof Hook\n\"GoHenry has been a lifesaver! My daughter is finally understanding the value of a dollar, and I have peace of mind knowing I'm in control.\" - Sarah J., GoHenry Parent\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy connects with the desire to teach kids about money, but it could be sharper about the anxiety parents face regarding overspending and financial safety."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "It mentions key features like spending limits and real-time notifications, but could be more unique to GoHenry and less descriptive of general parental control apps."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy does a good job explaining the core mechanism of linking a child's Visa card to a parent's account, which is critical for establishing believability."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a free trial is a great CTA given the target audience's skepticism and the product's subscription model."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The claims are somewhat generic and could be made by similar products with minor adjustments, especially the benefit bullet points.",
+      "reasoning_summary": ""
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy needs to be more specific and less generic to stand out from competitors and build stronger trust.",
+    "key_strength": "The copy clearly communicates the core value proposition and offers a free trial to ease the initial commitment."
+  }
+}

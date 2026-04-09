@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "kb_scaffold",
+  "model": "anthropic/claude-sonnet-4-5",
+  "timestamp": "2026-04-09T07-12-13",
+  "generated_copy": "## Headline\nStop staring at homework problems you can't solve\n\n## Subheadline\nGet step-by-step solutions, notes from students in your exact course, and on-demand tutors when you're stuck—starting right now\n\n## Hero Body\nYou've Googled the problem. You've reread the textbook paragraph three times. Your professor's office hours aren't until Thursday and the assignment is due tomorrow.\n\nCourse Hero gives you instant access to 40+ million study documents uploaded by students in your exact course—homework solutions, lecture notes, practice exams, flashcards—plus expert tutors online 24/7 when you need a real explanation. Created by students at your university, for the courses you're actually taking.\n\nFind the exact resource you need in under 60 seconds, or ask a tutor and get an answer in minutes. No appointments, no expensive hourly rates, no guessing if the explanation matches what your professor taught.\n\n## Primary CTA\nFind your course materials now — free to search\n\n## Key Benefits\n- **Course-specific solutions, not generic examples** — Search by your exact university, course code, and professor. Get homework solutions and notes from students who already passed the class you're taking right now.\n\n- **Expert tutors online 24/7** — Stuck at 2am? Post your question and get a detailed explanation from a verified subject expert in minutes, not days. No scheduling, no minimums, no awkward Zoom calls.\n\n- **40+ million resources from real students** — Lecture notes, study guides, practice problems, flashcards—all uploaded by students who sat in the same lectures and took the same exams you're preparing for.\n\n- **Works on your phone between classes** — Pull up notes while walking to your exam. Check a solution while you're at the library. Get tutoring help from your dorm room. Full access anywhere you study.\n\n## Social Proof Hook\nOver 10 million college students use Course Hero to pass their hardest classes—with an average GPA increase of 0.4 points after their first semester on the platform",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 9,
+      "reasoning": "Opens with the precise moment of frustration ('staring at homework problems you can't solve') and names the actual time-pressure scenario students face ('assignment is due tomorrow, office hours aren't until Thursday'), not a generic 'study better' abstraction."
+    },
+    "specificity": {
+      "score": 8,
+      "reasoning": "Copy is highly specific to Course Hero's crowdsourced model ('students in your exact course', 'search by course code and professor') and could not be used by a traditional tutoring service or textbook publisher without fundamental rewrites."
+    },
+    "mechanism_clarity": {
+      "score": 9,
+      "reasoning": "The '40+ million study documents uploaded by students in your exact course' immediately answers how Course Hero can have resources that match what professors actually assigned, making the promise credible without overexplaining."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "The CTA 'Find your course materials now — free to search' is awareness-appropriate, but slightly undersells the action since the reference copy showed 'Create my FREE account' performed better by making the free signup explicit rather than just the search."
+    },
+    "interchangeability": {
+      "score": 9,
+      "reasoning": "The crowdsourced network effect ('students who sat in the same lectures', 'uploaded by students in your exact course') is Course Hero's genuine differentiation and could not be honestly claimed by Chegg Study, Khan Academy, or traditional tutoring services."
+    },
+    "overall_score": 8.4,
+    "verdict": "WORLD_CLASS",
+    "key_weakness": "The CTA could be more explicit about the free account creation (the reference data showed 'Create my FREE account' outperformed alternatives), and the social proof would be stronger if it named the tension between academic integrity and needing help rather than just citing a GPA stat.",
+    "key_strength": "The opening scenario ('You've Googled the problem... office hours aren't until Thursday and the assignment is due tomorrow') captures the exact emotional state of the target visitor with surgical precision, establishing immediate resonance before explaining the product."
+  }
+}

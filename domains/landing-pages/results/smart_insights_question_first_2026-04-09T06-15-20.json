@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-20",
+  "generated_copy": "## Headline\nStop Guessing, Start Growing: Expert Digital Marketing Guidance, All in One Place\n\n## Subheadline\nTransform your campaigns with proven strategies and actionable insights from leading digital marketing experts.\n\n## Hero Body\nTired of sifting through endless blog posts and outdated advice? Smart Insights gives you the structured knowledge you need to confidently execute winning digital marketing strategies. Led by Dr. Dave Chaffey, named among the top 50 who have shaped the future of marketing, Smart Insights provides practical guides, templates, and training modules covering the full spectrum of digital marketing. See why thousands of professionals trust Smart Insights to stay ahead.\n\n## Primary CTA\nStart Your Free Trial\n\n## Key Benefits\n*   **Stay Ahead of the Curve:** Get instant access to the latest digital marketing trends and techniques, all in one platform.\n*   **Implement with Confidence:** Use our practical templates and guides to build data-driven, effective campaigns.\n*   **Learn from the Best:** Benefit from the expertise of Dr. Dave Chaffey and a team of industry-leading digital marketing experts.\n*   **Save Time and Money:** Replace costly consultants with a comprehensive resource library continuously updated with fresh content.\n\n## Social Proof Hook\n\"Smart Insights is my go-to resource for practical, actionable advice on digital marketing. It's helped me drive real results for my clients.\" - Sarah J., Digital Marketing Manager.\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 5,
+      "reasoning": "The copy acknowledges the frustration of fragmented content but doesn't dive deep into the specific anxieties or pressures a digital marketer faces when campaigns underperform."
+    },
+    "specificity": {
+      "score": 5,
+      "reasoning": "Some elements, like mentioning Dr. Chaffey, are specific, but phrases like 'winning digital marketing strategies' and 'proven strategies' are generic."
+    },
+    "mechanism_clarity": {
+      "score": 4,
+      "reasoning": "While it mentions guides, templates, and training, it doesn't clearly articulate how these resources translate into solving the fragmentation problem."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "'Start Your Free Trial' is a reasonable ask given the level of information provided, though a 'See What's Inside' CTA might be even better."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "Dr. Chaffey's name offers some differentiation, but the benefit claims could apply to many online marketing education platforms."
+    },
+    "overall_score": 5.4,
+    "verdict": "GENERIC",
+    "key_weakness": "Lack of specificity and clear articulation of the platform's unique solution to the problem of fragmented marketing knowledge.",
+    "key_strength": "The copy effectively highlights the expertise of Dr. Dave Chaffey."
+  }
+}

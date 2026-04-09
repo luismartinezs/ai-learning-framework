@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-38-12",
+  "generated_copy": "Okay, I've reviewed the brief. The most conversion-critical constraint here is the **freemium model combined with landing page context**. Prospects need to understand they can try Course Hero *for free* upon arriving from a search result that promises them homework help. They're likely experiencing urgent academic stress, so immediately clarifying the risk-free entry point is essential to overcome budget sensitivity and incentivize exploration.\n\nHere's the copy:\n\n## Headline\nAce Your Class with Course-Specific Study Help\n\n## Subheadline\nGet instant access to notes, practice problems, and tutor help for *your exact courses* – starting with a free Course Hero account.\n\n## Hero Body\nStuck on a tough assignment? Cramming for a midterm? Course Hero gives you the resources you need to conquer any class. Our massive library is filled with study documents uploaded by students just like you, covering virtually every course at thousands of schools. Find exactly what you need, understand complex topics, and get unstuck fast. Create a free account to start exploring.\n\n## Primary CTA\nGet My Free Account\n\n## Key Benefits\n*   **Course-Specific Materials:** Find notes, flashcards, and practice exams tailored to *your* syllabus.\n*   **24/7 Tutor Access:** Get on-demand help from expert tutors when you're really in a bind.\n*   **Unlock Full Access:** Contribute your own study docs to access our entire library.\n*   **Trusted by Millions:** Join a community of over 10 million students sharing knowledge.\n*   **Study Smarter, Not Harder:** Maximize your study time and improve your grades.\n\n## Social Proof Hook\n\"Course Hero helped me understand concepts I was struggling with in my [Course Name] class. It's like having a study group available 24/7!\"\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy acknowledges the visitor's stress ('Stuck on a tough assignment? Cramming for a midterm?') and offers immediate relief."
+    },
+    "specificity": {
+      "score": 8,
+      "reasoning": "The emphasis on 'course-specific' materials and 'your exact courses' makes the copy very specific to Course Hero's unique value proposition."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions the library is filled with documents 'uploaded by students just like you', which implies crowdsourcing, but could be stronger on how that creates value."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The CTA 'Get My Free Account' aligns perfectly with the freemium model and the context of a student seeking help but potentially budget-conscious."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The copy leans heavily on key differentiators like course-specific content and a large crowdsourced library, which would be difficult for direct competitors to emulate, though 'tutor access' is more generic."
+    },
+    "overall_score": 7.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The mechanism of crowdsourcing could be more prominent and clearly explained to build trust and demonstrate the value and availability of course-specific content.",
+    "key_strength": "The copy clearly communicates the core value proposition: course-specific study resources, addressing a very specific pain point for students."
+  }
+}

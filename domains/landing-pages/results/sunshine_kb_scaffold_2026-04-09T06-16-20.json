@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-16-20",
+  "generated_copy": "## Headline\nThe UK's Lowest Price Holidays. Guaranteed.\n\n## Subheadline\nSunshine.co.uk cuts out call centers and retail offices, so you get holidays for less. Package prices include flights, hotels, and ALL fees.\n\n## Hero Body\nStop wasting time comparing sites. We guarantee the lowest price on package holidays to sunny destinations. If you find a lower price, we'll match it. Plus, your holiday is fully protected by ABTA bonding, so your money is safe.\n\n## Primary CTA\nFind Your Holiday Now\n\n## Key Benefits\n*   **Real Prices. No Hidden Fees.** The price you see is the price you pay. No surprises at checkout.\n*   **Hassle-Free Savings.** We do the work so you don't have to. Find the world's best package holidays, all in one place.\n*   **Book with Confidence.** Your holiday is fully financially protected, from booking through departure.\n*   **Price Match Promise.** If you can find the same holiday cheaper elsewhere, we'll match it.\n\n## Social Proof Hook\n\"I saved £300 compared to the same holiday on Expedia. Unbelievable!\" - Sarah J., Manchester\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the desire for low prices and the fear of hidden fees and financial risk, which are accurate for the hot-traffic audience."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "Mentions call centers and ABTA bonding, which adds some specificity, but could be more detailed about the package inclusions."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "Explains that savings come from cutting out call centers and offices, clarifies that prices include flights, hotels, and fees, giving some sense of how the low prices are achieved."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA 'Find Your Holiday Now' is appropriate for a hot audience actively searching for package holidays."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The ABTA bonding and UK focus make it somewhat unique, but the overall message about low prices and money-back guarantees is quite generic."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The use of buzzwords like 'hassle-free savings' and the generic 'I saved £300' social proof weakens the copy's credibility and impact.",
+    "key_strength": "Clearly communicates the core value proposition of low prices and ABTA financial protection."
+  }
+}

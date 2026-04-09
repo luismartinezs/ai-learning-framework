@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-16-26",
+  "generated_copy": "## Headline\nSunshine.co.uk: Your Dream Holiday, Without the Dream Price.\n\n## Subheadline\nThe UK's most affordable package holidays. Guaranteed.\n\n## Hero Body\nStop dreaming, start packing! At Sunshine.co.uk, we cut out the expensive call centers and high street shops, passing the savings directly to you. That's why we offer unbeatable prices on package holidays – flights AND hotel included. No hidden fees, no nasty surprises at checkout, just sunshine and savings. Search now and see how much you could save on your next getaway. We're fully ABTA bonded, so you can book with confidence knowing your holiday is financially protected. Plus, with our price match guarantee, you can be sure you're getting the absolute best deal.\n\n## Primary CTA\nFind My Sunshine Holiday\n\n## Key Benefits\n*   **Unbeatable Prices:** Guaranteed lowest-cost package holidays in the UK.\n*   **No Hidden Fees:** The price you see is the price you pay – flights and hotel included.\n*   **100% Financial Protection:** Book with total peace of mind, knowing you're ABTA protected.\n*   **Price Match Guarantee:** We'll match any competitor's price, so you always get the best deal.\n*   **Easy Online Booking:** Find and book your perfect holiday in minutes, all from the comfort of your home.\n\n## Social Proof Hook\n\"I couldn't believe how cheap our holiday was! We had a fantastic time and saved a fortune. Will definitely book with Sunshine again.\" - Sarah J., Manchester\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the fear of overpaying and hidden costs, fairly accurately pinpointing the anxiety around travel booking in the UK market."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "While it mentions ABTA bonding and package holidays (flights + hotel), many phrases could be used for other travel sites."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "Explains the cost-saving mechanism (no call centers, no physical shops) and mentions ABTA bonding for financial security clearly."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA 'Find My Sunshine Holiday' is appropriate given the page content which focuses on savings and reassurance."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "The UK focus and ABTA bonding make it somewhat specific, but much of the language about 'unbeatable prices' could be reused elsewhere."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and generic; it would benefit from being more specific about the savings or experience.",
+    "key_strength": "Clearly communicates the cost-saving mechanism and provides reassurance through ABTA bonding."
+  }
+}

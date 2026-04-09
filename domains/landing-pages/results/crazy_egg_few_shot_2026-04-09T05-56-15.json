@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T05-56-15",
+  "generated_copy": "## Headline\nStop Guessing. Start Seeing.\n\n## Subheadline\nUnlock the Hidden Truths Behind Your Website Traffic with Visual Analytics.\n\n## Hero Body\nYou're staring at the Google Analytics dashboard, drowning in numbers. Traffic is up. Bounce rate is… stubbornly high. But *why*? Why are visitors leaving without converting? What are they clicking on? What are they ignoring? Traditional analytics tells you *what* happened. Crazy Egg shows you *why*.\n\nImagine watching a movie of every visitor's journey through your site. See exactly where they click, how far they scroll, and what they're missing. Stop relying on hunches and start making data-driven decisions that boost conversions and maximize your ROI. Get a 30-day free trial of Crazy Egg and see what you've been missing.\n\n## Primary CTA\nStart Your Free Trial Now (Credit Card Required)\n\n## Key Benefits\n*   **Visualize Visitor Behavior:** Heatmaps, scrollmaps, and overlay reports reveal exactly how people interact with your site.\n*   **Uncover Conversion Roadblocks:** Identify the elements that distract, confuse, or prevent visitors from taking action.\n*   **Make Data-Driven Decisions:** Stop relying on guesswork and start optimizing your site based on real user behavior.\n*   **Effortless Setup:** Install a simple JavaScript snippet and start collecting data instantly.\n*   **A/B Testing & Surveys Included:** Go beyond observation and test variations, gather direct feedback, and refine the experience.\n\n## Social Proof Hook\n\"I wish I found Crazy Egg sooner. It's like having X-ray vision for my website.\" - [Name, Company]\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy accurately identifies the frustration of staring at Google Analytics and not understanding visitor behavior."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like heatmaps, scrollmaps, and session recordings, making it reasonably specific to Crazy Egg."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains that Crazy Egg shows \"why\" by visualizing visitor behavior, but doesn't go into great depth about the underlying technology."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA is clear about the free trial and the credit card requirement, setting appropriate expectations."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While somewhat specific, the core message of visual analytics could be applied to competitor products with some modification."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The mechanism could be explained in more detail to differentiate from competitors.",
+    "key_strength": "The copy directly addresses the pain point of not understanding why website visitors aren't converting."
+  }
+}

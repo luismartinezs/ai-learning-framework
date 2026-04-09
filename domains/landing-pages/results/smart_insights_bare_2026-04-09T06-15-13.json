@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "bare",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-13",
+  "generated_copy": "## Headline\nConfidently Navigate the Complex World of Digital Marketing\n\n## Subheadline\nExpert-Curated Resources & Training to Boost Your Skills and Drive Real Results.\n\n## Hero Body\nStop piecing together fragmented advice from blogs and hoping for the best. Smart Insights delivers a structured, comprehensive education platform covering the full spectrum of digital marketing – from SEO and Paid Media to Email, Social, and Analytics. Led by Dr. Dave Chaffey, a recognized digital marketing authority, our practical, action-oriented resources will equip you with the knowledge and confidence to excel in today's dynamic landscape. Get expert consulting depth, at a subscription price.\n\n## Primary CTA\nStart Your Free Trial Today!\n\n## Key Benefits\n*   **Master Every Channel:** Conquer SEO, Paid Media, Social Media, Email Marketing, and Analytics with in-depth guides and templates.\n*   **Stay Ahead of the Curve:** Access regularly updated content reflecting the latest trends and best practices.\n*   **Actionable Insights, Real Results:** Implement proven strategies to drive tangible improvements in your campaigns.\n*   **Learn from a Recognized Authority:** Benefit from Dr. Dave Chaffey's decades of experience and industry expertise.\n*   **Stop Wasting Time:** Get structured, expert information – no more endless searching for reliable answers.\n\n## Social Proof Hook\n\"Smart Insights has been invaluable in helping us refine our digital strategy and achieve significant growth. Highly recommended!\"\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 6,
+      "reasoning": "Addresses the frustration of fragmented content and the desire for structured guidance, but could be more emotionally resonant with the specific anxieties of digital marketers about job security or campaign performance."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific channels like SEO and Paid Media and references Dr. Chaffey, making it relatively unique to this product, but some phrases like \"real results\" are generic."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "It explains that structured resources are provided, and expert guidance is offered, but doesn't delve into the specific format or type of content (e.g., templates, ebooks, training modules) available."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "Offering a free trial is a good match for newcomers and provides an easy way to experience the platform, though the copy hasn't fully established the value proposition to justify a higher commitment."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The headline is fairly generic, and many bullet points could apply to any online marketing course. However, Dr. Chaffey's name adds some uniqueness."
+    },
+    "overall_score": 6.6,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by further detailing the platform's features and content types.",
+    "key_strength": "Addresses the problem of fragmented information and provides a solution of structured, expert-curated resources."
+  }
+}

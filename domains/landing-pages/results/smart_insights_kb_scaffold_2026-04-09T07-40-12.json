@@ -1,0 +1,9 @@
+{
+  "product_name": "Smart Insights",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-12",
+  "generated_copy": "## Headline\nStop Guessing, Start Growing: Expert Digital Marketing Strategies That Actually Work\n\n## Subheadline\nGet step-by-step guides, proven templates, and ready-to-use training modules – all in one place. Finally, digital marketing advice you can *actually* apply.\n\n## Hero Body\nYou're juggling SEO, paid ads, email marketing, social media, and a million other things. Free online advice is a never-ending rabbit hole of conflicting opinions and shallow tactics. But hiring consultants for every new challenge drains your budget fast.\n\nSmart Insights gives you the structured, expert-level guidance you need to confidently execute winning digital strategies. Learn from proven frameworks and real-world examples – without the guesswork.\n\n## Primary CTA\nUnlock Your First Strategy Guide Now\n\n## Key Benefits\n*   **Confidently Prioritize Tactics:** Cut through the noise and focus on what *actually* moves the needle with data-backed strategies.\n*   **Implement Quickly:** Get instant access to plug-and-play templates and guides you can adapt to your business today.\n*   **Stop Wasting Money:** Optimize your campaigns like a seasoned pro using training created by industry experts.\n*   **Stay Ahead of the Curve:** Access constantly updated content that keeps you on top of the latest trends and best practices.\n*   **Learn From the Best:** Strategies curated by Dr. Dave Chaffey, recognized as one of the 50 individuals who shaped the future of marketing.\n\n## Social Proof Hook\n\"Smart Insights is my 'secret weapon' for staying ahead in digital marketing. The practical guides shave hours off research and deliver results I can see.\" - *[Member Name], Marketing Director*\n",
+  "judge_score": null,
+  "judge_parse_error": "Failed to parse judge response"
+}

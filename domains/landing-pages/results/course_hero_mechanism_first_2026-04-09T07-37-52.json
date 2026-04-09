@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-37-52",
+  "generated_copy": "## Headline\nAce Your Classes with Notes & Study Guides from Your Exact Course\n\n## Subheadline\nUnlock a library of course-specific resources shared by students just like you.\n\n## Hero Body\nStruggling to find the right answers? Course Hero's massive library is built by students, for students. Get instant access to notes, flashcards, practice problems, and expert tutors tailored to your specific courses. Stop wasting time searching and start studying smarter.\n\n## Primary CTA\nUnlock Your Study Advantage\n\n## Key Benefits\n*   **Course-Specific Materials:** Find notes and study guides for *your* exact courses.\n*   **24/7 Expert Tutors:** Get on-demand help with even the toughest questions.\n*   **Ace Your Exams:** Confidently prepare for tests with practice problems and study guides.\n*   **Save Time & Stress:** Stop struggling and get the resources you need, all in one place.\n*   **Improve Your Grades:** Master course concepts and achieve academic success.\n\n## Social Proof Hook\n\"Course Hero helped me understand complex topics and pass my exams with flying colors!\" - *Sarah J., College Sophomore*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy speaks to the frustration of struggling to find the right answers and the desire to ace exams, but it could be more specific about the anxiety and pressure students feel."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy uses terms like 'course-specific' and mentions expert tutors, which is more specific than generic study-aid copy, but it could go further to mention the crowdsourced aspect."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "The copy mentions 'built by students, for students,' hinting at the crowdsourcing mechanism but doesn't fully explain how that results in course-specific resource availability, leaving the visitor to infer the network effect."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "The CTA 'Unlock Your Study Advantage' is vague and doesn't communicate enough about what the user is committing to, especially given the free option."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the focus on course-specific materials and student-generated content helps, benefit statements such as 'Save Time & Stress' and 'Improve Your Grades' are broadly applicable and could easily be used for a competing service."
+    },
+    "overall_score": 6.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity is weak: the copy hints at crowdsourcing, but needs a stronger thread to explain how that delivers the promised course-specific advantage.",
+    "key_strength": "The focus on course-specific material addresses a core need."
+  }
+}

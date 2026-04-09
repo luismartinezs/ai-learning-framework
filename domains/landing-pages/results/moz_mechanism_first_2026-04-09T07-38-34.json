@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-38-34",
+  "generated_copy": "## Headline\n**Stuck on an SEO Problem? Get Your Answer Fast.**\n\n## Subheadline\nMoz combines powerful SEO tools with on-demand expert advice, so you can leap over roadblocks and rank higher.\n\n## Hero Body\nImagine you could tap the brains of the world's leading SEO experts, whenever you hit a wall. That's Moz. Unlock our full suite of industry-leading SEO tools, and when you need a human eye, simply ask your question and get a personalized video walkthrough of your site from a real Moz expert. No more guesswork. Just clear, actionable answers that get you ranking.\n\n## Primary CTA\n**Get Your Answer Now: Start Your Free Trial**\n\n## Key Benefits\n*   **Stop Wasting Time:** Get straight answers to your SEO questions, tailored to your specific site.\n*   **Effortlessly Audit & Improve:** Uncover hidden opportunities with our comprehensive site crawl and competitive analysis tools.\n*   **Dominate Your Niche:** Discover the keywords that will drive traffic and conversions.\n*   **Track Your Progress:** See your rankings climb and your traffic soar with our accurate rank tracking.\n\n## Social Proof Hook\n\"The expert Q&A alone is worth the price of Moz Pro. I've gotten personalized advice that has directly led to ranking improvements.\" - *[Actual Moz Customer Quote, if available]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy accurately identifies the frustration of being 'stuck' on SEO problems, which resonates with the target audience."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "It highlights the 'personalized video walkthrough' from Moz experts and specific features like site crawl and competitive analysis tools."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly explains the mechanism of combining SEO tools with on-demand expert advice, including personalized video walkthroughs."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good match for users who already understand the value of SEO and are considering a paid solution."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "While 'expert advice' and 'SEO tools' are common, the 'personalized video walkthrough' provides a differentiating claim that would be tough for competitors to replicate without offering very hands-on support."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof hook is weak, lacking the impact of recognizable brand logos or testimonials from widely respected SEO professionals.",
+    "key_strength": "The copy effectively highlights the unique value proposition of on-demand expert advice with personalized video walkthroughs in addition to the standard toolset."
+  }
+}

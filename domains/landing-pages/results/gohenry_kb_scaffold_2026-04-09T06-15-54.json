@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-54",
+  "generated_copy": "## Headline\nGive your kids real-world money skills, without the real-world risks.\n\n## Subheadline\nGoHenry gives your family the tools to teach smart spending habits, one purchase at a time. Safe, simple, and parent-approved.\n\n## Hero Body\nWant to teach your kids the value of money, but handing over cash feels like a shot in the dark? GoHenry combines the freedom of a Visa debit card with the control of a parent-managed app. Set spending limits, automate allowance, track every purchase, and build healthy financial habits that last a lifetime. Join the FinTech 100 family that's building the next generation of money-smart kids.\n\n## Primary CTA\nStart your 30-day free trial\n\n## Key Benefits\n- **Teach real-world finance:** Kids learn by doing with a Visa debit card they can use anywhere.\n- **Stay in control:** Set spending limits, block certain retailers, and receive real-time spending notifications.\n- **Automate allowance:** Set it and forget it. No more nagging, no more IOUs.\n- **Build lifelong habits:** Turn purchases into learning opportunities and prepare your kids for financial success.\n- **Savings made simple:** kids can set savings goals, track their progress & reach them faster\n\n## Social Proof Hook\n\"My kids are so much more aware of their spending now, and I finally feel like we're preparing them for the future.\" - GoHenry Parent\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy accurately identifies the parental desire to teach financial responsibility ('real-world money skills') while acknowledging the fear of risks involved ('without the real-world risks')."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mentions of Visa, spending limits, allowance automation, and real-time spending notifications relate specifically to the product, but could be somewhat applicable to similar solutions."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains how GoHenry works by pairing a Visa debit card for kids with a parent-managed app for control, which is a good starting point for understanding."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a 30-day free trial as the primary CTA aligns well with a cold audience who needs to overcome trust barriers before paying."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While 'Visa debit card' is product-specific, the overall benefits could be adapted for similar products without major changes, reducing its uniqueness."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Lack of strong, unique selling proposition - the copy feels somewhat generic and could benefit from highlighting what *specifically* sets GoHenry apart in the marketplace.",
+    "key_strength": "The CTA of a 30-day free trial is a good trust-building strategy for a financial product aimed at children, considering the audience's potential skepticism."
+  }
+}

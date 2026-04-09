@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-45",
+  "generated_copy": "## Headline\nGive Your Child Real-World Money Skills, Without the Real-World Risks\n\n## Subheadline\nGoHenry makes learning about money easy, safe, and fun for kids aged 8-18. Start your 30-day free trial today!\n\n## Hero Body\nTired of loose change and vague lessons about money? GoHenry combines a real Visa debit card for your child with powerful parental controls, all in one easy-to-use app. Set spending limits, automate allowance payments, track their progress, and help them build healthy financial habits for life.\n\n## Primary CTA\nStart Free Trial\n\n## Key Benefits\n*   **Safe & Secure:** Real-time spending alerts and controls give you peace of mind.\n*   **Learn by Doing:** Kids gain practical money experience with a Visa debit card.\n*   **Financial Education:** In-app Money Missions teach vital money skills and boost financial literacy.\n*   **Teaches Responsibility:** Set savings goals and watch them achieve their dreams.\n*   **No Hidden Fees:** Transparent monthly pricing, cancel anytime.\n\n## Social Proof Hook\n\"My kids have learned so much about budgeting and saving. It's been a game-changer for our family!\" - GoHenry Parent\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the fear of \"real-world risks\" and the desire for \"peace of mind,\" which are emotionally accurate for the target audience."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mentions of 'spending limits', 'allowance payments', and 'savings goals' add specificity, but the overall message is still somewhat generic to personal finance apps."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "Clearly explains the mechanism by highlighting the combination of a Visa debit card and parental controls within an app."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The CTA 'Start Free Trial' is perfect for cold traffic from social media; it is a low-commitment entry point that aligns with the visitor's initial curiosity."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While several phrases could be used for competitors, the combination of real-time alerts, debit card, parental controls, and in-app 'Money Missions' capture unique functionality."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy doesn't immediately highlight the Visa partnership as the main immediate trust signal, especially for mobile visitors who are often more concerned about trust and security.",
+    "key_strength": "The headline quickly communicates value while also assuaging a primary concern of the target audience: risks and safety."
+  }
+}

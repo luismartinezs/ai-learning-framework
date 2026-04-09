@@ -1,0 +1,33 @@
+{
+  "product_name": "GoHenry",
+  "config": "mechanism_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-40-51",
+  "generated_copy": "## Headline\nGive Your Child Real-World Money Skills, Without the Real-World Risks\n\n## Subheadline\nGoHenry combines a kid-friendly Visa debit card with powerful parental controls, so your child learns to earn, save, and spend wisely – all within limits you set.\n\n## Hero Body\nImagine your child confidently managing their own money, making smart choices, and understanding the value of a dollar. With GoHenry, it's not just a dream – it's how they learn. We give kids the independence of a real Visa debit card, accepted everywhere, while giving *you* the control to set spending limits, track progress, and even automate allowance payments. It's financial education in action, with training wheels.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n*   **Teach Real-World Finance:** Kids learn by doing, making real purchasing decisions (within your limits).\n*   **Set Clear Boundaries:** Instantly set spending limits, block certain retailers, and get real-time notifications.\n*   **Build Good Habits:** Automate allowance to teach budgeting; set savings goals to foster a savings mindset.\n*   **Age-Appropriate Learning:** Designed for kids and teens ages 8-18, with customizable features for every age.\n*   **No Hidden Fees:** Transparent pricing, cancel anytime.\n\n## Social Proof Hook\n\"GoHenry helped my daughter learn to budget for the things she wanted, without overspending. Now that she's in college, she is great with her money!\" - *Happy GoHenry Parent*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The headline directly addresses parents' desire to equip their children with financial skills while mitigating risk, resonating with their parental protectiveness."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions 'Visa debit card' and specific parental controls, making it somewhat specific to GoHenry but still generalizable to similar products."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly outlines the mechanism: a Visa debit card for kids paired with parental controls, making the value proposition believable."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a 30-day free trial is a strong CTA that aligns well with the level of information provided and the target audience's need for reassurance."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While some elements like 'parental controls' are common, the combination of a Visa debit card with specific features for financial education adds a degree of uniqueness."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is weak and could be easily used for a competitor.",
+    "key_strength": "The copy clearly highlights the product's core benefit: real-world financial education with parental control."
+  }
+}

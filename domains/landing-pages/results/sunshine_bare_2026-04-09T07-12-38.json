@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "bare",
+  "model": "anthropic/claude-sonnet-4-5",
+  "timestamp": "2026-04-09T07-12-38",
+  "generated_copy": "## Headline\nThe Cheapest Package Holidays. Actually.\n\n## Subheadline\nNo call centers. No high street shops. No hidden fees. Just hundreds of pounds less than you'll pay anywhere else.\n\n## Hero Body\nWe're a UK online travel agent built to do one thing brilliantly: sell package holidays cheaper than everyone else. How? We don't waste money on expensive phone lines or retail stores—and we pass every penny of those savings straight to you. The price you see includes *everything*: flights, hotel, taxes, baggage. No surprises at checkout. Plus, you're fully protected with ABTA bonding, and if you find the same holiday cheaper elsewhere, we'll match it. Search thousands of packages departing from UK airports and see the difference for yourself.\n\n## Primary CTA\nFind Your Holiday Now\n\n## Key Benefits\n- **Prices hundreds lower** – Our online-only model means you pay less than traditional travel agents for the exact same holidays\n- **What you see is what you pay** – All taxes, fees, and baggage included upfront. Zero hidden charges at checkout\n- **Fully ABTA protected** – Your money is financially protected if anything goes wrong, just like the big high street brands\n- **Price Match Guarantee** – Found it cheaper? We'll match it. Because we're confident you won't\n- **Instant online booking** – Search, compare, and book in minutes. No waiting on hold, no pushy sales calls\n\n## Social Proof Hook\n\"Saved £340 compared to TUI for the exact same Tenerife hotel. Didn't believe it was real until I checked out.\" – Sarah M., Manchester",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "Addresses the core anxiety (hidden fees, unbelievable prices) but doesn't fully capture the existential fear of losing money to supplier collapse that was critical during the post-recession context when airlines were literally going bankrupt mid-booking."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mechanism (no call centers/shops = lower prices) is concrete, but phrases like 'hundreds of pounds less' and 'just like the big high street brands' are vague when the reference showed precise examples (£91 per person for a week in Algarve) and specific competitor names that made claims verifiable."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The operational model is explained clearly enough to make the low prices believable—visitor understands exactly why prices are lower (no overhead) and can mentally verify this makes sense, which directly addresses the 'too cheap to be true' barrier."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "For a hot-awareness visitor actively shopping for holidays, 'Find Your Holiday Now' is perfectly calibrated—it asks for exactly what they came to do (search packages) without demanding commitment beyond browsing."
+    },
+    "interchangeability": {
+      "score": 4,
+      "reasoning": "Most benefit claims are generic travel industry language that any budget OTA could use—'Price Match Guarantee,' 'ABTA protected,' 'instant online booking' appear on competitor sites unchanged; only the specific mechanism explanation (no call centers model) feels distinctively Sunshine."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy lacks the verifiable specificity that would make unbelievably low prices credible—no concrete price examples, no named competitor comparisons, no demonstration of 'hundreds of pounds less' with an actual £340 vs £431 calculation that a visitor could mentally audit.",
+    "key_strength": "The mechanism explanation (no call centers/shops overhead passed to customers) is clear, logical, and directly addresses why prices seem too good to be true, which was the primary conversion barrier identified in the brief."
+  }
+}

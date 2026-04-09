@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-37-45",
+  "generated_copy": "## Headline\nAce Your Exams with Course-Specific Study Materials\n\n## Subheadline\nGet instant access to notes, flashcards, and practice problems from students in your exact courses.\n\n## Hero Body\nStop wasting time searching for generic study guides. Course Hero gives you the course-specific resources you need, crowdsourced from a community of over 10 million students and educators. Get the edge you need to boost your grades, understand tough concepts, and save precious study time.\n\n## Primary CTA\nUnlock Your Course Hero Access\n\n## Key Benefits\n*   **Course-Specific Resources:** Stop wasting time on generic study guides. Get notes, flashcards, and more from your exact classes.\n*   **Real Homework Solutions:** Unstick yourself from tough problems with step-by-step solutions uploaded by other students.\n*   **24/7 Expert Tutors:** Get on-demand help from expert tutors when you're really stuck.\n*   **Boost Your Grades:** Improve your understanding of key concepts and perform better on exams.\n*   **Save Time and Stress:** Stop struggling alone. Find the answers you need, fast.\n\n## Social Proof Hook\n\"I went from a C to an A after using Course Hero to study for my finals!\" - Maria S., University of Texas\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "Addresses the core frustration of struggling with generic study materials and the desire for course-specific resources."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "Mentions course-specific materials and real homework solutions, grounding it in the product's core value proposition, but some benefits are generic."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "Explains crowdsourcing as a key mechanism and mentions the large community, making it believable that course-specific resources are available, though it could be stronger."
+    },
+    "cta_awareness_match": {
+      "score": 7,
+      "reasoning": "CTA is solid and matches the page content, but offering a free account creation would better suit the 'warm' audience."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "The 'course-specific' aspect distinguishes the copy from generic study aid products, but some benefits are widely applicable."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The CTA is not fully optimized for a 'warm' audience, as it misses the opportunity to highlight the free account option.",
+    "key_strength": "The focus on course-specific resources and real homework solutions effectively targets the core problem and differentiates the product."
+  }
+}

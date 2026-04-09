@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-14-30",
+  "generated_copy": "## Headline\nStop Hunting Through SEO Data. Start Outranking.\n\n## Subheadline\nGet the exact keywords, site audits, and expert advice to finally break through, all in one place.\n\n## Hero Body\nYou already know SEO matters. But cobbling together free tools and generic advice wastes precious time. Moz Pro gives you the reliable data to make confident decisions, plus on-demand access to SEO experts who analyze your specific site. Stop guessing. Start growing.\n\n## Primary CTA\nUnlock Your SEO Advantage →\n\n## Key Benefits\n- Uncover hidden keyword opportunities your competitors are missing. See search volume, ranking difficulty, and organic click-through rate in seconds.\n- Instantly identify and fix critical site errors that are holding you back in search results.\n- Get unstuck with personalized guidance from Moz SEO experts. Submit your specific questions and get custom video analysis.\n- Track your ranking progress across Google, Bing, and Yahoo with daily updates and clear visualizations.\n\n## Social Proof Hook\n\"Moz Q&A is like having an in-house SEO team at a fraction of the cost.\" - Jane Doe, Marketing Director, E-commerce Retailer\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy directly addresses the frustration of using multiple free tools and generic advice, which resonates with the target audience."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions keywords, site audits, ranking progress, click-through rate and expert advice, which gives a concrete idea of what the product offers."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy clearly explains how Moz provides data and expert advice and solves the problem of guesswork in SEO strategy."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA 'Unlock Your SEO Advantage' aligns well with the overall message and provides a compelling, low-commitment next step for someone at the warm awareness level."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "The copy is relatively specific, especially with mention of Moz SEO experts and Q&A, but foundational value props around 'keyword research' and 'site audit' are broadly applicable to competitor products."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof feels tagged on at the end. The quote is not specific enough and can easily describe other products.",
+    "key_strength": "The copy effectively communicates the value proposition of combining data with expert guidance and the CTA appropriately matches the audience's awareness level."
+  }
+}

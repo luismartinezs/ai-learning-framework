@@ -1,0 +1,33 @@
+{
+  "product_name": "Course Hero",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-14-09",
+  "generated_copy": "## Headline\nAce Your Exams. Crush Your Homework. Unlock Course Hero.\n\n## Subheadline\nGet instant access to millions of course-specific study resources, plus 24/7 expert help, to conquer any class.\n\n## Hero Body\nStruggling to keep up? Drowning in textbooks? Course Hero is your academic lifeline. We've built a massive library of student-shared notes, practice problems, and study guides – all tailored to *your* courses. With millions of resources and on-demand tutors, you'll finally have the edge you need to boost your grades and master even the toughest subjects.  Join Course Hero today and start learning smarter, not harder.  It's free to create an account.\n\n## Primary CTA\nUnlock Full Access\n\n## Key Benefits\n*   **Course-Specific Resources:** Find notes, flashcards, and practice exams from students who aced your courses.\n*   **24/7 Expert Tutors:** Get unstuck instantly with live, on-demand tutoring from qualified experts.\n*   **Homework Help:** Say goodbye to late-night struggles with expertly solved homework problems.\n*   **Ace Every Exam:** Prepare with confidence using past exams and comprehensive study guides.\n*   **Learn from the Source**: Real notes, real solutions and real answers when you need them the most.\n\n## Social Proof Hook\n\"Course Hero saved my GPA! I went from a C student to getting straight A's.\" - *[Student Name], University of [University Name]*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "It addresses common student frustrations like struggling to keep up, being overwhelmed by textbooks, and late-night homework struggles, but could be more specific."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "It mentions course-specific resources, homework help, and expert tutors which are specific to Course Hero, but the headline and some of the bullet points could apply to other study platforms."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "It alludes to the crowdsourced library but doesn't explicitly explain HOW the platform gathers and provides these resources, only mentioning 'student-shared notes'."
+    },
+    "cta_awareness_match": {
+      "score": 6,
+      "reasoning": "\"Unlock Full Access\" is a reasonable CTA, but doesn't highlight the free account creation opportunity as clearly as it could, given the student budget sensitivity."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the copy highlights some specific features, a competitor could easily adapt some of the elements, especially the broader claims about exam prep and homework help."
+    },
+    "overall_score": 6.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by emphasizing the crowdsourcing aspect of the platform.",
+    "key_strength": "The copy addresses relevant student pain points and highlights key benefits such as course-specific resources and expert tutors."
+  }
+}

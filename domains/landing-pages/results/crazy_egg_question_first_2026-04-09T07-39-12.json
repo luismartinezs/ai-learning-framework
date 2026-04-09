@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-12",
+  "generated_copy": "## Headline\nStop Guessing. Start Seeing.\n\n## Subheadline\nFinally understand why your website visitors aren't converting. See exactly what they do with heatmaps, session recordings, and more.\n\n## Hero Body\nYou're not blind. You just need to *see* what's happening on your website. Crazy Egg reveals the invisible friction points that are killing your conversion rates. Discover where visitors click, how far they scroll, and what's stopping them from buying – all in an intuitive visual format that requires no analytics expertise. Start your 30-day free trial today and turn your website into a conversion machine.\n\n## Primary CTA\nStart My Free Trial\n\n## Key Benefits\n*   **See exactly where visitors click:** Heatmaps reveal the most engaging (and ignored) areas of your pages.\n*   **Watch real visitor sessions:** Understand the full user journey and identify drop-off points.\n*   **Effortless setup:** Install a single code snippet and start collecting data immediately.\n*   **Unlimited Domains & Team Seats:** Optimize every site you own and collaborate seamlessly.\n*   **A/B Testing Included:** Optimize your site with confidence and watch the results in real-time.\n\n## Social Proof Hook\n\"Crazy Egg paid for itself within the first week of using it. Our conversion rates doubled!\" - *John S., Small Business Owner*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "Copy speaks to the frustration of not understanding why visitors aren't converting, which aligns well with the warm audience understanding they have traffic but not conversions."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific features like heatmaps and session recordings, immediately tying it to the intended product, making it reasonably tailored."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions heatmaps and session recordings, explaining the visual aspect and minimal expertise needed, giving a sufficient understanding of how it works, along with 'single code snippet'."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Asking for a free trial after highlighting the problems and providing solutions seems appropriate for a website owner already aware of a conversion problem."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While concepts like 'seeing what's happening on your website' is somewhat generic, phrases like 'heatmaps', 'session recordings' tie the benefits to the specific product type, increasing its resistance to being lifted for competitors."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "While it's good, the social proof is a bit too generic; more specific and impactful client examples would add to the credibility.",
+    "key_strength": "The copy accurately reflects the target audience's frustration and desire to understand their visitors' behavior."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-33",
+  "generated_copy": "## Headline\nStop Guessing. Start Seeing.\n\n## Subheadline\nFinally understand why your website visitors aren't converting with visual behavior analytics.\n\n## Hero Body\nYou're pouring traffic into your website, but it feels like throwing money into a black hole. You know you *should* be getting more sales, more leads, more *something*... but Google Analytics only tells you *what* happened, not *why*.\n\nCrazy Egg shows you exactly what your visitors are doing: where they click, how far they scroll, and what's stopping them from converting into customers. Unlock eye-opening insights in minutes and start optimizing for results today.\n\n## Primary CTA\nStart Your 30-Day Free Trial\n\n## Key Benefits\n*   **See what's working (and what's not):** Heatmaps reveal exactly where visitors click, scroll, and engage, highlighting areas of interest and points of friction.\n*   **Understand individual visitor journeys:** Session recordings let you watch real users navigate your site, uncovering hidden usability issues.\n*   **Make data-driven decisions:** Stop relying on gut feelings. With Crazy Egg, you have the visual evidence you need to optimize confidently.\n*   **Effortless Setup:** Install our JavaScript snippet once, and instantly start tracking user behavior across your entire website. Unlimited domains and team members.\n\n## Social Proof Hook\n\"Crazy Egg helped us discover a critical usability issue that was costing us thousands of dollars a month. The insights were clear, the data was undeniable, and the fix was simple.\" - John S., Ecommerce Manager\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy effectively taps into the frustration of pouring traffic into a website and not seeing conversions, resonating with the target audience's desire to understand visitor behavior and improve website performance."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy lists specific features like heatmaps and session recordings sets it apart, but it still relies on some generic phrases like \"data-driven decisions\"."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The explanation of how Crazy Egg shows visitor behavior through click tracking and session recordings makes the promise believable and actionable."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "The call to action ('Start Your 30-Day Free Trial') aligns well with the visitor's readiness to explore the product and see its value."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some parts sound similar to competitors, the focus on visual behavior and the clear mention of heatmaps and session recordings increase its uniqueness.",
+      "key_weakness": "The social proof would be more effective if it included a concrete conversion lift not just a 'usability issue' was discovered."
+    },
+    "overall_score": 7.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is too vague and doesn't quantify the impact of using Crazy Egg in terms of conversion lift or revenue increase.",
+    "key_strength": "The copy effectively highlights the frustration of not understanding visitor behavior and positions Crazy Egg as the solution to bridge that understanding."
+  }
+}

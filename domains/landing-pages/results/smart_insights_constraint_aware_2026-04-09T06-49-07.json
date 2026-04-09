@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "constraint_aware",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-49-07",
+  "generated_copy": "Here's copy designed to address the constraint that prospects don't grasp the breadth of the platform's resource library before signing up, making that the structural spine.\n\n## Headline\nStop Guessing, Start Growing: Your All-in-One Digital Marketing Resource is Here.\n\n## Subheadline\nUnlock expert-led guides, templates, and training across the entire digital marketing landscape – all in one place.\n\n## Hero Body\nDigital marketing is a minefield. You're juggling SEO, paid ads, social media, email, and analytics, all while trying to keep up with the latest algorithm updates. Endless Google searches and fragmented blog posts leave you with more questions than answers.\n\nSmart Insights is your structured, expert-curated solution. Dr. Dave Chaffey and his team have assembled a *comprehensive* library spanning *every* digital marketing discipline, from beginner basics to advanced strategies.\n\nImagine having instant access to battle-tested templates for your next campaign, in-depth guides to master a new channel, and actionable training modules to transform your skills. Stop piecing together random advice and start driving *real* results with a *proven* framework.\n\nExplore the full Smart Insights library today and see how we can transform your marketing.\n\n## Primary CTA\nUnlock the Library\n\n## Key Benefits\n*   **Master Every Channel:** Get expert guidance across SEO, paid media, social media, email marketing, content marketing, and analytics.\n*   **Save Time & Money:** Replace fragmented free content and expensive consultants with a single, cost-effective subscription.\n*   **Implement Proven Strategies:** Access templates, guides, and training modules designed for real-world application.\n*   **Stay Ahead of the Curve:** Benefit from regularly updated content that keeps you on top of the latest trends and best practices.\n*   **Confidently Execute Campaigns:** Move forward with clarity and get ready to deliver results\n\n## Social Proof Hook\n\"Smart Insights has been invaluable in helping me stay ahead of the curve and make data-driven decisions.\" - Sarah J., Digital Marketing Manager\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy acknowledges the frustration of juggling multiple marketing channels and the feeling of being overwhelmed by fragmented online content."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific digital marketing channels (SEO, paid ads, social) and the challenge of keeping up with algorithm updates, which is relevant to the target audience."
+    },
+    "mechanism_clarity": {
+      "score": 6,
+      "reasoning": "It explains that the mechanism is a curated library assembled by Dr. Chaffey and his team, but lacks deeper explanation on the structure and depth."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA 'Unlock the Library' aligns well with the focus on the breadth of the resources available, enticing visitors to explore what's inside."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While it mentions Dr. Chaffey and specific channels, the core message about 'expert guidance in one place' is somewhat generic to the marketing education space."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Mechanism clarity could be improved by detailing exactly how the content is structured, updated, and how it translates into practical results.",
+    "key_strength": "The copy directly addresses the problem of fragmented marketing knowledge."
+  }
+}

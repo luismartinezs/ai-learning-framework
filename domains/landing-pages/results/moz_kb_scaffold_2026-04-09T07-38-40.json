@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "kb_scaffold",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-38-40",
+  "generated_copy": "## Headline\nStop Wasting Time on SEO Data and Start Outranking Competitors\n\n## Subheadline\nFinally, a single platform with all the SEO tools *and* on-demand expert advice you need to drive real results.\n\n## Hero Body\nYou know SEO is critical. But piecing together insights from a dozen different tools is a time-suck. And generic forum advice doesn't cut it when you're facing *your* specific challenges.\n\nMoz Pro delivers the tools to dominate search rankings, plus direct access to SEO experts who analyze *your* site and answer *your* questions. Stop guessing, start ranking.\n\n## Primary CTA\nUnlock Your SEO Advantage: Start Free Trial\n\n## Key Benefits\n*   **Uncover hidden keyword opportunities** your competitors are missing - see traffic potential and ranking difficulty in seconds.\n*   **Instantly identify critical site errors** that are holding you back in search results - and prioritize fixes with clear recommendations.\n*   **Stop burning hours on research.** Get personalized answers to your toughest SEO questions from Moz experts whenever you need them.\n*   **Know exactly what's working (and what's not)** with accurate, up-to-date rank tracking across all major search engines.\n\n## Social Proof Hook\n\"Before Moz, I was drowning in data. Now, I get clear, actionable advice tailored to my website. It's like having an in-house SEO team for a fraction of the cost.\" - *Sarah J., Digital Marketing Manager*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy directly addresses the frustration of wasting time on SEO data and the desire to outrank competitors, which aligns with the target audience's core pain points."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "The copy mentions specific benefits like uncovering hidden keyword opportunities and personalized expert advice, making it more relevant to Moz Pro's unique value proposition."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy explains that Moz Pro combines SEO tools with expert advice, providing a clear understanding of how the platform delivers its promise."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good match for the warm audience, as it allows them to experience the platform's value before committing to a paid subscription."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While some aspects are generic (like \"dominate search rankings\"), referencing personalized expert advice and combining tools with consultation makes it harder for competitors to copy directly, as that is a key differentiator."
+    },
+    "overall_score": 7.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is a bit generic which makes it less immediately credible than it could be with more concrete details.",
+    "key_strength": "The copy effectively highlights the key problem (time wasted on data) and Moz's unique solution (tools + expert advice)."
+  }
+}

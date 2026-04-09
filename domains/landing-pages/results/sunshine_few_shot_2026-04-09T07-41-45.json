@@ -1,0 +1,33 @@
+{
+  "product_name": "Sunshine.co.uk",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-41-45",
+  "generated_copy": "## Headline\nSunshine: Unbeatable Package Holidays. Guaranteed.\n\n## Subheadline\nThe UK's Lowest Prices. Seriously. Flights & Hotels Covered, No Hidden Fees.\n\n## Hero Body\nStop searching, start packing! At Sunshine.co.uk, we cut out the call centers and brick-and-mortar costs to bring you the absolute lowest prices on package holidays. Fly away knowing *exactly* what you'll pay, with zero hidden fees and complete financial protection. We're so confident, we offer a Price Match Guarantee.\n\n## Primary CTA\nBook Your Sunshine Holiday Now\n\n## Key Benefits\n*   **Truly Unbeatable Prices:** We pass our savings directly to you, making us the cheapest way to your dream escape.\n*   **Zero Hidden Fees:** The price you see is the price you pay. No sneaky surcharges at checkout.\n*   **Complete Financial Protection:** Relax knowing your holiday is fully protected by ABTA.\n*   **Flights & Hotel - Sorted:** We handle everything, so you can enjoy a stress-free booking experience.\n*   **Price Match Guarantee:** Found a better deal elsewhere? We'll match it, or refund the difference.\n\n## Social Proof Hook\n\"I was dubious because the price was so low, but Sunshine delivered! Best holiday deal I’ve ever found.\" - *Sarah J., Happy Sunshine Customer*\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "The copy correctly identifies budget travelers' fears about hidden fees and financial security, but it could be more specific about the anxiety related to the unbelievable prices (as the reference copy highlights). It acknowledges the need for trust but could push further."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The copy mentions flights and hotels and ABTA protection which are specific to the context, but benefits such as \"stress-free booking experience\" are generic and could be used by any travel agent."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions cutting out call centers and brick-and-mortar costs which explains the lower costs, but it could emphasize this more to combat the 'too good to be true' perception. The ABTA protection also adds to the believability."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "The CTA 'Book Your Sunshine Holiday Now' is appropriate for the 'hot' awareness level. Visitors at this stage are ready to book. This CTA aligns with the intended action."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the claim about 'lowest prices' and ABTA protection moves it away from being totally interchangeable, 'stress-free booking experience' could be used by any travel agency. The reference example shows that focusing on \"no phone number = lower price\" is a strong, unique selling point."
+    },
+    "overall_score": 6.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy doesn't fully embrace the unique selling proposition of eliminating call centers. It needs to focus more on being cheaper *because* of choices they made, not just cheaper.",
+    "key_strength": "The inclusion of a price match guarantee and emphasis on no hidden fees addresses key visitor concerns."
+  }
+}

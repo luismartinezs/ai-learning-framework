@@ -1,0 +1,33 @@
+{
+  "product_name": "Crazy Egg",
+  "config": "few_shot",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T06-15-05",
+  "generated_copy": "## Headline\nStop Guessing. Start *Seeing* Why Your Website Isn't Converting.\n\n## Subheadline\nUncover hidden bottlenecks, broken links, and untapped opportunities with visual website analytics – no PhD required.\n\n## Hero Body\nYou've got traffic. Great! But traffic alone doesn't pay the bills. What if you could peer *over the shoulders* of every visitor and understand exactly how they interact with your website?\n\nCrazy Egg doesn't just tell you *what* happened on your site; it shows you *why*. See where they click (or *don't* click), how far they scroll, and what's distracting them from the ‘Buy Now’ button.\n\nForget endless reports and confusing jargon. With Crazy Egg's intuitive heatmaps, session recordings, and A/B testing, you'll unlock a goldmine of insights that instantly transform your website into a conversion machine.\n\nStart your 30-day free trial and see what you've been missing. Finally understand your website like never before.\n\n## Primary CTA\nStart My Free 30-Day Trial\n\n## Key Benefits\n*   **See Exactly Where Visitors Click (or Don't):** Identify your site's hottest spots and fix the dead zones instantly.\n*   **Eliminate Guesswork with Visual Heatmaps:** Understand user behavior at a glance, no analytics degree needed.\n*   **Watch Real Visitor Sessions in Action:** Uncover hidden frustrations and optimize the user journey step-by-step.\n*   **A/B Test Your Way to Higher Conversions:** Make data-driven decisions that actually move the needle.\n*   **Zero Overload, Maximum Impact:** Get the *right* insights, not just *more* data.\n\n## Social Proof Hook\n\"Crazy Egg paid for itself within the first week! We saw a 32% increase in conversions after making just a few simple changes based on their heatmaps.\" - [Name, Company]\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 8,
+      "reasoning": "The copy speaks directly to the frustration of having traffic without conversions, a core pain point for the target audience."
+    },
+    "specificity": {
+      "score": 8,
+      "reasoning": "Mentions heatmaps, session recordings, and A/B testing, all specific features of Crazy Egg, and relates them to solving the problem of understanding visitor behavior."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "Explains that the tool 'shows' why visitors are doing what they're doing through clicks, scrolls, etc. but could be strengthened by explicitly mentioning the term 'eye-tracking'."
+    },
+    "cta_awareness_match": {
+      "score": 9,
+      "reasoning": "Offering a free trial is appropriate for a visitor who is aware of the problem and looking for a solution, aligning perfectly with the warm awareness level."
+    },
+    "interchangeability": {
+      "score": 7,
+      "reasoning": "While 'heatmaps' and 'session recordings' are semi-generic, the combination and the focus on *visual* analytics makes it more specific to Crazy Egg."
+    },
+    "overall_score": 7.8,
+    "verdict": "COMPETENT",
+    "key_weakness": "Could benefit from a more explicit connection to established academic research and the value of eye-tracking.",
+    "key_strength": "Clearly addresses the frustration of traffic without conversions and offers a visual solution, making it relatable and engaging for the target audience."
+  }
+}

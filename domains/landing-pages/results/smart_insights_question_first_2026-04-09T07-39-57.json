@@ -1,0 +1,33 @@
+{
+  "product_name": "Smart Insights",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-39-57",
+  "generated_copy": "## Headline\nStop Guessing, Start Growing.\n\n## Subheadline\nUnlock Expert Digital Marketing Strategies and Tactics – All in One Place.\n\n## Hero Body\nDrowning in blog posts and outdated \"hacks\"? Smart Insights gives you the *structured, expert guidance* you need to drive real results. Get proven frameworks, actionable templates, and step-by-step training across SEO, paid media, email, social, and more. Finally, master the full spectrum of digital marketing – without wasting time or budget.\n\n## Primary CTA\nStart Your Free Trial\n\n## Key Benefits\n*   **Stay Ahead of the Curve:** Always have the latest, most effective strategies at your fingertips.\n*   **Save Time and Money:** Stop piecing together information from unreliable sources.\n*   **Implement with Confidence:** Use our proven templates and frameworks to execute flawlessly.\n*   **Speak the Language of Marketing:** Get comprehensive, coherent insights vetted by industry experts.\n*   **Learn from a True Expert:** Dr. Dave Chaffey is recognized by the Chartered Institute of Marketing as one of 50 people who shaped the future of marketing.\n\n## Social Proof Hook\n\"Smart Insights has become an indispensable resource for our entire marketing team.\"\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 6,
+      "reasoning": "The copy speaks to the visitor's frustration of scattered, unreliable free content, which is a valid emotion but could be sharpened for impact."
+    },
+    "specificity": {
+      "score": 6,
+      "reasoning": "The mention of SEO, paid media, email, social, etc., makes it somewhat specific to the digital marketing category, but the benefits listed remain fairly generic."
+    },
+    "mechanism_clarity": {
+      "score": 7,
+      "reasoning": "The copy mentions 'structured, expert guidance,' 'proven frameworks,' and 'actionable templates,' which gives some sense of the mechanism, but could be more concrete."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free trial is a good match for a newcomer who is still evaluating the value of the platform, and the content has justified that ask."
+    },
+    "interchangeability": {
+      "score": 5,
+      "reasoning": "While the copy acknowledges pain points specific to digital marketing, a competitor could easily make similar claims about providing structure and expert guidance."
+    },
+    "overall_score": 6.4,
+    "verdict": "COMPETENT",
+    "key_weakness": "The copy is still somewhat generic and could be more specific to Smart Insights' unique offerings and Dr. Chaffey's expertise.",
+    "key_strength": "The copy offers a 'free trial' CTA, which lowers the barrier to entry and matches the visitor's potential uncertainty."
+  }
+}

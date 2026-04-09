@@ -1,0 +1,33 @@
+{
+  "product_name": "Moz (formerly SEOmoz)",
+  "config": "question_first",
+  "model": "google/gemini-2.0-flash-001",
+  "timestamp": "2026-04-09T07-38-26",
+  "generated_copy": "## Headline\nStop Guessing, Start Ranking: Unleash the Power of SEO with Moz Pro.\n\n## Subheadline\nFinally, all the data and expert insights you need to dominate search – in one place.\n\n## Hero Body\nTired of wasting time cobbling together free SEO tools that don't give you the full picture? Frustrated by generic SEO advice that doesn't apply to *your* website?\n\nMoz Pro gives you the complete SEO toolkit – from in-depth keyword research and site audits to rank tracking and competitor analysis. Plus, get personalized answers to your toughest SEO questions from our in-house experts. Stop spinning your wheels and start seeing real results.\n\n## Primary CTA\nStart My Free 30-Day Trial\n\n## Key Benefits\n*   **Uncover Hidden Opportunities:** Discover profitable keywords your competitors are missing and drive more organic traffic.\n*   **Fix Critical Site Issues:** Identify and resolve technical SEO problems instantly with our comprehensive site crawler.\n*   **Outrank Your Competition:** Analyze competitor strategies, build high-quality backlinks, and stay ahead of the curve.\n*   **Get Expert Answers on Demand:** Submit your SEO questions to our team of experienced professionals and get personalized advice tailored to your specific needs.\n*   **Track Your Progress:** Monitor your rankings, measure your ROI, and prove the value of your SEO efforts.\n\n## Social Proof Hook\n\"Moz Pro and their Q&A saved us countless hours. We jumped to page one in just 4 months.\" - Fortune 500 Marketing Team\n",
+  "judge_score": {
+    "visitor_emotional_accuracy": {
+      "score": 7,
+      "reasoning": "It touches on the core frustrations of using disparate tools and receiving generic advice, which resonates with SEO professionals."
+    },
+    "specificity": {
+      "score": 7,
+      "reasoning": "It mentions keyword research, site audits, rank tracking, and competitor analysis, which are specific to SEO tools, although common ones."
+    },
+    "mechanism_clarity": {
+      "score": 8,
+      "reasoning": "The copy clearly outlines the included tools and highlights the expert Q&A service, making the value proposition and mechanism understandable."
+    },
+    "cta_awareness_match": {
+      "score": 8,
+      "reasoning": "Offering a free 30-day trial is a fitting call to action for a warm audience that is still in consideration phase, so this is a reasonable ask."
+    },
+    "interchangeability": {
+      "score": 6,
+      "reasoning": "While the mention of keyword research and rank tracking can be found on competitor websites, the highlight of the expert Q&A does make it less interchangeable."
+    },
+    "overall_score": 7.2,
+    "verdict": "COMPETENT",
+    "key_weakness": "The social proof is just a hook and could be stronger with more concrete detail.",
+    "key_strength": "Clearly communicates the breadth of SEO tools and the unique expert Q&A aspect."
+  }
+}
