@@ -64,6 +64,41 @@ export interface EvalResult {
   judgeParseError?: string
 }
 
+// ─── Landing Pages ─────────────────────────────────────────────────────────
+
+export interface LandingCopySection {
+  headline:            string
+  subheadline?:        string
+  hero_body?:          string
+  primary_cta:         string
+  cta_context?:        string
+  key_benefits:        string[]
+  social_proof?:       string
+  secondary_sections?: string[]
+}
+
+export interface LandingJudgeScore {
+  visitor_emotional_accuracy: { score: number; reasoning: string }
+  specificity:                { score: number; reasoning: string }
+  mechanism_clarity:          { score: number; reasoning: string }
+  cta_awareness_match:        { score: number; reasoning: string }
+  interchangeability:         { score: number; reasoning: string }
+  overall_score:  number
+  verdict:        "WORLD_CLASS" | "COMPETENT" | "GENERIC"
+  key_weakness:   string
+  key_strength:   string
+}
+
+export interface LandingEvalResult {
+  product_name:      string
+  config:            string
+  model:             string
+  timestamp:         string
+  generated_copy:    string
+  judge_score:       LandingJudgeScore | null
+  judge_parse_error?: string
+}
+
 // ─── Registry ──────────────────────────────────────────────────────────────
 
 export interface RegistryEntry {
