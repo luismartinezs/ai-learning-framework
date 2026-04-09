@@ -1,7 +1,7 @@
-import { call, MODEL }            from "./client.ts"
+import { call, MODEL }            from "../shared/client.ts"
 import { buildActivator, buildMinimalActivator, buildCriticSystem, buildArbitratorSystem } from "./activator.ts"
-import { PROBLEMS }               from "./problems.ts"
-import type { Trace, ProblemKey, PipelineMode, KbMode } from "./types.ts"
+import { PROBLEMS }               from "../../domains/code-debugging/problems/index.ts"
+import type { Trace, ProblemKey, PipelineMode, KbMode } from "../shared/types.ts"
 
 function section(title: string) {
   console.log(`\n${"=".repeat(60)}`)
@@ -107,8 +107,8 @@ export async function runPipeline(
 if (import.meta.main) {
   const args       = process.argv.slice(2)
   const problemKey = (args[0] as ProblemKey) ?? "p001"
-  const mode       = args.includes("--mode") 
-    ? (args[args.indexOf("--mode") + 1] as PipelineMode) 
+  const mode       = args.includes("--mode")
+    ? (args[args.indexOf("--mode") + 1] as PipelineMode)
     : "all"
 
   if (args.includes("--list")) {

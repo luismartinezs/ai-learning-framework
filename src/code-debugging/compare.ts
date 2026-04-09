@@ -1,11 +1,11 @@
 /**
  * compare.ts — cross-model comparison from registry data
  *
- * bun src/compare.ts              # full comparison table
- * bun src/compare.ts --thesis     # thesis test only (cheap+scaffold vs expensive+bare)
+ * bun src/code-debugging/compare.ts              # full comparison table
+ * bun src/code-debugging/compare.ts --thesis     # thesis test only (cheap+scaffold vs expensive+bare)
  */
-import { readRegistry } from "./registry.ts"
-import type { RegistryEntry } from "./types.ts"
+import { readRegistry } from "../shared/registry.ts"
+import type { RegistryEntry } from "../shared/types.ts"
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 

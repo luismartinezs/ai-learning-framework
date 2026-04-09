@@ -4,9 +4,9 @@
   "description": "Multi-agent LLM pipeline for world-class code debugging and optimization",
   "type": "module",
   "scripts": {
-    "run":      "bun src/run.ts",
-    "pipeline": "bun src/pipeline.ts",
-    "verify":   "bun src/verifier.ts"
+    "run":      "bun src/code-debugging/run.ts",
+    "pipeline": "bun src/code-debugging/pipeline.ts",
+    "verify":   "bun src/code-debugging/verifier.ts"
   },
   "dependencies": {
     "@openrouter/sdk": "latest"

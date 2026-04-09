@@ -1,7 +1,6 @@
-import { call }         from "./client.ts"
-import { JUDGE_SYSTEM } from "./activator.ts"
-import { PROBLEMS }     from "./problems.ts"
-import type { Trace, ProblemKey, CodeVerifyResult, JudgeScore, EvalResult } from "./types.ts"
+import { judgeOutput }  from "../shared/judge.ts"
+import { PROBLEMS }     from "../../domains/code-debugging/problems/index.ts"
+import type { Trace, ProblemKey, CodeVerifyResult, EvalResult } from "../shared/types.ts"
 
 // ── Code execution verifiers ─────────────────────────────────────────────────
 
@@ -290,30 +289,6 @@ export async function verifyCode(problemKey: ProblemKey): Promise<CodeVerifyResu
   return fn()
 }
 
-// ── Judge evaluation ──────────────────────────────────────────────────────────
-
-export async function judgeOutput(
-  problemText:  string,
-  diagnosis:    string,
-  groundTruth:  Record<string, string>,
-): Promise<JudgeScore | null> {
-  const { content: raw } = await call(
-    JUDGE_SYSTEM,
-    `Problem:\n${problemText}\n\n` +
-    `Ground truth:\n${JSON.stringify(groundTruth, null, 2)}\n\n` +
-    `Diagnosis:\n${diagnosis}`,
-    1000,
-  )
-
-  const cleaned = raw.replace(/```(?:json)?\s*|\s*```/g, "").trim()
-  try {
-    return JSON.parse(cleaned) as JudgeScore
-  } catch {
-    console.error("Judge parse error. Raw:", raw.slice(0, 300))
-    return null
-  }
-}
-
 // ── Full evaluation ───────────────────────────────────────────────────────────
 
 export async function evaluate(
@@ -369,7 +344,7 @@ if (import.meta.main) {
   const tracePath = args[0]
 
   if (!tracePath) {
-    console.error("Usage: bun src/verifier.ts <trace.json> [--agent gen|arb]")
+    console.error("Usage: bun src/code-debugging/verifier.ts <trace.json> [--agent gen|arb]")
     process.exit(1)
   }
 

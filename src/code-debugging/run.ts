@@ -1,16 +1,16 @@
 /**
  * run.ts — full pipeline + verification in one command
  *
- * bun src/run.ts               # p001, all agents, then verify
- * bun src/run.ts p002          # different problem
- * bun src/run.ts p003 --gen    # generator only (no critic/arb)
- * bun src/run.ts --all         # all 3 problems sequentially
+ * bun src/code-debugging/run.ts               # p001, all agents, then verify
+ * bun src/code-debugging/run.ts p002          # different problem
+ * bun src/code-debugging/run.ts p003 --gen    # generator only (no critic/arb)
+ * bun src/code-debugging/run.ts --all         # all 3 problems sequentially
  */
 import { runPipeline }  from "./pipeline.ts"
 import { evaluate }     from "./verifier.ts"
-import { PROBLEMS }     from "./problems.ts"
-import { buildEntry, appendToRegistry } from "./registry.ts"
-import type { ProblemKey, PipelineMode } from "./types.ts"
+import { PROBLEMS }     from "../../domains/code-debugging/problems/index.ts"
+import { buildEntry, appendToRegistry } from "../shared/registry.ts"
+import type { ProblemKey, PipelineMode } from "../shared/types.ts"
 
 async function runAndVerify(problemKey: ProblemKey, mode: PipelineMode) {
   console.log(`\n${"#".repeat(60)}`)

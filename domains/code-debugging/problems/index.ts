@@ -1,4 +1,4 @@
-import type { Problem, ProblemKey } from "./types.ts"
+import type { Problem, ProblemKey } from "../../../src/shared/types.ts"
 
 export const PROBLEMS: Record<ProblemKey, Problem> = {
   p001: {

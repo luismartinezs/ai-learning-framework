@@ -4,17 +4,17 @@
  * Tests whether the generator's self-assessed confidence can reliably
  * gate the critic/arbitrator, reducing cost while maintaining quality.
  *
- * bun src/confidence_gate.ts                    # full run: 3 thresholds x 8 problems x 5 repeats
- * bun src/confidence_gate.ts --repeats 3        # fewer repeats
- * bun src/confidence_gate.ts --threshold 8      # single threshold
- * bun src/confidence_gate.ts --concurrency 10   # parallel workers (default: 8)
+ * bun src/code-debugging/confidence_gate.ts                    # full run: 3 thresholds x 8 problems x 5 repeats
+ * bun src/code-debugging/confidence_gate.ts --repeats 3        # fewer repeats
+ * bun src/code-debugging/confidence_gate.ts --threshold 8      # single threshold
+ * bun src/code-debugging/confidence_gate.ts --concurrency 10   # parallel workers (default: 8)
  */
 import { runPipeline }                   from "./pipeline.ts"
 import { evaluate }                      from "./verifier.ts"
-import { PROBLEMS }                      from "./problems.ts"
-import { MODEL }                         from "./client.ts"
-import { buildEntry, appendToRegistry, readRegistry } from "./registry.ts"
-import type { ProblemKey, RegistryEntry } from "./types.ts"
+import { PROBLEMS }                      from "../../domains/code-debugging/problems/index.ts"
+import { MODEL }                         from "../shared/client.ts"
+import { buildEntry, appendToRegistry, readRegistry } from "../shared/registry.ts"
+import type { ProblemKey, RegistryEntry } from "../shared/types.ts"
 
 // ── Configuration ────────────────────────────────────────────────────────────
 

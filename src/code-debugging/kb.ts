@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "fs"
 import { join } from "path"
 
-const KB_DIR = join(import.meta.dir, "..", "kb")
+const KB_DIR = join(import.meta.dir, "..", "..", "domains", "code-debugging", "kb")
 
 const KB_FILES: Array<[string, string]> = [
   ["01_axioms",                     "axiomatic"],

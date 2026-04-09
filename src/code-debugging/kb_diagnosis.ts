@@ -1,13 +1,13 @@
 /**
  * kb_diagnosis.ts — compare gen-KB vs gen+KB vs gen-minimal from registry
  *
- * bun src/kb_diagnosis.ts
+ * bun src/code-debugging/kb_diagnosis.ts
  *
  * Reads the registry, compares the three generator-only configs, and writes
  * results/kb_diagnosis.md with a per-problem table and conclusion.
  */
-import { readRegistry } from "./registry.ts"
-import type { RegistryEntry, KbMode } from "./types.ts"
+import { readRegistry } from "../shared/registry.ts"
+import type { RegistryEntry, KbMode } from "../shared/types.ts"
 
 const mean = (xs: number[]) => xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : 0
 const fmt = (n: number, d = 2) => n.toFixed(d)
@@ -158,7 +158,7 @@ const min = aggScores["gen-minimal"]
 if (min.n === 0) {
   w("No gen-minimal runs found in the registry. Run the ablation first:")
   w("```")
-  w("bun src/ablation.ts")
+  w("bun src/code-debugging/ablation.ts")
   w("```")
 } else {
   const distToFull = Math.abs(min.corr - full.corr)

@@ -1,15 +1,15 @@
 /**
  * ablation.ts — run the full ablation matrix and print summary
  *
- * bun src/ablation.ts              # full matrix: 4 configs x 3 problems x 5 repeats
- * bun src/ablation.ts --repeats 3  # fewer repeats (faster, less precise)
+ * bun src/code-debugging/ablation.ts              # full matrix: 4 configs x 3 problems x 5 repeats
+ * bun src/code-debugging/ablation.ts --repeats 3  # fewer repeats (faster, less precise)
  */
 import { runPipeline }  from "./pipeline.ts"
 import { evaluate }     from "./verifier.ts"
-import { PROBLEMS }     from "./problems.ts"
-import { MODEL }        from "./client.ts"
-import { buildEntry, appendToRegistry, readRegistry } from "./registry.ts"
-import type { ProblemKey, PipelineMode, KbMode, RegistryEntry } from "./types.ts"
+import { PROBLEMS }     from "../../domains/code-debugging/problems/index.ts"
+import { MODEL }        from "../shared/client.ts"
+import { buildEntry, appendToRegistry, readRegistry } from "../shared/registry.ts"
+import type { ProblemKey, PipelineMode, KbMode, RegistryEntry } from "../shared/types.ts"
 
 // ── Configuration ────────────────────────────────────────────────────────────
 
