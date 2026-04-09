@@ -1,4 +1,11 @@
 {
+  "permissions": {
+    "allow": [
+      "mcp__wellread__search",
+      "mcp__firecrawl__firecrawl_scrape",
+      "mcp__crawl4ai__md"
+    ]
+  },
   "enabledMcpjsonServers": [
     "sargon-umami",
     "sargon-resend"

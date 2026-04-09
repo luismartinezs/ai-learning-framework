@@ -64,7 +64,7 @@ When done, print the full new folder tree so I can verify.
 Paste this into Claude Code after Step 1 is confirmed complete:
 
 ```
-Use the Firecrawl MCP to retrieve world-class landing page examples.
+Use the an MCP to retrieve world-class landing page examples.
 Goal: collect 6-8 real landing pages selected by evidence of conversion
 performance, not aesthetic judgment.
 
